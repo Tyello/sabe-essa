@@ -60,7 +60,7 @@ function validCard(c) {
 
 async function initPlaylist() {
   try {
-    const res = await fetch('playlist-gerada.json', { cache: 'no-store' });
+    const res = await fetch('playlist-gerada.json', { cache: 'default' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     if (!Array.isArray(data.cartas) || data.cartas.length === 0 || !data.cartas.every(validCard)) {
