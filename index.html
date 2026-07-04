@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#12121a">
+  <title>Sabe Essa?</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+</head>
+<body>
+
+  <!-- ==================== TELA: SETUP ==================== -->
+  <section id="screen-setup" class="screen">
+    <div class="setup-box">
+      <h1 class="logo">🎵 Sabe Essa?</h1>
+      <p class="tagline">Monte sua linha do tempo musical.<br>Primeiro a <strong>10 cartas</strong> vence!</p>
+
+      <div class="setup-players">
+        <label class="setup-label">Jogadores ou times</label>
+        <div id="player-inputs"></div>
+        <button id="btn-add-player" class="btn btn-ghost">+ adicionar jogador</button>
+      </div>
+
+      <button id="btn-start" class="btn btn-primary btn-big">Começar 🎶</button>
+
+      <details class="rules">
+        <summary>Como jogar</summary>
+        <ul>
+          <li>🎧 Uma música toca sem revelar ano, artista ou título.</li>
+          <li>📍 O jogador da vez escolhe onde ela entra na <em>sua</em> linha do tempo (antes, depois ou entre as cartas já reveladas).</li>
+          <li>✅ Acertou a posição cronológica? A carta é sua. Errou? Vai pro descarte.</li>
+          <li>🎤 <strong>Bônus:</strong> antes de revelar, diga artista + título em voz alta. Os outros julgam. Acertou os dois? +1 ficha.</li>
+          <li>🪙 <strong>Fichas:</strong> gaste 1 para pular a música atual, ou 3 para comprar a carta direto (entra na posição certa).</li>
+          <li>🏆 Vence quem completar 10 cartas na linha do tempo.</li>
+        </ul>
+      </details>
+    </div>
+  </section>
+
+  <!-- ==================== TELA: JOGO ==================== -->
+  <section id="screen-game" class="screen hidden">
+
+    <!-- Seletor de jogador -->
+    <header class="topbar">
+      <div id="player-tabs" class="player-tabs"></div>
+    </header>
+
+    <!-- Info do jogador visualizado -->
+    <div id="player-info" class="player-info"></div>
+
+    <!-- Player de música (só aparece no turno) -->
+    <div id="music-area" class="music-area hidden">
+      <div class="embed-wrap">
+        <iframe id="spotify-embed" title="Música misteriosa"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        <div class="embed-mask" aria-hidden="true">
+          <span class="mask-icon">❓</span>
+          <span class="mask-text">Música misteriosa — aperte o play ali do lado ➡️</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mensagem de status / resultado -->
+    <div id="status" class="status"></div>
+
+    <!-- Linha do tempo -->
+    <div id="timeline" class="timeline"></div>
+
+    <!-- Ações -->
+    <div id="actions" class="actions"></div>
+
+    <footer class="deck-info" id="deck-info"></footer>
+  </section>
+
+  <!-- ==================== TELA: VITÓRIA ==================== -->
+  <section id="screen-win" class="screen hidden">
+    <div class="setup-box">
+      <div class="trophy">🏆</div>
+      <h1 id="win-title" class="logo"></h1>
+      <p id="win-sub" class="tagline"></p>
+      <div id="win-timeline" class="win-timeline"></div>
+      <button id="btn-restart" class="btn btn-primary btn-big">Jogar de novo</button>
+    </div>
+  </section>
+
+  <script src="playlist.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
