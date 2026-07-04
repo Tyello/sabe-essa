@@ -4,13 +4,13 @@
       "id": "mista",
       "nome": "Mix Internacional + BR",
       "arquivo": "mista.json",
-      "total": 120
+      "total": 190
     },
     {
       "id": "brasileiras",
       "nome": "Só Brasileiras",
       "arquivo": "brasileiras.json",
-      "total": 0
+      "total": 70
     }
   ]
 }

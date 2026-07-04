@@ -9,11 +9,11 @@ const BUY_COST = 3;        // custo para comprar a carta direto
 
 // ---------- Estado ----------
 const state = {
-  players: [],       // { name, timeline: [carta...ordenada], tokens }
-  deck: [],          // cartas ainda não sorteadas
-  discard: [],       // cartas erradas/puladas (voltam se o baralho acabar)
-  turnIdx: 0,        // jogador da vez
-  viewIdx: 0,        // jogador cuja timeline está visível
+  players: [],  // { name, timeline: [carta...ordenada], tokens }
+  deck: [],     // cartas ainda não sorteadas
+  discard: [],  // cartas erradas/puladas (voltam se o baralho acabar)
+  turnIdx: 0,   // jogador da vez
+  viewIdx: 0,   // jogador cuja timeline está visível
   current: null,     // carta em jogo (oculta)
   chosenSlot: null,  // posição escolhida na timeline
   phase: 'setup',    // setup | place | confirm | judge | result | over
@@ -54,24 +54,18 @@ function shuffle(arr) {
 const DEMO_PLAYLIST = {
   nome: 'Clássicos de Todas as Décadas',
   cartas: [
-    { id_spotify: '40riOy7x9W7GXjyGp4pjAv', preview_url: null, ano: 1976, artista: 'Eagles', titulo: 'Hotel California' },
-    { id_spotify: '4u7EnebtmKWzUH433cf5Qv', preview_url: null, ano: 1975, artista: 'Queen', titulo: 'Bohemian Rhapsody' },
-    { id_spotify: '0GjEhVFGZW8afUYGChu3Rr', preview_url: null, ano: 1976, artista: 'ABBA', titulo: 'Dancing Queen' },
-    { id_spotify: '5ChkMS8OtdzJeqyybCc9R5', preview_url: null, ano: 1982, artista: 'Michael Jackson', titulo: 'Billie Jean' },
-    { id_spotify: '2WfaOiMkCvy7F5fcp2zZ8L', preview_url: null, ano: 1985, artista: 'a-ha', titulo: 'Take On Me' },
-    { id_spotify: '7o2CTH4ctstm8TNelqjb51', preview_url: null, ano: 1987, artista: "Guns N' Roses", titulo: "Sweet Child O' Mine" },
-    { id_spotify: '5ghIJDpPoe3CfHMGu71E6T', preview_url: null, ano: 1991, artista: 'Nirvana', titulo: 'Smells Like Teen Spirit' },
-    { id_spotify: '4eHbdreAnSOrDDsFfc4Fpm', preview_url: null, ano: 1992, artista: 'Whitney Houston', titulo: 'I Will Always Love You' },
-    { id_spotify: '5Z01UMMf7V1o0MzF86s6WJ', preview_url: null, ano: 2002, artista: 'Eminem', titulo: 'Lose Yourself' },
-    { id_spotify: '6I9VzXrHxO9rA9A5euc8Ak', preview_url: null, ano: 2003, artista: 'Britney Spears', titulo: 'Toxic' },
-    { id_spotify: '3dPQuX8Gs42Y7b454ybpMR', preview_url: null, ano: 2003, artista: 'The White Stripes', titulo: 'Seven Nation Army' },
-    { id_spotify: '4OSBTYWVwsQhGLF9NHvIbR', preview_url: null, ano: 2010, artista: 'Adele', titulo: 'Rolling in the Deep' },
-    { id_spotify: '4wCmqSrbyCgxEXROQE6vtV', preview_url: null, ano: 2011, artista: 'Gotye', titulo: 'Somebody That I Used to Know' },
-    { id_spotify: '2Foc5Q5nqNiosCNqttzHof', preview_url: null, ano: 2013, artista: 'Daft Punk', titulo: 'Get Lucky' },
-    { id_spotify: '32OlwWuMpZ6b0aN2RZOeMS', preview_url: null, ano: 2014, artista: 'Mark Ronson ft. Bruno Mars', titulo: 'Uptown Funk' },
-    { id_spotify: '7qiZfU4dY1lWllzX7mPBI3', preview_url: null, ano: 2017, artista: 'Ed Sheeran', titulo: 'Shape of You' },
-    { id_spotify: '6habFhsOp2NvshLv26DqMb', preview_url: null, ano: 2017, artista: 'Luis Fonsi ft. Daddy Yankee', titulo: 'Despacito' },
-    { id_spotify: '0VjIjW4GlUZAMYd2vXMi3b', preview_url: null, ano: 2019, artista: 'The Weeknd', titulo: 'Blinding Lights' }
+    { id_spotify: '40riOy7x9W7GXjyGp4pjAv', preview_url: "https://p.scdn.co/mp3-preview/6fedc11d0f55bef176cc1c5725ac1c57f9a2534a", ano: 1976, artista: 'Eagles', titulo: 'Hotel California' },
+    { id_spotify: '4u7EnebtmKWzUH433cf5Qv', preview_url: "https://p.scdn.co/mp3-preview/d56de4777551c3eb7430ecf289809b1653147bf8", ano: 1975, artista: 'Queen', titulo: 'Bohemian Rhapsody' },
+    { id_spotify: '0GjEhVFGZW8afUYGChu3Rr', preview_url: "https://p.scdn.co/mp3-preview/1116076e3d1538852d6605ada1fd7130c8fc75a5", ano: 1976, artista: 'ABBA', titulo: 'Dancing Queen' },
+    { id_spotify: '2WfaOiMkCvy7F5fcp2zZ8L', preview_url: "https://p.scdn.co/mp3-preview/d1427dd0a300eeccfc53b99a2ebf3c664a67414a", ano: 1985, artista: 'a-ha', titulo: 'Take On Me' },
+    { id_spotify: '4eHbdreAnSOrDDsFfc4Fpm', preview_url: "https://p.scdn.co/mp3-preview/5896e539e24ae2394d2bec6ea2cf42e4608b68f5", ano: 1992, artista: 'Whitney Houston', titulo: 'I Will Always Love You' },
+	{ id_spotify: "2374M0fQpWi3dLnB54qaLX", preview_url: "https://p.scdn.co/mp3-preview/e7321b4ea1af32a9c622bc8ec3adcd0a0bb06b1e", ano: 1982, artista: "TOTO", titulo: "Africa" },
+    { id_spotify: "58W2Mc7w77OwEYow1CGca8", preview_url: "https://p.scdn.co/mp3-preview/713b601d02641a850f2a3e6097aacaff52328d57", ano: 1992, artista: "Radiohead", titulo: "Creep" },
+    { id_spotify: "1Je1IMUlBXcx1Fz0WE7oPT", preview_url: "https://p.scdn.co/mp3-preview/4f557870cbdb569a7c99a62df97f71358d3b8da3", ano: 1996, artista: "Spice Girls", titulo: "Wannabe" },
+    { id_spotify: "7s25THrKz86DM225dOYwnr", preview_url: "https://p.scdn.co/mp3-preview/7768dd513193e30ab1ad19deeff2dcc63d2c7555", ano: 1967, artista: "Aretha Franklin", titulo: "Respect" },
+    { id_spotify: "37xXztKytCrfNG1Tge0qdJ", preview_url: "https://p.scdn.co/mp3-preview/1ab465bbcc92d4bb6db208c46d6edf11616cee78", ano: 1961, artista: "Jerry Lee Lewis", titulo: "Great Balls Of Fire" },
+    { id_spotify: "43jl7qtjAhuCxKgSrqiE1U", preview_url: "https://p.scdn.co/mp3-preview/f86a77c37b8ff9fbcfe572fc503b957f80e70cd2", ano: 1912, artista: "Al Jolson", titulo: "Swanee" },
+    { id_spotify: "3gdewACMIVMEWVbyb8O9sY", preview_url: "https://p.scdn.co/mp3-preview/c7316d016815fab0bb5ecb309da33e57d4da69c5", ano: 1972, artista: "Elton John", titulo: "Rocket Man (I Think It's Going To Be A Long, Long Time)" }
   ]
 };
 
