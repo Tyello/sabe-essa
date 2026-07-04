@@ -160,9 +160,11 @@ function createController(trackId) {
 }
 
 function updatePlayBtn() {
-  $('btn-play').textContent = embedPlaying
-    ? '⏸️ Pausar música misteriosa'
-    : '▶️ Tocar música misteriosa';
+  const btn = $('btn-play');
+  btn.classList.toggle('playing', embedPlaying);
+  btn.querySelector('.btn-play-label').textContent = embedPlaying
+    ? 'Pausar música misteriosa'
+    : 'Tocar música misteriosa';
 }
 
 function loadEmbed(trackId) {
@@ -279,8 +281,25 @@ function nextTurn() {
   startTurn();
 }
 
+function launchConfetti() {
+  const holder = $('confetti');
+  holder.innerHTML = '';
+  const colors = ['#ff2e7e', '#22e0c9', '#ffc53d', '#8b5cf6', '#f7f4ff'];
+  for (let i = 0; i < 60; i++) {
+    const piece = el('span', 'confetti-piece');
+    piece.style.left = `${Math.random() * 100}%`;
+    piece.style.background = colors[i % colors.length];
+    piece.style.animationDelay = `${Math.random() * 2.5}s`;
+    piece.style.animationDuration = `${2.6 + Math.random() * 2}s`;
+    piece.style.setProperty('--drift', `${(Math.random() - 0.5) * 160}px`);
+    piece.style.setProperty('--spin', `${540 + Math.random() * 540}deg`);
+    holder.appendChild(piece);
+  }
+}
+
 function win(player) {
   state.phase = 'over';
+  launchConfetti();
   $('win-title').textContent = `${player.name} venceu!`;
   $('win-sub').innerHTML = `Completou <strong>${player.timeline.length} cartas</strong> na linha do tempo 🎉`;
   const wt = $('win-timeline');
@@ -292,6 +311,7 @@ function win(player) {
 function endByDeckOut() {
   // Sem cartas restantes: vence quem tiver a maior timeline
   stopEmbed();
+  launchConfetti();
   const best = [...state.players].sort((a, b) => b.timeline.length - a.timeline.length)[0];
   $('win-title').textContent = `${best.name} venceu!`;
   $('win-sub').innerHTML = `As músicas acabaram — maior linha do tempo, com <strong>${best.timeline.length} cartas</strong> 🎶`;
