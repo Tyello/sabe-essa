@@ -65,12 +65,15 @@
       <div class="embed-holder" aria-hidden="true">
         <div id="spotify-embed"></div>
       </div>
+      <!-- Caminho preferencial: preview MP3 de 30s direto (sem UI do Spotify) -->
+      <audio id="preview-audio" preload="auto"></audio>
       <button id="btn-play" class="btn btn-play" disabled>
         <span class="vinyl" aria-hidden="true"></span>
         <span class="btn-play-label">Tocar música misteriosa</span>
         <span class="play-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
       </button>
-      <p class="play-hint">O play exige um toque seu — o navegador não deixa tocar sozinho 😉</p>
+      <div class="play-progress" aria-hidden="true"><i id="play-progress-fill"></i></div>
+      <p class="play-hint" id="play-hint">O play exige um toque seu — o navegador não deixa tocar sozinho 😉</p>
     </div>
 
     <!-- Mensagem de status / resultado -->

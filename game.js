@@ -113,19 +113,32 @@ function startTurn() {
   state.chosenSlot = null;
   state.phase = 'place';
   state.viewIdx = state.turnIdx;
-  loadEmbed(card.id_spotify);
+  loadTrack(card);
   render();
 }
 
-// ---------- Spotify iFrame API ----------
-// O player fica oculto (container com height 0); o áudio é controlado
-// pelo botão próprio #btn-play. O autoplay continua bloqueado pelo
-// navegador, então o primeiro play de cada faixa exige toque do usuário.
+// ---------- Player híbrido ----------
+// Prioridade: se a carta tem preview_url, toca num <audio> simples — nada
+// da música (capa, título, artista) fica exposto e o preview já tem 30s.
+// Fallback: Spotify iFrame API com o iframe oculto, cortada aos 30s.
+// Para o jogador os dois caminhos são idênticos: mesmo botão, mesma barra.
+// O autoplay continua bloqueado pelo navegador, então o primeiro play de
+// cada faixa exige toque do usuário.
+const PREVIEW_MS = 30000;
+
 let spotifyApi = null;        // IFrameAPI, quando o script carregar
 let spotifyController = null; // EmbedController criado pela API
+let embedReady = false;       // controller já sinalizou 'ready'
 let pendingTrackId = null;    // faixa pedida antes da API/controller existir
 let creatingController = false;
-let embedPlaying = false;
+
+let playerMode = null;        // 'audio' | 'embed' | 'failed'
+let isPlaying = false;
+let currentTrackId = null;    // id_spotify da carta atual (para o fallback)
+let embedCutDone = false;     // já cortamos o embed aos 30s nesta faixa?
+let embedFailTimer = null;
+
+const audioEl = $('preview-audio');
 
 window.onSpotifyIframeApiReady = (IFrameAPI) => {
   spotifyApi = IFrameAPI;
@@ -144,10 +157,23 @@ function createController(trackId) {
     (controller) => {
       spotifyController = controller;
       creatingController = false;
-      controller.addListener('ready', () => { $('btn-play').disabled = false; });
+      controller.addListener('ready', () => {
+        embedReady = true;
+        clearTimeout(embedFailTimer);
+        if (playerMode === 'embed') setPlayUi('idle');
+      });
       controller.addListener('playback_update', (e) => {
-        embedPlaying = !e.data.isPaused;
-        updatePlayBtn();
+        if (playerMode !== 'embed') return;
+        isPlaying = !e.data.isPaused;
+        setProgress(e.data.position / PREVIEW_MS);
+        if (e.data.position >= PREVIEW_MS && !embedCutDone) {
+          embedCutDone = true;
+          controller.pause();
+        }
+        setPlayUi(isPlaying ? 'playing' : 'idle');
+      });
+      controller.addListener('error', () => {
+        if (playerMode === 'embed') playerFailed();
       });
       // faixa trocada enquanto o controller era criado
       if (pendingTrackId) {
@@ -159,17 +185,52 @@ function createController(trackId) {
   );
 }
 
-function updatePlayBtn() {
-  const btn = $('btn-play');
-  btn.classList.toggle('playing', embedPlaying);
-  btn.querySelector('.btn-play-label').textContent = embedPlaying
-    ? 'Pausar música misteriosa'
-    : 'Tocar música misteriosa';
+function setProgress(frac) {
+  const pct = Math.min(100, Math.max(0, frac * 100));
+  $('play-progress-fill').style.width = `${pct}%`;
 }
 
-function loadEmbed(trackId) {
-  embedPlaying = false;
-  updatePlayBtn();
+function setPlayUi(uiState) {
+  const btn = $('btn-play');
+  const label = btn.querySelector('.btn-play-label');
+  btn.classList.toggle('playing', uiState === 'playing');
+  btn.disabled = uiState === 'loading' || uiState === 'failed';
+  label.textContent =
+    uiState === 'loading' ? 'Carregando música…' :
+    uiState === 'playing' ? 'Pausar música misteriosa' :
+    uiState === 'failed'  ? 'Música indisponível 😢' :
+                            'Tocar música misteriosa';
+  $('play-hint').textContent = uiState === 'failed'
+    ? 'Não deu pra carregar esta música — dá pra pular com uma ficha, ou seguir no palpite.'
+    : 'O play exige um toque seu — o navegador não deixa tocar sozinho 😉';
+}
+
+function loadTrack(card) {
+  stopPlayback();
+  clearTimeout(embedFailTimer);
+  setProgress(0);
+  embedCutDone = false;
+  currentTrackId = card.id_spotify;
+
+  if (card.preview_url) {
+    playerMode = 'audio';
+    setPlayUi('loading');
+    audioEl.src = card.preview_url;
+    audioEl.load();
+  } else {
+    useEmbed(card.id_spotify);
+  }
+}
+
+// Fallback: toca via Spotify iFrame API (também chamado quando o MP3 falha)
+function useEmbed(trackId) {
+  playerMode = 'embed';
+  // solta o <audio> para não receber eventos atrasados da faixa anterior
+  if (audioEl.getAttribute('src')) {
+    audioEl.removeAttribute('src');
+    audioEl.load();
+  }
+
   if (spotifyController) {
     spotifyController.loadUri(`spotify:track:${trackId}`);
   } else if (spotifyApi && !creatingController) {
@@ -177,13 +238,88 @@ function loadEmbed(trackId) {
   } else {
     pendingTrackId = trackId; // usado assim que a API/controller existir
   }
+
+  if (embedReady) {
+    setPlayUi('idle');
+  } else {
+    setPlayUi('loading');
+    embedFailTimer = setTimeout(() => {
+      if (playerMode === 'embed' && !embedReady) playerFailed();
+    }, 12000);
+  }
 }
 
-function stopEmbed() {
-  if (spotifyController) spotifyController.pause();
-  embedPlaying = false;
-  updatePlayBtn();
+function playerFailed() {
+  playerMode = 'failed';
+  isPlaying = false;
+  setPlayUi('failed');
 }
+
+function togglePlay() {
+  if (playerMode === 'audio') {
+    if (audioEl.paused) {
+      if (audioEl.ended || audioEl.currentTime >= PREVIEW_MS / 1000) audioEl.currentTime = 0;
+      audioEl.play().catch(() => {
+        if (currentTrackId) useEmbed(currentTrackId);
+        else playerFailed();
+      });
+    } else {
+      audioEl.pause();
+    }
+  } else if (playerMode === 'embed' && spotifyController) {
+    if (embedCutDone && !isPlaying) {
+      embedCutDone = false;
+      setProgress(0);
+      spotifyController.seek(0);
+      spotifyController.play();
+    } else {
+      spotifyController.togglePlay();
+    }
+  }
+}
+
+function stopPlayback() {
+  if (!audioEl.paused) audioEl.pause();
+  if (spotifyController) spotifyController.pause();
+  isPlaying = false;
+}
+
+// ---- Eventos do <audio> (caminho preferencial) ----
+audioEl.addEventListener('canplay', () => {
+  if (playerMode !== 'audio') return;
+  setPlayUi(isPlaying ? 'playing' : 'idle');
+});
+
+audioEl.addEventListener('error', () => {
+  // preview quebrado/expirado → cai para o embed do Spotify
+  if (playerMode !== 'audio' || !audioEl.getAttribute('src')) return;
+  if (currentTrackId) useEmbed(currentTrackId);
+  else playerFailed();
+});
+
+audioEl.addEventListener('play', () => {
+  if (playerMode !== 'audio') return;
+  isPlaying = true;
+  setPlayUi('playing');
+});
+
+audioEl.addEventListener('pause', () => {
+  if (playerMode !== 'audio') return;
+  isPlaying = false;
+  setPlayUi('idle');
+});
+
+audioEl.addEventListener('timeupdate', () => {
+  if (playerMode !== 'audio') return;
+  const dur = Math.min(audioEl.duration || PREVIEW_MS / 1000, PREVIEW_MS / 1000);
+  setProgress(dur ? audioEl.currentTime / dur : 0);
+  if (audioEl.currentTime >= PREVIEW_MS / 1000 && !audioEl.paused) audioEl.pause();
+});
+
+audioEl.addEventListener('ended', () => {
+  if (playerMode !== 'audio') return;
+  setProgress(1);
+});
 
 function activePlayer() { return state.players[state.turnIdx]; }
 function viewedPlayer() { return state.players[state.viewIdx]; }
@@ -242,7 +378,7 @@ function reveal(bonusOutcome = null) {
   state.lastResult = { card, fits, bonusOutcome, playerName: p.name, bought: false };
   state.current = null;
   state.phase = 'result';
-  stopEmbed();
+  stopPlayback();
 
   if (p.timeline.length >= WIN_CARDS) { win(p); return; }
   render();
@@ -257,7 +393,7 @@ function skipCard() {
   if (!card) { endByDeckOut(); return; }
   state.current = card;
   state.chosenSlot = null;
-  loadEmbed(card.id_spotify);
+  loadTrack(card);
   render();
 }
 
@@ -271,7 +407,7 @@ function buyCard() {
   state.lastResult = { card, fits: true, bonusOutcome: null, playerName: p.name, bought: true };
   state.current = null;
   state.phase = 'result';
-  stopEmbed();
+  stopPlayback();
   if (p.timeline.length >= WIN_CARDS) { win(p); return; }
   render();
 }
@@ -310,7 +446,7 @@ function win(player) {
 
 function endByDeckOut() {
   // Sem cartas restantes: vence quem tiver a maior timeline
-  stopEmbed();
+  stopPlayback();
   launchConfetti();
   const best = [...state.players].sort((a, b) => b.timeline.length - a.timeline.length)[0];
   $('win-title').textContent = `${best.name} venceu!`;
@@ -503,7 +639,7 @@ function escapeHtml(str) {
 // ============================================================
 $('btn-add-player').onclick = () => addPlayerInput();
 $('btn-start').onclick = startGame;
-$('btn-play').onclick = () => { if (spotifyController) spotifyController.togglePlay(); };
+$('btn-play').onclick = togglePlay;
 $('btn-restart').onclick = () => location.reload();
 
 addPlayerInput();
