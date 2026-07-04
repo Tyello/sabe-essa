@@ -162,6 +162,40 @@ html, body {
   margin-bottom: 10px;
 }
 
+/* ---------- Seleção de playlist ---------- */
+.playlist-options { display: flex; flex-direction: column; gap: 8px; }
+
+.playlist-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--bg-1);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.08s;
+}
+.playlist-card:active { transform: scale(0.98); }
+.playlist-card .pl-count {
+  color: var(--dim);
+  font-size: 0.82rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.playlist-card.selected {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 3px var(--cyan-soft), 0 0 16px rgba(34, 224, 201, 0.25);
+}
+.playlist-card.selected .pl-count { color: var(--cyan); }
+
 #player-inputs { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; }
 
 .player-row { display: flex; gap: 8px; }

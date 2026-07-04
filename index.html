@@ -24,7 +24,7 @@
         <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
       </div>
       <h1 class="logo">Sabe<br><span class="logo-hl">Essa?</span></h1>
-      <p class="tagline">Carregando playlist… 🎶</p>
+      <p id="loading-text" class="tagline">Carregando playlist… 🎶</p>
     </div>
   </section>
 
@@ -37,7 +37,12 @@
       <h1 class="logo">Sabe<br><span class="logo-hl">Essa?</span></h1>
       <p class="tagline">Monte sua linha do tempo musical.<br>Primeiro a <strong>10 cartas</strong> vence!</p>
 
-      <p id="demo-warning" class="demo-warning hidden">⚠️ Não deu pra carregar <strong>playlist-gerada.json</strong> — jogando com a playlist de demonstração.</p>
+      <p id="demo-warning" class="demo-warning hidden">⚠️ Não deu pra carregar as playlists — jogando com a playlist de demonstração.</p>
+
+      <div id="playlist-picker" class="setup-playlists hidden">
+        <label class="setup-label">Playlist</label>
+        <div id="playlist-options" class="playlist-options"></div>
+      </div>
 
       <div class="setup-players">
         <label class="setup-label">Jogadores ou times</label>
@@ -115,7 +120,6 @@
   </section>
 
   <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
-  <script src="playlist.js"></script>
   <script src="game.js"></script>
 </body>
 </html>

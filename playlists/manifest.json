@@ -1,0 +1,16 @@
+{
+  "playlists": [
+    {
+      "id": "mista",
+      "nome": "Mix Internacional + BR",
+      "arquivo": "mista.json",
+      "total": 120
+    },
+    {
+      "id": "brasileiras",
+      "nome": "Só Brasileiras",
+      "arquivo": "brasileiras.json",
+      "total": 0
+    }
+  ]
+}

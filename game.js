@@ -47,9 +47,39 @@ function shuffle(arr) {
 // ============================================================
 // PLAYLIST
 // ============================================================
-// Carrega playlist-gerada.json; se falhar (404, rede, JSON inválido),
-// cai para a lista de exemplo de playlist.js com um aviso visível.
-let playlist = null;
+// No load inicial busca só playlists/manifest.json (arquivo pequeno);
+// a playlist escolhida é buscada sob demanda no "Começar". Se qualquer
+// fetch falhar (404, rede, timeout, JSON inválido), cai para a playlist
+// de demonstração abaixo com um aviso visível.
+const DEMO_PLAYLIST = {
+  nome: 'Clássicos de Todas as Décadas',
+  cartas: [
+    { id_spotify: '40riOy7x9W7GXjyGp4pjAv', preview_url: null, ano: 1976, artista: 'Eagles', titulo: 'Hotel California' },
+    { id_spotify: '4u7EnebtmKWzUH433cf5Qv', preview_url: null, ano: 1975, artista: 'Queen', titulo: 'Bohemian Rhapsody' },
+    { id_spotify: '0GjEhVFGZW8afUYGChu3Rr', preview_url: null, ano: 1976, artista: 'ABBA', titulo: 'Dancing Queen' },
+    { id_spotify: '5ChkMS8OtdzJeqyybCc9R5', preview_url: null, ano: 1982, artista: 'Michael Jackson', titulo: 'Billie Jean' },
+    { id_spotify: '2WfaOiMkCvy7F5fcp2zZ8L', preview_url: null, ano: 1985, artista: 'a-ha', titulo: 'Take On Me' },
+    { id_spotify: '7o2CTH4ctstm8TNelqjb51', preview_url: null, ano: 1987, artista: "Guns N' Roses", titulo: "Sweet Child O' Mine" },
+    { id_spotify: '5ghIJDpPoe3CfHMGu71E6T', preview_url: null, ano: 1991, artista: 'Nirvana', titulo: 'Smells Like Teen Spirit' },
+    { id_spotify: '4eHbdreAnSOrDDsFfc4Fpm', preview_url: null, ano: 1992, artista: 'Whitney Houston', titulo: 'I Will Always Love You' },
+    { id_spotify: '5Z01UMMf7V1o0MzF86s6WJ', preview_url: null, ano: 2002, artista: 'Eminem', titulo: 'Lose Yourself' },
+    { id_spotify: '6I9VzXrHxO9rA9A5euc8Ak', preview_url: null, ano: 2003, artista: 'Britney Spears', titulo: 'Toxic' },
+    { id_spotify: '3dPQuX8Gs42Y7b454ybpMR', preview_url: null, ano: 2003, artista: 'The White Stripes', titulo: 'Seven Nation Army' },
+    { id_spotify: '4OSBTYWVwsQhGLF9NHvIbR', preview_url: null, ano: 2010, artista: 'Adele', titulo: 'Rolling in the Deep' },
+    { id_spotify: '4wCmqSrbyCgxEXROQE6vtV', preview_url: null, ano: 2011, artista: 'Gotye', titulo: 'Somebody That I Used to Know' },
+    { id_spotify: '2Foc5Q5nqNiosCNqttzHof', preview_url: null, ano: 2013, artista: 'Daft Punk', titulo: 'Get Lucky' },
+    { id_spotify: '32OlwWuMpZ6b0aN2RZOeMS', preview_url: null, ano: 2014, artista: 'Mark Ronson ft. Bruno Mars', titulo: 'Uptown Funk' },
+    { id_spotify: '7qiZfU4dY1lWllzX7mPBI3', preview_url: null, ano: 2017, artista: 'Ed Sheeran', titulo: 'Shape of You' },
+    { id_spotify: '6habFhsOp2NvshLv26DqMb', preview_url: null, ano: 2017, artista: 'Luis Fonsi ft. Daddy Yankee', titulo: 'Despacito' },
+    { id_spotify: '0VjIjW4GlUZAMYd2vXMi3b', preview_url: null, ano: 2019, artista: 'The Weeknd', titulo: 'Blinding Lights' }
+  ]
+};
+
+const FETCH_TIMEOUT_MS = 6000; // aborta o fetch e cai pro fallback
+const SLOW_HINT_MS = 3000;     // troca o texto do loading se demorar
+
+let playlist = null;      // dados da playlist em uso (cartas)
+let selectedEntry = null; // entrada do manifest escolhida no setup
 
 function validCard(c) {
   return c && typeof c.id_spotify === 'string' && c.id_spotify &&
@@ -58,21 +88,100 @@ function validCard(c) {
     typeof c.titulo === 'string' && c.titulo;
 }
 
-async function initPlaylist() {
+// fetch de JSON com timeout: aborta via AbortController se não responder
+async function fetchJson(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
   try {
-    const res = await fetch('playlist-gerada.json', { cache: 'default' });
+    const res = await fetch(url, { cache: 'default', signal: ctrl.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+let slowHintTimer = null;
+
+function showLoading(msg) {
+  $('loading-text').textContent = msg;
+  clearTimeout(slowHintTimer);
+  slowHintTimer = setTimeout(() => {
+    $('loading-text').textContent = 'Ainda carregando, um instante… 🎶';
+  }, SLOW_HINT_MS);
+  showScreen('loading');
+}
+
+function hideLoading(nextScreen) {
+  clearTimeout(slowHintTimer);
+  showScreen(nextScreen);
+}
+
+function useDemoPlaylist() {
+  playlist = DEMO_PLAYLIST;
+  selectedEntry = null;
+  $('demo-warning').classList.remove('hidden');
+  $('playlist-picker').classList.add('hidden');
+}
+
+function renderPlaylistOptions(entries) {
+  const holder = $('playlist-options');
+  holder.innerHTML = '';
+  entries.forEach((entry, i) => {
+    const btn = el('button', 'playlist-card',
+      `<span class="pl-name">${escapeHtml(entry.nome)}</span>
+       <span class="pl-count">${entry.total} músicas</span>`);
+    btn.type = 'button';
+    if (i === 0) {
+      btn.classList.add('selected');
+      selectedEntry = entry;
+    }
+    btn.onclick = () => {
+      selectedEntry = entry;
+      [...holder.children].forEach((b) => b.classList.toggle('selected', b === btn));
+    };
+    holder.appendChild(btn);
+  });
+  $('playlist-picker').classList.remove('hidden');
+}
+
+async function initManifest() {
+  showLoading('Carregando playlists… 🎶');
+  try {
+    const data = await fetchJson('playlists/manifest.json');
+    const entries = Array.isArray(data.playlists)
+      ? data.playlists.filter((p) => p && p.id && p.nome && p.arquivo)
+      : [];
+    if (entries.length === 0) throw new Error('manifest vazio');
+    renderPlaylistOptions(entries);
+  } catch (err) {
+    console.warn('Falha ao carregar playlists/manifest.json — usando a playlist de demonstração.', err);
+    useDemoPlaylist();
+  }
+  hideLoading('setup');
+}
+
+// Busca a playlist escolhida (só no "Começar" — carregamento sob demanda).
+// Em erro/timeout volta pro setup já no modo demonstração.
+async function loadSelectedPlaylist() {
+  if (!selectedEntry) return playlist !== null; // modo demo já carregado
+  if (playlist && playlist._id === selectedEntry.id) return true;
+
+  showLoading(`Carregando "${selectedEntry.nome}"… 🎶`);
+  try {
+    const data = await fetchJson(`playlists/${selectedEntry.arquivo}`);
     if (!Array.isArray(data.cartas) || data.cartas.length === 0 || !data.cartas.every(validCard)) {
       throw new Error('estrutura de cartas inválida');
     }
+    data._id = selectedEntry.id;
     playlist = data;
+    return true;
   } catch (err) {
-    console.warn('Falha ao carregar playlist-gerada.json — usando a playlist de demonstração.', err);
-    playlist = PLAYLIST;
-    $('demo-warning').classList.remove('hidden');
+    console.warn(`Falha ao carregar playlists/${selectedEntry.arquivo} — usando a playlist de demonstração.`, err);
+    useDemoPlaylist();
+    hideLoading('setup');
+    return false;
   }
-  showScreen('setup');
 }
 
 // ============================================================
@@ -95,15 +204,23 @@ function addPlayerInput(name = '') {
   inputs.appendChild(row);
 }
 
-function startGame() {
+let startingGame = false; // evita duplo clique no "Começar" durante o fetch
+
+async function startGame() {
   const names = [...$('player-inputs').querySelectorAll('input')]
     .map((i, idx) => i.value.trim() || i.placeholder || `Jogador ${idx + 1}`);
 
-  if (names.length < 2) return;
+  if (names.length < 2 || startingGame) return;
+
+  startingGame = true;
+  const loaded = await loadSelectedPlaylist();
+  startingGame = false;
+  if (!loaded) return; // fallback já voltou pro setup com o aviso
 
   const minCards = names.length * (1 + WIN_CARDS); // aviso apenas; o jogo recicla o descarte
   if (playlist.cartas.length < names.length + 1) {
-    alert('Playlist pequena demais para esse número de jogadores. Adicione mais músicas em playlist-gerada.json.');
+    alert('Playlist pequena demais para esse número de jogadores. Escolha uma playlist com mais músicas.');
+    hideLoading('setup');
     return;
   }
   if (playlist.cartas.length < minCards) {
@@ -122,7 +239,7 @@ function startGame() {
   state.lastResult = null;
 
   startTurn();
-  showScreen('game');
+  hideLoading('game');
 }
 
 // ============================================================
@@ -485,19 +602,19 @@ function launchConfetti() {
 
 function win(player) {
   state.phase = 'over';
-  launchConfetti();
   $('win-title').textContent = `${player.name} venceu!`;
   $('win-sub').innerHTML = `Completou <strong>${player.timeline.length} cartas</strong> na linha do tempo 🎉`;
   const wt = $('win-timeline');
   wt.innerHTML = '';
   player.timeline.forEach((c) => wt.appendChild(cardEl(c)));
+  // a tela troca primeiro; o confete entra no frame seguinte pra não atrasar
   showScreen('win');
+  requestAnimationFrame(() => launchConfetti());
 }
 
 function endByDeckOut() {
   // Sem cartas restantes: vence quem tiver a maior timeline
   stopPlayback();
-  launchConfetti();
   const best = [...state.players].sort((a, b) => b.timeline.length - a.timeline.length)[0];
   $('win-title').textContent = `${best.name} venceu!`;
   $('win-sub').innerHTML = `As músicas acabaram — maior linha do tempo, com <strong>${best.timeline.length} cartas</strong> 🎶`;
@@ -506,6 +623,7 @@ function endByDeckOut() {
   best.timeline.forEach((c) => wt.appendChild(cardEl(c)));
   state.phase = 'over';
   showScreen('win');
+  requestAnimationFrame(() => launchConfetti());
 }
 
 // ============================================================
@@ -697,4 +815,4 @@ $('btn-restart-game').onclick = () => {
 
 addPlayerInput();
 addPlayerInput();
-initPlaylist();
+initManifest();
