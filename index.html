@@ -51,15 +51,12 @@
 
     <!-- Player de música (só aparece no turno) -->
     <div id="music-area" class="music-area hidden">
-      <div class="embed-wrap">
-        <iframe id="spotify-embed" title="Música misteriosa"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-        <div class="embed-mask" aria-hidden="true">
-          <span class="mask-icon">❓</span>
-          <span class="mask-text">Música misteriosa — aperte o play ali do lado ➡️</span>
-        </div>
+      <!-- O player do Spotify fica totalmente oculto; só o áudio importa -->
+      <div class="embed-holder" aria-hidden="true">
+        <div id="spotify-embed"></div>
       </div>
+      <button id="btn-play" class="btn btn-primary btn-play" disabled>▶️ Tocar música misteriosa</button>
+      <p class="play-hint">O play exige um toque seu — o navegador não deixa tocar sozinho 😉</p>
     </div>
 
     <!-- Mensagem de status / resultado -->
@@ -85,6 +82,7 @@
     </div>
   </section>
 
+  <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
   <script src="playlist.js"></script>
   <script src="game.js"></script>
 </body>

@@ -117,12 +117,70 @@ function startTurn() {
   render();
 }
 
+// ---------- Spotify iFrame API ----------
+// O player fica oculto (container com height 0); o áudio é controlado
+// pelo botão próprio #btn-play. O autoplay continua bloqueado pelo
+// navegador, então o primeiro play de cada faixa exige toque do usuário.
+let spotifyApi = null;        // IFrameAPI, quando o script carregar
+let spotifyController = null; // EmbedController criado pela API
+let pendingTrackId = null;    // faixa pedida antes da API/controller existir
+let creatingController = false;
+let embedPlaying = false;
+
+window.onSpotifyIframeApiReady = (IFrameAPI) => {
+  spotifyApi = IFrameAPI;
+  if (pendingTrackId) {
+    const id = pendingTrackId;
+    pendingTrackId = null;
+    createController(id);
+  }
+};
+
+function createController(trackId) {
+  creatingController = true;
+  spotifyApi.createController(
+    $('spotify-embed'),
+    { uri: `spotify:track:${trackId}`, width: '100%', height: 80 },
+    (controller) => {
+      spotifyController = controller;
+      creatingController = false;
+      controller.addListener('ready', () => { $('btn-play').disabled = false; });
+      controller.addListener('playback_update', (e) => {
+        embedPlaying = !e.data.isPaused;
+        updatePlayBtn();
+      });
+      // faixa trocada enquanto o controller era criado
+      if (pendingTrackId) {
+        const id = pendingTrackId;
+        pendingTrackId = null;
+        controller.loadUri(`spotify:track:${id}`);
+      }
+    }
+  );
+}
+
+function updatePlayBtn() {
+  $('btn-play').textContent = embedPlaying
+    ? '⏸️ Pausar música misteriosa'
+    : '▶️ Tocar música misteriosa';
+}
+
 function loadEmbed(trackId) {
-  $('spotify-embed').src = `https://open.spotify.com/embed/track/${trackId}?utm_source=generator&theme=0`;
+  embedPlaying = false;
+  updatePlayBtn();
+  if (spotifyController) {
+    spotifyController.loadUri(`spotify:track:${trackId}`);
+  } else if (spotifyApi && !creatingController) {
+    createController(trackId);
+  } else {
+    pendingTrackId = trackId; // usado assim que a API/controller existir
+  }
 }
 
 function stopEmbed() {
-  $('spotify-embed').src = 'about:blank';
+  if (spotifyController) spotifyController.pause();
+  embedPlaying = false;
+  updatePlayBtn();
 }
 
 function activePlayer() { return state.players[state.turnIdx]; }
@@ -146,6 +204,7 @@ function chooseSlot(slot) {
   if (state.phase !== 'place') return;
   state.chosenSlot = slot;
   state.phase = 'confirm';
+  state.viewIdx = state.turnIdx;
   render();
 }
 
@@ -157,6 +216,7 @@ function cancelSlot() {
 
 function startBonus() {
   state.phase = 'judge';
+  state.viewIdx = state.turnIdx;
   render();
 }
 
@@ -166,6 +226,7 @@ function resolveBonus(won) {
 }
 
 function reveal(bonusOutcome = null) {
+  state.viewIdx = state.turnIdx;
   const p = activePlayer();
   const card = state.current;
   const fits = slotFits(p.timeline, state.chosenSlot, card.ano);
@@ -201,6 +262,7 @@ function skipCard() {
 function buyCard() {
   const p = activePlayer();
   if (p.tokens < BUY_COST || state.phase !== 'place') return;
+  state.viewIdx = state.turnIdx;
   p.tokens -= BUY_COST;
   const card = state.current;
   p.timeline.splice(correctSlot(p.timeline, card.ano), 0, card);
@@ -421,6 +483,7 @@ function escapeHtml(str) {
 // ============================================================
 $('btn-add-player').onclick = () => addPlayerInput();
 $('btn-start').onclick = startGame;
+$('btn-play').onclick = () => { if (spotifyController) spotifyController.togglePlay(); };
 $('btn-restart').onclick = () => location.reload();
 
 addPlayerInput();

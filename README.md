@@ -35,11 +35,12 @@ Para obter o `id_spotify`: no Spotify, **⋯ → Compartilhar → Copiar link da
 
 ## Como o áudio funciona (e suas limitações)
 
-O jogo usa o **iframe público do Spotify embed** (`https://open.spotify.com/embed/track/{id}`) — nenhuma credencial, OAuth ou chamada de API é necessária.
+O jogo usa a **Spotify iFrame API** (`https://open.spotify.com/embed/iframe-api/v1`) — nenhuma credencial, OAuth ou chamada de API REST é necessária.
 
-- O embed exibe capa/título/artista dentro do iframe, o que estragaria o jogo. Por isso há uma **máscara opaca** cobrindo a área de metadados, deixando visível apenas a região do botão de play (faixa direita do embed compacto de 80px). Se o Spotify mudar o layout do embed, ajuste a regra `.embed-mask { inset: ... }` em `style.css`.
+- O player do Spotify (que exibiria capa/título/artista e estragaria o jogo) fica **totalmente oculto** num container com `height: 0; overflow: hidden` (`.embed-holder` em `style.css`). Nenhuma parte da UI do Spotify aparece na tela.
+- O áudio é controlado por um **botão próprio** ("▶️ Tocar música misteriosa") que chama `controller.togglePlay()`. A troca de faixa usa `controller.loadUri()` no mesmo controller, sem recriar o iframe.
 - **Sem login no Spotify**, o embed toca uma **prévia de ~30 segundos** — suficiente para o jogo. Logado (no navegador), pode tocar a faixa inteira.
-- O play **não é automático** (restrição de autoplay dos navegadores): o jogador da vez aperta o play.
+- O play **não é automático** (restrição de autoplay dos navegadores): o jogador da vez aperta o botão.
 
 ## Rodando localmente
 
