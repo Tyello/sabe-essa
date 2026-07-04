@@ -22,7 +22,7 @@ const state = {
 
 // ---------- Atalhos DOM ----------
 const $ = (id) => document.getElementById(id);
-const screens = { setup: $('screen-setup'), game: $('screen-game'), win: $('screen-win') };
+const screens = { loading: $('screen-loading'), setup: $('screen-setup'), game: $('screen-game'), win: $('screen-win') };
 
 function showScreen(name) {
   Object.entries(screens).forEach(([k, el]) => el.classList.toggle('hidden', k !== name));
@@ -42,6 +42,37 @@ function shuffle(arr) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+// ============================================================
+// PLAYLIST
+// ============================================================
+// Carrega playlist-gerada.json; se falhar (404, rede, JSON inválido),
+// cai para a lista de exemplo de playlist.js com um aviso visível.
+let playlist = null;
+
+function validCard(c) {
+  return c && typeof c.id_spotify === 'string' && c.id_spotify &&
+    Number.isFinite(c.ano) &&
+    typeof c.artista === 'string' && c.artista &&
+    typeof c.titulo === 'string' && c.titulo;
+}
+
+async function initPlaylist() {
+  try {
+    const res = await fetch('playlist-gerada.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    if (!Array.isArray(data.cartas) || data.cartas.length === 0 || !data.cartas.every(validCard)) {
+      throw new Error('estrutura de cartas inválida');
+    }
+    playlist = data;
+  } catch (err) {
+    console.warn('Falha ao carregar playlist-gerada.json — usando a playlist de demonstração.', err);
+    playlist = PLAYLIST;
+    $('demo-warning').classList.remove('hidden');
+  }
+  showScreen('setup');
 }
 
 // ============================================================
@@ -71,16 +102,16 @@ function startGame() {
   if (names.length < 2) return;
 
   const minCards = names.length * (1 + WIN_CARDS); // aviso apenas; o jogo recicla o descarte
-  if (PLAYLIST.cartas.length < names.length + 1) {
-    alert('Playlist pequena demais para esse número de jogadores. Adicione mais músicas em playlist.js.');
+  if (playlist.cartas.length < names.length + 1) {
+    alert('Playlist pequena demais para esse número de jogadores. Adicione mais músicas em playlist-gerada.json.');
     return;
   }
-  if (PLAYLIST.cartas.length < minCards) {
+  if (playlist.cartas.length < minCards) {
     // segue o jogo — o descarte é reembaralhado quando o baralho acaba
-    console.warn(`Playlist tem ${PLAYLIST.cartas.length} cartas; o ideal para ${names.length} jogadores seria ${minCards}+.`);
+    console.warn(`Playlist tem ${playlist.cartas.length} cartas; o ideal para ${names.length} jogadores seria ${minCards}+.`);
   }
 
-  state.deck = shuffle(PLAYLIST.cartas);
+  state.deck = shuffle(playlist.cartas);
   state.discard = [];
   state.players = names.map((name) => ({
     name,
@@ -128,7 +159,8 @@ const PREVIEW_MS = 30000;
 
 let spotifyApi = null;        // IFrameAPI, quando o script carregar
 let spotifyController = null; // EmbedController criado pela API
-let embedReady = false;       // controller já sinalizou 'ready'
+let embedTrackReady = false;  // a FAIXA ATUAL já confirmou carregamento no embed
+let embedLoadedId = null;     // última faixa enviada ao controller (create/loadUri)
 let pendingTrackId = null;    // faixa pedida antes da API/controller existir
 let creatingController = false;
 
@@ -151,6 +183,7 @@ window.onSpotifyIframeApiReady = (IFrameAPI) => {
 
 function createController(trackId) {
   creatingController = true;
+  embedLoadedId = trackId;
   spotifyApi.createController(
     $('spotify-embed'),
     { uri: `spotify:track:${trackId}`, width: '100%', height: 80 },
@@ -158,12 +191,21 @@ function createController(trackId) {
       spotifyController = controller;
       creatingController = false;
       controller.addListener('ready', () => {
-        embedReady = true;
-        clearTimeout(embedFailTimer);
-        if (playerMode === 'embed') setPlayUi('idle');
+        // 'ready' só vale para a faixa com que o controller foi criado —
+        // se outra já foi pedida via loadUri, o playback_update dela confirma
+        if (embedLoadedId === currentTrackId && !embedTrackReady) {
+          embedTrackReady = true;
+          clearTimeout(embedFailTimer);
+          if (playerMode === 'embed') setPlayUi('idle');
+        }
       });
       controller.addListener('playback_update', (e) => {
         if (playerMode !== 'embed') return;
+        if (!embedTrackReady) {
+          // primeiro update após o loadUri desta faixa = carregou de verdade
+          embedTrackReady = true;
+          clearTimeout(embedFailTimer);
+        }
         isPlaying = !e.data.isPaused;
         setProgress(e.data.position / PREVIEW_MS);
         if (e.data.position >= PREVIEW_MS && !embedCutDone) {
@@ -179,6 +221,8 @@ function createController(trackId) {
       if (pendingTrackId) {
         const id = pendingTrackId;
         pendingTrackId = null;
+        embedLoadedId = id;
+        embedTrackReady = false;
         controller.loadUri(`spotify:track:${id}`);
       }
     }
@@ -231,7 +275,12 @@ function useEmbed(trackId) {
     audioEl.load();
   }
 
+  // cada faixa começa "carregando" — o play só libera quando ELA confirmar
+  embedTrackReady = false;
+  clearTimeout(embedFailTimer);
+
   if (spotifyController) {
+    embedLoadedId = trackId;
     spotifyController.loadUri(`spotify:track:${trackId}`);
   } else if (spotifyApi && !creatingController) {
     createController(trackId);
@@ -239,14 +288,10 @@ function useEmbed(trackId) {
     pendingTrackId = trackId; // usado assim que a API/controller existir
   }
 
-  if (embedReady) {
-    setPlayUi('idle');
-  } else {
-    setPlayUi('loading');
-    embedFailTimer = setTimeout(() => {
-      if (playerMode === 'embed' && !embedReady) playerFailed();
-    }, 12000);
-  }
+  setPlayUi('loading');
+  embedFailTimer = setTimeout(() => {
+    if (playerMode === 'embed' && !embedTrackReady) playerFailed();
+  }, 12000);
 }
 
 function playerFailed() {
@@ -417,9 +462,13 @@ function nextTurn() {
   startTurn();
 }
 
+const CONFETTI_MS = 6000; // depois disso os pedaços saem do DOM (bateria/CPU)
+let confettiTimer = null;
+
 function launchConfetti() {
   const holder = $('confetti');
   holder.innerHTML = '';
+  clearTimeout(confettiTimer);
   const colors = ['#ff2e7e', '#22e0c9', '#ffc53d', '#8b5cf6', '#f7f4ff'];
   for (let i = 0; i < 60; i++) {
     const piece = el('span', 'confetti-piece');
@@ -431,6 +480,7 @@ function launchConfetti() {
     piece.style.setProperty('--spin', `${540 + Math.random() * 540}deg`);
     holder.appendChild(piece);
   }
+  confettiTimer = setTimeout(() => { holder.innerHTML = ''; }, CONFETTI_MS);
 }
 
 function win(player) {
@@ -641,6 +691,10 @@ $('btn-add-player').onclick = () => addPlayerInput();
 $('btn-start').onclick = startGame;
 $('btn-play').onclick = togglePlay;
 $('btn-restart').onclick = () => location.reload();
+$('btn-restart-game').onclick = () => {
+  if (confirm('Reiniciar o jogo? O progresso atual será perdido.')) location.reload();
+};
 
 addPlayerInput();
 addPlayerInput();
+initPlaylist();

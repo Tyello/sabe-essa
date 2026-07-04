@@ -140,6 +140,17 @@ html, body {
 .tagline { text-align: center; color: var(--dim); line-height: 1.5; font-size: 1.02rem; }
 .tagline strong { color: var(--gold); }
 
+.demo-warning {
+  text-align: center;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--gold);
+  background: rgba(255, 197, 61, 0.08);
+  border: 1px solid rgba(255, 197, 61, 0.35);
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
 .setup-label {
   display: block;
   font-family: var(--font-display);
@@ -268,14 +279,34 @@ html, body {
   z-index: 10;
   background: linear-gradient(180deg, var(--bg-0) 75%, transparent);
   padding: 8px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .player-tabs {
   display: flex;
+  flex: 1;
+  min-width: 0;
   gap: 8px;
   overflow-x: auto;
   scrollbar-width: none;
 }
+
+.btn-restart-icon {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-1);
+  color: var(--dim);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-restart-icon:hover { border-color: var(--dim); color: var(--text); }
 .player-tabs::-webkit-scrollbar { display: none; }
 
 .ptab {
