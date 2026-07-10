@@ -1,18 +1,89 @@
 {
   "playlist": "Só Brasileiras",
-  "cartas": [{
-      "id_spotify": "2vTDA7mOYWtuduCylWfiFd",
-      "ano": 2007,
-      "artista": "Antônio Carlos Jobim",
-      "titulo": "Garota de Ipanema",
-      "preview_url": "https://p.scdn.co/mp3-preview/6cca41ba13aeb48cec6b85bc382da143e92ac306"
+  "cartas": [
+    {
+      "id_spotify": "0LOwMiPGdYKoelRlL8hVS5",
+      "ano": 1994,
+      "artista": "João Gilberto",
+      "titulo": "Chega De Saudade - Live Version",
+      "preview_url": "https://p.scdn.co/mp3-preview/9c2d381c656eb99aca64ea173eba8e460be4d0d9"
     },
     {
-      "id_spotify": "3u70XHB13btIIcdjh6pi3I",
-      "ano": 2013,
-      "artista": "Elis Regina",
-      "titulo": "Arrastão",
-      "preview_url": "https://p.scdn.co/mp3-preview/c93e1bff14851bb12f311e731bab4145ca1b74ef"
+      "id_spotify": "2DNRJZVS7JNyPRdQ8hPQ7M",
+      "ano": 1950,
+      "artista": "Elizeth Cardoso",
+      "titulo": "Canção do Amor Demais",
+      "preview_url": "https://p.scdn.co/mp3-preview/426673f86821dfe68643d7e4e64af753e6f340b3"
+    },
+    {
+      "id_spotify": "0m15rN6vnS7edaMYTv4jwQ",
+      "ano": 1979,
+      "artista": "Dolores Duran",
+      "titulo": "A Noite do Meu Bem",
+      "preview_url": "https://p.scdn.co/mp3-preview/28b34a3b78482b56ddb76b5eb807c81bced5074d"
+    },
+    {
+      "id_spotify": "1UnNFVOH7P4IFPZo3XVutW",
+      "ano": 1996,
+      "artista": "Tito Madi",
+      "titulo": "Chove Lá Fora",
+      "preview_url": "https://p.scdn.co/mp3-preview/da3dc46b389808fb99af54ca7f81832765fce3f0"
+    },
+    {
+      "id_spotify": "6UdgbvgWk7fzmnkZzqVN0M",
+      "ano": 1955,
+      "artista": "Angela Maria",
+      "titulo": "Ave Maria No Morro",
+      "preview_url": "https://p.scdn.co/mp3-preview/9a2dd8112fd7703ff33d5662fa004755a4235fd5"
+    },
+    {
+      "id_spotify": "67LQpgGMjI0jnXo9lRj07C",
+      "ano": 1960,
+      "artista": "Nelson Gonçalves",
+      "titulo": "A Volta do Boêmio",
+      "preview_url": "https://p.scdn.co/mp3-preview/ab9b7c1df722942102f463aec898e283d79023ca"
+    },
+    {
+      "id_spotify": "4RJM24UT9hvj5ZK7qlG6Fl",
+      "ano": 2010,
+      "artista": "Cyro Monteiro",
+      "titulo": "Deixa Isso Pra La",
+      "preview_url": "https://p.scdn.co/mp3-preview/ff2328ac3e0be0df2b4b865cc5d9bcf39a6de20c"
+    },
+    {
+      "id_spotify": "4XiY2Ey51UFqXXTUMHQmic",
+      "ano": 2009,
+      "artista": "Francisco Alves",
+      "titulo": "Aquarela do Brasil (samba) [1939]",
+      "preview_url": "https://p.scdn.co/mp3-preview/1816d04b7c80fd69b4b7bbee95c2c9563e33fa24"
+    },
+    {
+      "id_spotify": "3AU4TG1ZxxEK6O2uusEse8",
+      "ano": 1960,
+      "artista": "Elza Soares, Oswaldo Borba",
+      "titulo": "Se Acaso Você Chegasse",
+      "preview_url": "https://p.scdn.co/mp3-preview/75e9a2da24115327e52236c2db4bb50ecddeb4cb"
+    },
+    {
+      "id_spotify": "3mFIak1OmaCOwJHEe7iWA2",
+      "ano": 1964,
+      "artista": "Antônio Carlos Jobim",
+      "titulo": "Garota De Ipanema",
+      "preview_url": "https://p.scdn.co/mp3-preview/c55e69d11bb366ecf8e30db6b8d2691e3b980fb9"
+    },
+    {
+      "id_spotify": "5SruHZ8LlwtJyClZrMN9i0",
+      "ano": 1963,
+      "artista": "Odette Lara, Vinícius de Moraes",
+      "titulo": "Samba Da Bênção",
+      "preview_url": "https://p.scdn.co/mp3-preview/66a82afc2f953b437a177c900cb8aeb11e2d694b"
+    },
+    {
+      "id_spotify": "7d723v57gJrwOgO1hQYr2E",
+      "ano": 1965,
+      "artista": "Elis Regina, Jair Rodrigues, Jongo Trio",
+      "titulo": "Arrastão - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/5819468ec927f458465e7c40acf3346f404a65ca"
     },
     {
       "id_spotify": "6wUp7y502iyWLuLuurlOyw",
@@ -22,18 +93,18 @@
       "preview_url": "https://p.scdn.co/mp3-preview/72926c39dfb967c0a3a712951ab4b6c6ec3e064c"
     },
     {
-      "id_spotify": "2KfJwFYVUMCL9MO4G1wsPV",
-      "ano": 2025,
-      "artista": "Caetano Veloso, Maria Bethânia",
-      "titulo": "Alegria, Alegria - Ao Vivo",
-      "preview_url": "https://p.scdn.co/mp3-preview/3041414bfe7e9a1834f23265111c5b2d8e393ba5"
+      "id_spotify": "0aoQV1TuaTrcpJaMfJ3wgj",
+      "ano": 1967,
+      "artista": "Caetano Veloso",
+      "titulo": "Alegria, Alegria - Remastered 2006",
+      "preview_url": "https://p.scdn.co/mp3-preview/4595cab9d41a744933f4c9082d31e17d25e85014"
     },
     {
-      "id_spotify": "3TLEM8oNWmpFxAEMuVJpIw",
-      "ano": 2026,
+      "id_spotify": "0HMa3XCtloTdy3cL00lWNz",
+      "ano": 1968,
       "artista": "Gilberto Gil",
-      "titulo": "Domingo no Parque - Ao Vivo em Belém",
-      "preview_url": "https://p.scdn.co/mp3-preview/e2f938a2ad4c0d1bca9f7b001d2310ee4bc57035"
+      "titulo": "Domingo no Parque",
+      "preview_url": "https://p.scdn.co/mp3-preview/cc44d501c8d4a2049ba8f4bee7f0a408f552dc16"
     },
     {
       "id_spotify": "7HW1cyB3wIU7kaKKR04aqn",
@@ -71,18 +142,116 @@
       "preview_url": "https://p.scdn.co/mp3-preview/ff6982876c893ebe10e53ace7697b1b360498fd2"
     },
     {
-      "id_spotify": "15ouqiBsgL12olEwP3COsH",
-      "ano": 1974,
-      "artista": "Elis Regina, Antônio Carlos Jobim",
-      "titulo": "Águas De Março",
-      "preview_url": "https://p.scdn.co/mp3-preview/a645bce21eed5b1b63762b5c1d53aea5a88b9e1d"
+      "id_spotify": "7Kh2JMvkiQQ3SsmOiXpT1q",
+      "ano": 1964,
+      "artista": "Erasmo Carlos",
+      "titulo": "Sentado À Beira do Caminho",
+      "preview_url": "https://p.scdn.co/mp3-preview/d17f166f43664c05c9be12776a14bad67db2f809"
     },
     {
-      "id_spotify": "1gC8FCW9gnAS3DICToSfUz",
+      "id_spotify": "7JyD8fRAW2eqDwPj10K2sf",
+      "ano": 1965,
+      "artista": "Maria Bethânia",
+      "titulo": "Gloria in Excelsis (Missa Agrária) / Carcará",
+      "preview_url": "https://p.scdn.co/mp3-preview/6b96f458b2f6afece77bbd49f6c8ade8607c7b60"
+    },
+    {
+      "id_spotify": "6F3QzDrwZ1uqMrPzPXjnxI",
+      "ano": 1970,
+      "artista": "Nelson Cavaquinho",
+      "titulo": "A Flor e o Espinho",
+      "preview_url": "https://p.scdn.co/mp3-preview/515d113fa0c80dfbe4a3773cd430eeee62e5e3a0"
+    },
+    {
+      "id_spotify": "0oL8aqq5iRE5SnxdxJ6FbK",
+      "ano": 1967,
+      "artista": "Wilson Simonal",
+      "titulo": "Nem Vem Que Não Tem",
+      "preview_url": "https://p.scdn.co/mp3-preview/e070cbf87f8ec2e37cd3796589be983975b56c8a"
+    },
+    {
+      "id_spotify": "1qxxL8j0wBZoVM817ogQEm",
+      "ano": 1967,
+      "artista": "Milton Nascimento",
+      "titulo": "Canção do Sal",
+      "preview_url": "https://p.scdn.co/mp3-preview/f1d45776c88524b9dac98fe395e7d2eccaa83db6"
+    },
+    {
+      "id_spotify": "2eMKGBSGVaGBCzstepZwzC",
+      "ano": 1966,
+      "artista": "Jair Rodrigues",
+      "titulo": "Disparada - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/fb220594f048e60fae71fbc2f2d35a822570b710"
+    },
+    {
+      "id_spotify": "3RWuEVCHec2BDDOb4drFhC",
+      "ano": 1960,
+      "artista": "Elza Soares, Oswaldo Borba",
+      "titulo": "Mulata Assanhada",
+      "preview_url": "https://p.scdn.co/mp3-preview/9ae7c49fd68a6c23b336863dad9ebb13e89c5b49"
+    },
+    {
+      "id_spotify": "1hxeP8cYcIj6QU3AKDd5nt",
+      "ano": 1967,
+      "artista": "Roberto Carlos",
+      "titulo": "Como é Grande o Meu Amor por Você - Versão remasterizada",
+      "preview_url": "https://p.scdn.co/mp3-preview/0c53790de15e7767fcca520ca4031a1d7dd2aed3"
+    },
+    {
+      "id_spotify": "1mzKd4lul92VCIdehoP8rg",
+      "ano": 1964,
+      "artista": "Stan Getz, João Gilberto, Astrud Gilberto, Antônio Carlos Jobim",
+      "titulo": "The Girl From Ipanema",
+      "preview_url": "https://p.scdn.co/mp3-preview/59a3cc4ffb81bcd50496d1578286827d24fee709"
+    },
+    {
+      "id_spotify": "24ekryr3rspOk6bYGkaLha",
+      "ano": 1964,
+      "artista": "Baden Powell",
+      "titulo": "Berimbau",
+      "preview_url": "https://p.scdn.co/mp3-preview/0e8977e598728b698db97f5a90c8fa70d2f698fe"
+    },
+    {
+      "id_spotify": "5yogxVjCyM2HFP2bzGZ7Mj",
+      "ano": 1975,
+      "artista": "Toquinho, Vinícius de Moraes",
+      "titulo": "Onde Anda Você",
+      "preview_url": "https://p.scdn.co/mp3-preview/b3c0ee124ce3f51f3b44856a9deb08c91d567bde"
+    },
+    {
+      "id_spotify": "6OV6jsagf4SHOAqDDigIb3",
+      "ano": 1965,
+      "artista": "Wanderléa",
+      "titulo": "Ternura (Somehow It Got To Be Tomorrow) (Today)",
+      "preview_url": "https://p.scdn.co/mp3-preview/5f290a373254e9d1b75bd507ba4aa7d49e35b8d4"
+    },
+    {
+      "id_spotify": "574L9iq6vqO8EmTPUuQFKF",
+      "ano": 1969,
+      "artista": "Gilberto Gil, Gal Costa",
+      "titulo": "Sebastiana",
+      "preview_url": "https://p.scdn.co/mp3-preview/53a230b53cbfa6bc6431607c766880290f52ee8a"
+    },
+    {
+      "id_spotify": "4877bJ149OUJZHTiU5Jg8P",
+      "ano": 1969,
+      "artista": "Jorge Ben Jor",
+      "titulo": "País Tropical",
+      "preview_url": "https://p.scdn.co/mp3-preview/72fc4d9b4c37743442b9fe794d000af7c930941a"
+    },
+    {
+      "id_spotify": "33k6iSq1SIVBOaXE898Jv1",
       "ano": 1972,
-      "artista": "Gilberto Gil",
-      "titulo": "Expresso 2222",
-      "preview_url": "https://p.scdn.co/mp3-preview/334f2c0e8a1d98c81318e257fce266896122f95e"
+      "artista": "Elis Regina",
+      "titulo": "Águas De Marco",
+      "preview_url": "https://p.scdn.co/mp3-preview/c820c9a5bf07885cfa05ef703d0b8bc3ab50c556"
+    },
+    {
+      "id_spotify": "390bdyiCqTDulyinWLFj3J",
+      "ano": 1971,
+      "artista": "Gilberto Gil, Gal Costa",
+      "titulo": "Expresso 2222 - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/fdf38ec7d046fe541d705121539c5dd669975071"
     },
     {
       "id_spotify": "0VUgbCK0k8QWGpLiEV8YYZ",
@@ -99,11 +268,11 @@
       "preview_url": "https://p.scdn.co/mp3-preview/b188f845f8e9106471bf0d445a1f2c26b3f5ec15"
     },
     {
-      "id_spotify": "1FONqQEarIVOE7QmU2JEfB",
-      "ano": 1998,
+      "id_spotify": "5xpumjGGcdWvqWxYVrd7jI",
+      "ano": 1975,
       "artista": "Rita Lee",
-      "titulo": "Ovelha Negra - Ao Vivo",
-      "preview_url": "https://p.scdn.co/mp3-preview/5f6267f108b2cfe89028c10d4e5d8c2ee04507c8"
+      "titulo": "Ovelha Negra",
+      "preview_url": "https://p.scdn.co/mp3-preview/5b2973cfb158b948626ba569c0ee24b8b191d305"
     },
     {
       "id_spotify": "2DREhftHdD8pRmNdSs6nyF",
@@ -120,11 +289,11 @@
       "preview_url": "https://p.scdn.co/mp3-preview/4259d2817500a2b307dc1c21b441c63ac3a98d23"
     },
     {
-      "id_spotify": "4P5f2NLw9GkgnbK5zs52Oj",
-      "ano": 2000,
+      "id_spotify": "6o3xSFzkryoYpouiko8jNH",
+      "ano": 1972,
       "artista": "Novos Baianos",
-      "titulo": "Preta pretinha",
-      "preview_url": "https://p.scdn.co/mp3-preview/c8da1b0e4e06f7eea12b90161e639bab204c0de7"
+      "titulo": "Preta Pretinha",
+      "preview_url": "https://p.scdn.co/mp3-preview/f1f7cc4acdef99ca865c8348ce72060e76f0195a"
     },
     {
       "id_spotify": "1j5i8qd1PkSQAGM5zyonJC",
@@ -134,11 +303,109 @@
       "preview_url": "https://p.scdn.co/mp3-preview/30bb9db01323096d23eddc820d46e8b5a794ed05"
     },
     {
-      "id_spotify": "7pdCDKs0i05N8ag4tAC5u5",
-      "ano": 1976,
-      "artista": "Jorge Ben Jor",
+      "id_spotify": "0dtpc0QqJ3FIgvmIHHmn9I",
+      "ano": 1975,
+      "artista": "Gilberto Gil, Jorge Ben Jor",
       "titulo": "Taj Mahal",
-      "preview_url": "https://p.scdn.co/mp3-preview/e0b7e570cdb6b271e820ec0b2e258c5cd42cf61f"
+      "preview_url": "https://p.scdn.co/mp3-preview/409c02ccd3e8be0bb7b51bacbfa32b520a561ff7"
+    },
+    {
+      "id_spotify": "3XLiFwo3E7GeX4ONxhGIgm",
+      "ano": 1968,
+      "artista": "Gal Costa, Caetano Veloso",
+      "titulo": "Baby - Remastered",
+      "preview_url": "https://p.scdn.co/mp3-preview/0e8e705cd998d19ae2bc1f48d956aa30be52cddb"
+    },
+    {
+      "id_spotify": "2NOPA5V6El1uXxAU2yV50P",
+      "ano": 1971,
+      "artista": "Caetano Veloso",
+      "titulo": "London London",
+      "preview_url": "https://p.scdn.co/mp3-preview/a2d18b99e288746537a7397b3b4846d7f1310b93"
+    },
+    {
+      "id_spotify": "0et0L2WZYBLskKo4AuI63a",
+      "ano": 1978,
+      "artista": "Maria Bethânia",
+      "titulo": "Não Dá Mais Pra Segurar (Explode Coração)",
+      "preview_url": "https://p.scdn.co/mp3-preview/f4f5460e4453b9ab1c74b36697b01bd95c9ca844"
+    },
+    {
+      "id_spotify": "3pUQEJXwmnooceL5DqluNA",
+      "ano": 1991,
+      "artista": "Fagner",
+      "titulo": "Borbulhas de Amor (Tenho um Coração) [Borbujas de Amor]",
+      "preview_url": "https://p.scdn.co/mp3-preview/a24e65052f058d73547ad7e0ee8bc5724d69a0bd"
+    },
+    {
+      "id_spotify": "7AVrvknpnwSmsSWV2ZPy0O",
+      "ano": 1987,
+      "artista": "Alceu Valença",
+      "titulo": "Girassol",
+      "preview_url": "https://p.scdn.co/mp3-preview/44d5dd642c5ac668eae426347e7175bfefc3d5ae"
+    },
+    {
+      "id_spotify": "1p0lwwLR4cdR4343yC6aBP",
+      "ano": 1979,
+      "artista": "Zé Ramalho",
+      "titulo": "Frevo Mulher",
+      "preview_url": "https://p.scdn.co/mp3-preview/8b6cf0f77cb497f0eaf58f91c650fc9339287c74"
+    },
+    {
+      "id_spotify": "0BoCuzEjDEcULyknBHf3Ii",
+      "ano": 1976,
+      "artista": "Belchior",
+      "titulo": "Como Nossos Pais",
+      "preview_url": "https://p.scdn.co/mp3-preview/b75e6eb6194d4cdec7367307fa6c4692d8f0e521"
+    },
+    {
+      "id_spotify": "3bgRCx8adxUZT7It3ryrWU",
+      "ano": 1979,
+      "artista": "João Bosco, Angela Maria",
+      "titulo": "O Bêbado e a Equilibrista",
+      "preview_url": "https://p.scdn.co/mp3-preview/0e700539b4dd53acab6f0a6e75c68b2967ee375d"
+    },
+    {
+      "id_spotify": "3dEfGt5Ml97FQBeHngn4YA",
+      "ano": 1974,
+      "artista": "Clara Nunes",
+      "titulo": "Conto De Areia",
+      "preview_url": "https://p.scdn.co/mp3-preview/0fb5d3d38c250155a1df9a37fe75c650e687b4eb"
+    },
+    {
+      "id_spotify": "54JLlb23AnzXErLRSNVIUn",
+      "ano": 1978,
+      "artista": "Beth Carvalho",
+      "titulo": "Vou Festejar",
+      "preview_url": "https://p.scdn.co/mp3-preview/ef5f3dc217f30e6a6f0ab86e2d3d6404e0ca824f"
+    },
+    {
+      "id_spotify": "4LGUpFyPi4cmiHjgVobuMd",
+      "ano": 1969,
+      "artista": "Martinho Da Vila",
+      "titulo": "Casa de Bamba",
+      "preview_url": "https://p.scdn.co/mp3-preview/5304d45bce95b457b253326899f27b059b252db2"
+    },
+    {
+      "id_spotify": "3C8ULtjiUmTtcpE7QJBZ7G",
+      "ano": 1996,
+      "artista": "Paulinho Da Viola",
+      "titulo": "Timoneiro",
+      "preview_url": "https://p.scdn.co/mp3-preview/a55d6be998876771476c9045d72fb81f9d48ed9b"
+    },
+    {
+      "id_spotify": "2vHmF6Sh84IChZ8GvNnvW3",
+      "ano": 1975,
+      "artista": "Rita Lee",
+      "titulo": "Esse Tal De Roque Enrow",
+      "preview_url": "https://p.scdn.co/mp3-preview/a66f048426d76fac593d7952d2517f2d5a2ce64e"
+    },
+    {
+      "id_spotify": "4tAwP9QKeLEQJ2fgd1RWcY",
+      "ano": 1964,
+      "artista": "Roberto Carlos",
+      "titulo": "Detalles (Detalhes)",
+      "preview_url": "https://p.scdn.co/mp3-preview/2abde1057802387ad2ad00d177118da3eadd6bab"
     },
     {
       "id_spotify": "7MnT7msJZg3XBAS0OTfGrB",
@@ -162,11 +429,11 @@
       "preview_url": "https://p.scdn.co/mp3-preview/c6472b1bbe401ee8ceaa18e7f0487c0729107eb9"
     },
     {
-      "id_spotify": "0rAX31FT5w3ZQbQMUSkxy8",
-      "ano": 1984,
+      "id_spotify": "3cijWAljXxxJDco4N2aLQl",
+      "ano": 1980,
       "artista": "Rita Lee, Roberto De Carvalho",
       "titulo": "Lança Perfume",
-      "preview_url": "https://p.scdn.co/mp3-preview/e9c3982a20f980555a9a547cc348f4717e04ed86"
+      "preview_url": "https://p.scdn.co/mp3-preview/0589ba10930906cfeaf11fe45ccc23593afbc14e"
     },
     {
       "id_spotify": "0SrDqCmn2ClzEzNkAZYc2Y",
@@ -176,18 +443,18 @@
       "preview_url": "https://p.scdn.co/mp3-preview/c3cbd39bfadfb4eb8b539bf97eb12976f8765a34"
     },
     {
-      "id_spotify": "1u79zVC1XDJFywrIfCvLhN",
-      "ano": 2008,
+      "id_spotify": "695RtGxv4fD6mdBj234InS",
+      "ano": 1984,
       "artista": "RPM",
-      "titulo": "Rádio Pirata",
-      "preview_url": "https://p.scdn.co/mp3-preview/3bdae6842044aac8a099db998bd8313b77fb7edc"
+      "titulo": "Rádio Pirata - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/aeb5bad85d207c5f8330e48de2c7f1da5de24818"
     },
     {
-      "id_spotify": "3bQmU3UGvZMsYZ13ffNyVf",
-      "ano": 1994,
+      "id_spotify": "5vtJD5o3DV3eZsDOcmdyyw",
+      "ano": 1982,
       "artista": "Blitz",
       "titulo": "Você Não Soube Me Amar",
-      "preview_url": "https://p.scdn.co/mp3-preview/bddbefe1211f67e10b6d969ed99e128dc8dbef41"
+      "preview_url": "https://p.scdn.co/mp3-preview/5ccac6f3515339a245e8e5843197ce544e43d013"
     },
     {
       "id_spotify": "1TX4h6MrIZ0K3r4OOG11WO",
@@ -197,18 +464,95 @@
       "preview_url": "https://p.scdn.co/mp3-preview/0fc6a643702625eb24a6053cb8d8b1a992f4d9bf"
     },
     {
-      "id_spotify": "661Ns9G25zHdih4qVshBO7",
-      "ano": 1998,
+      "id_spotify": "1KMMFxK3yeFMgQxlfoJhFp",
+      "ano": 1983,
       "artista": "Alceu Valença",
       "titulo": "Anunciação",
-      "preview_url": "https://p.scdn.co/mp3-preview/f8b1fd7bb12ede1e0075588d84a61169938ded9a"
+      "preview_url": "https://p.scdn.co/mp3-preview/d79870d8e7529a64961f53d60742bb4dbf673bb6"
     },
     {
-      "id_spotify": "0sL3zN9Gce1Xsq1ypFh1zF",
-      "ano": 2002,
+      "id_spotify": "63Ugh7fCzAtsn09ESEKQBh",
+      "ano": 1984,
       "artista": "Kid Abelha",
-      "titulo": "Fixação - Ao Vivo",
-      "preview_url": "https://p.scdn.co/mp3-preview/1c83d90eb8e9f16f53481d79ea554a5d83ff1dcd"
+      "titulo": "Fixação",
+      "preview_url": "https://p.scdn.co/mp3-preview/539e15fa515adf8db0d3f959cc168ca390c98951"
+    },
+    {
+      "id_spotify": "7pn5QXr2LTeGsgHyCaJxDo",
+      "ano": 1984,
+      "artista": "Os Paralamas Do Sucesso",
+      "titulo": "Meu Erro",
+      "preview_url": "https://p.scdn.co/mp3-preview/c65c4812a655a940b2500023864548e389281e4b"
+    },
+    {
+      "id_spotify": "0bk4vZzYmtZlKOltolZ7Zo",
+      "ano": 1985,
+      "artista": "Ultraje a Rigor",
+      "titulo": "Inútil - Ao vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/dfe0c62ae5eac6ff28ca187f61457e1d4066da95"
+    },
+    {
+      "id_spotify": "7e4lwINwaHLGaQRsLR9mWR",
+      "ano": 1986,
+      "artista": "Capital Inicial",
+      "titulo": "Fátima",
+      "preview_url": "https://p.scdn.co/mp3-preview/e6e8f79f644548d0fb0c8266f1213442cdb41a90"
+    },
+    {
+      "id_spotify": "2qcfKvkTopzpSOeLW9AvyM",
+      "ano": 1984,
+      "artista": "Marina Lima",
+      "titulo": "Fullgás",
+      "preview_url": "https://p.scdn.co/mp3-preview/a569420223046b5659db8510804fc7cdb4971567"
+    },
+    {
+      "id_spotify": "0hQbovQO5Cui5Imze8Q3oo",
+      "ano": 1983,
+      "artista": "Caetano Veloso",
+      "titulo": "Voce E Linda - Remixed Original Album",
+      "preview_url": "https://p.scdn.co/mp3-preview/b4449cf2b2e92583eb2491f38a6b493bea36358e"
+    },
+    {
+      "id_spotify": "1T3fc0CRPnVBWWiW9BAiw3",
+      "ano": 1981,
+      "artista": "Gal Costa",
+      "titulo": "Festa Do Interior",
+      "preview_url": "https://p.scdn.co/mp3-preview/b083626b5a9772cf33336fbb06035d854247c720"
+    },
+    {
+      "id_spotify": "1eM11mSb8RuTc4PhhI34QC",
+      "ano": 1979,
+      "artista": "Ivan Lins",
+      "titulo": "Começar De Novo",
+      "preview_url": "https://p.scdn.co/mp3-preview/2f3eaa5b1ed4d05f660c14771697daac750d848c"
+    },
+    {
+      "id_spotify": "6PGMJMiOmMnKqKcWh3ibDP",
+      "ano": 1987,
+      "artista": "Simone",
+      "titulo": "Pétala",
+      "preview_url": "https://p.scdn.co/mp3-preview/bb814f050ca6ef0302059b1a7328e9589ff687a2"
+    },
+    {
+      "id_spotify": "6owwZC8gUvrBuygvOHaYXb",
+      "ano": 1979,
+      "artista": "Rita Lee, Roberto De Carvalho",
+      "titulo": "Mania De Você",
+      "preview_url": "https://p.scdn.co/mp3-preview/024edf4fb1ca538c2cf53a19239f08d03e015097"
+    },
+    {
+      "id_spotify": "5a8O0CAraAuR4iLZXg0s46",
+      "ano": 1983,
+      "artista": "Beth Carvalho, Zeca Pagodinho",
+      "titulo": "Camarão Que Dorme a Onda Leva (feat. Zeca Pagodinho)",
+      "preview_url": "https://p.scdn.co/mp3-preview/6da8f720e73c4f472ef2d263eb5c50fcf553d9c7"
+    },
+    {
+      "id_spotify": "2BnJUYbPtL3yauZKmay0ko",
+      "ano": 1985,
+      "artista": "Roupa Nova",
+      "titulo": "Whisky a Go-Go",
+      "preview_url": "https://p.scdn.co/mp3-preview/71f1baccb382170a9b9cb065b399e1f52ffe1c69"
     },
     {
       "id_spotify": "3MQcMZgLbTJHe6YdwrIYx9",
@@ -274,6 +618,97 @@
       "preview_url": "https://p.scdn.co/mp3-preview/c6d69f73a5d2b7af39f51b415bb1470c98865778"
     },
     {
+      "id_spotify": "7wglwZzZoWUr8sOECwpu6L",
+      "ano": 1997,
+      "artista": "Racionais MC's",
+      "titulo": "Diário de um Detento",
+      "preview_url": "https://p.scdn.co/mp3-preview/7599f0db1cd97b815411417fd729f95c98d0dad0"
+    },
+    {
+      "id_spotify": "66eoVm6hjjBcza4Psz6Qhh",
+      "ano": 1984,
+      "artista": "Titãs",
+      "titulo": "Comida",
+      "preview_url": "https://p.scdn.co/mp3-preview/1664dd4a42add6f0404c3b2ad6ee278846c3d9e0"
+    },
+    {
+      "id_spotify": "46s6p0tsgRBfzWriIg3w9o",
+      "ano": 1989,
+      "artista": "Legião Urbana",
+      "titulo": "Pais E Filhos",
+      "preview_url": "https://p.scdn.co/mp3-preview/37d8f747603ea3785e8c10452f91d10f4822ed1b"
+    },
+    {
+      "id_spotify": "0mscBkMFduxGFsFEhTv7du",
+      "ano": 2002,
+      "artista": "Cidade Negra",
+      "titulo": "Girassol (Acústico)",
+      "preview_url": "https://p.scdn.co/mp3-preview/59306c3138c91882e87a3df5aa0f7c2dd65cdb66"
+    },
+    {
+      "id_spotify": "2wL88cvKXUOfHuYVd62hji",
+      "ano": 1981,
+      "artista": "Gilberto Gil",
+      "titulo": "Palco",
+      "preview_url": "https://p.scdn.co/mp3-preview/5008301a42147c8b8b18b888930b515d3014257e"
+    },
+    {
+      "id_spotify": "55ZjdmU2X8iClV61wAdHX6",
+      "ano": 1992,
+      "artista": "Daniela Mercury",
+      "titulo": "O Canto da Cidade",
+      "preview_url": "https://p.scdn.co/mp3-preview/9135286e0feb712c12565e6ef81548cc22ccd094"
+    },
+    {
+      "id_spotify": "0x2C3lTa6qfceRMAUuFHQU",
+      "ano": 2003,
+      "artista": "Rita Lee, Roberto De Carvalho",
+      "titulo": "Amor E Sexo",
+      "preview_url": "https://p.scdn.co/mp3-preview/90db4a0bac5d660316f6df9ba83aadc15d87a107"
+    },
+    {
+      "id_spotify": "2WTUUgW4avcg6yBtt0797B",
+      "ano": 1984,
+      "artista": "Kid Abelha e os Abóboras Selvagens",
+      "titulo": "Como eu quero",
+      "preview_url": "https://p.scdn.co/mp3-preview/a1c59eef1e5c265525b9f4594a3b368fe2059279"
+    },
+    {
+      "id_spotify": "1LphXGnd5o9F0hOE61Zf9T",
+      "ano": 1984,
+      "artista": "Os Paralamas Do Sucesso",
+      "titulo": "Óculos",
+      "preview_url": "https://p.scdn.co/mp3-preview/fadba804ecc8a72c0e93fd44d712c9edb16e5726"
+    },
+    {
+      "id_spotify": "5mHzMlVi8OMJKnK5SmRK7a",
+      "ano": 1990,
+      "artista": "Chitãozinho & Xororó",
+      "titulo": "Evidências",
+      "preview_url": "https://p.scdn.co/mp3-preview/4ebc08f20aae9d80bf32dcea9f828fe8054e09f1"
+    },
+    {
+      "id_spotify": "3oMk1VNl1N7dgibHwHw1j2",
+      "ano": 1991,
+      "artista": "Zezé Di Camargo & Luciano",
+      "titulo": "É o Amor",
+      "preview_url": "https://p.scdn.co/mp3-preview/e5a09faba5b97e0fba731e9c90445d111d9ba216"
+    },
+    {
+      "id_spotify": "7DoBn08dqKS9MmtZiZChVD",
+      "ano": 1996,
+      "artista": "Skank",
+      "titulo": "Garota Nacional",
+      "preview_url": "https://p.scdn.co/mp3-preview/49471fbe5c9991d37cd4584f39b3fdb44c72f6fa"
+    },
+    {
+      "id_spotify": "5rhijzoJmc7ZdnEgBS58Wh",
+      "ano": 1998,
+      "artista": "Jota Quest",
+      "titulo": "Fácil",
+      "preview_url": "https://p.scdn.co/mp3-preview/466b9e46e1c52716e995dcd096228f3862b96aed"
+    },
+    {
       "id_spotify": "0aASUtDb1N96NJDwmWj5Gf",
       "ano": 1999,
       "artista": "Los Hermanos",
@@ -323,6 +758,55 @@
       "preview_url": "https://p.scdn.co/mp3-preview/9032ec28dce382663a62935202508f909ab86162"
     },
     {
+      "id_spotify": "0lPWEt7kSY37pSUIH68ME0",
+      "ano": 1999,
+      "artista": "O Rappa",
+      "titulo": "Minha alma (A paz que eu não quero)",
+      "preview_url": "https://p.scdn.co/mp3-preview/0479bde75f28f4ef1ad726aa4b73b3e2d4987f0a"
+    },
+    {
+      "id_spotify": "5ShgNlAGU5WtyKvpz8MEB1",
+      "ano": 2018,
+      "artista": "Sandy, Lucas Lima",
+      "titulo": "Areia",
+      "preview_url": "https://p.scdn.co/mp3-preview/a874dc78efe2b567ca14c32a5d06ae72cf32a893"
+    },
+    {
+      "id_spotify": "7IUeqiBZk9o5BX7yFr7GPT",
+      "ano": 2000,
+      "artista": "Chitãozinho & Xororó",
+      "titulo": "Fio De Cabelo",
+      "preview_url": "https://p.scdn.co/mp3-preview/e891c757ea94e31908a41b27bbf253f6c2c23d99"
+    },
+    {
+      "id_spotify": "3TPVkq85S5r0EoXZHn5zxU",
+      "ano": 1995,
+      "artista": "Zezé Di Camargo & Luciano",
+      "titulo": "No Dia em Que Eu Saí de Casa",
+      "preview_url": "https://p.scdn.co/mp3-preview/a72820c55b706fb9150a7bc2caa3525a7d43119d"
+    },
+    {
+      "id_spotify": "7o7MExeF7niW4VFiie5Zxh",
+      "ano": 2003,
+      "artista": "Pitty",
+      "titulo": "Admirável Chip Novo",
+      "preview_url": "https://p.scdn.co/mp3-preview/7bad0426d5070ae86d47ccd73fe45e2061be7640"
+    },
+    {
+      "id_spotify": "6A3Q8BVAAI2PW1s6MX4ZGF",
+      "ano": 2007,
+      "artista": "Vanessa Da Mata, Ben Harper",
+      "titulo": "Boa Sorte / Good Luck (feat. Ben Harper)",
+      "preview_url": "https://p.scdn.co/mp3-preview/18f37659b755bda67448948631d3cb5d97a41a32"
+    },
+    {
+      "id_spotify": "19KDsFyj6Nyxa9xLb29lOL",
+      "ano": 2003,
+      "artista": "Maria Rita",
+      "titulo": "Encontros e despedidas",
+      "preview_url": "https://p.scdn.co/mp3-preview/f5367461a369b4cc337510ae37da2d409b566f06"
+    },
+    {
       "id_spotify": "28aUFtkMnJaqNQkLHR0weV",
       "ano": 2013,
       "artista": "Anitta",
@@ -330,11 +814,11 @@
       "preview_url": "https://p.scdn.co/mp3-preview/baccb763cd6763e0220515dd1f45e161246dfd7d"
     },
     {
-      "id_spotify": "2tKYseDcnKepoubhaAAjwt",
-      "ano": 2024,
+      "id_spotify": "5Kk43IykGmtOxZ5CDzOlEU",
+      "ano": 2015,
       "artista": "Wesley Safadão",
       "titulo": "Camarote",
-      "preview_url": "https://p.scdn.co/mp3-preview/be43c10fd4dbf55ac2391a89af0de17bce3c9e59"
+      "preview_url": "https://p.scdn.co/mp3-preview/3bce50ace4919bc9ae202f482f44fad5b6bac732"
     },
     {
       "id_spotify": "38MpAndIjGAyVdcC6npX95",
@@ -372,29 +856,113 @@
       "preview_url": "https://p.scdn.co/mp3-preview/d12a5e6001080a3be725f187eb99540998cf42ba"
     },
     {
-      "id_spotify": "3tenM0uaowbZofRpgCQZ0z",
-      "ano": 2018,
+      "id_spotify": "6KoXnfTIZX7lp7FzCBfVZD",
+      "ano": 2011,
       "artista": "Karol Conká",
       "titulo": "Boa Noite",
-      "preview_url": "https://p.scdn.co/mp3-preview/00d19ee99d1b6094812d8def04b67030e3211aef"
+      "preview_url": "https://p.scdn.co/mp3-preview/984539c9026330e56df875c9a976d78b545741dc"
     },
     {
-      "id_spotify": "3FkeNbs9Zeiqkr3WkbOiGp",
-      "ano": 2022,
+      "id_spotify": "5JFpJWJIkEl97NgLgpo4pF",
+      "ano": 2009,
+      "artista": "Luan Santana",
+      "titulo": "Meteoro - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/234de61a385ed45c0765e641c373c0143b89485c"
+    },
+    {
+      "id_spotify": "29vem0DsWK4224LQyxcmA5",
+      "ano": 2011,
+      "artista": "Michel Teló",
+      "titulo": "Ai Se Eu Te Pego - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/e542856f06d39fce6f604b8e589039b7cd0151ee"
+    },
+    {
+      "id_spotify": "1Cml3fnCNLZUC1EEtkcgVb",
+      "ano": 2015,
+      "artista": "Anitta",
+      "titulo": "Bang",
+      "preview_url": "https://p.scdn.co/mp3-preview/7b652ac99935f47b6d1661ce8e4c16af8e2eb78d"
+    },
+    {
+      "id_spotify": "3Srq9hHoklnOSzg1yxMzm9",
+      "ano": 2017,
+      "artista": "Simone & Simaria, Anitta",
+      "titulo": "Loka",
+      "preview_url": "https://p.scdn.co/mp3-preview/a5aea34fcf21ce67d54b0c8c900401c35d3f8fb3"
+    },
+    {
+      "id_spotify": "5zSiXA70xM4kuSt6qim6jl",
+      "ano": 2017,
+      "artista": "Pabllo Vittar",
+      "titulo": "K.O.",
+      "preview_url": "https://p.scdn.co/mp3-preview/f45df366fd06c500a2adeaac7dcad26c4f88fa72"
+    },
+    {
+      "id_spotify": "1BkyiAw1L0BOHYckwpRX4V",
+      "ano": 2017,
+      "artista": "IZA, Marcelo Falcão",
+      "titulo": "Pesadão",
+      "preview_url": "https://p.scdn.co/mp3-preview/70d5b5dbe192dce57d7451b3d239a21654657317"
+    },
+    {
+      "id_spotify": "01Z18LIRXx7QHzWp2QpDaE",
+      "ano": 2016,
+      "artista": "ANAVITÓRIA, TIAGO IORC",
+      "titulo": "Trevo (Tu)",
+      "preview_url": "https://p.scdn.co/mp3-preview/81c335a3929ff011158da34b5fe445d8cfebf9cf"
+    },
+    {
+      "id_spotify": "39cmB3ZoTOLwOTq7tMNqKa",
+      "ano": 2016,
+      "artista": "Alok, Zeeba, Bruno Martini",
+      "titulo": "Hear Me Now",
+      "preview_url": "https://p.scdn.co/mp3-preview/f38328731683bef5fcc6b8dee13900883e810b9c"
+    },
+    {
+      "id_spotify": "52SZqPgS9L8uUNZeGSsU7o",
+      "ano": 2016,
+      "artista": "MC Kevinho",
+      "titulo": "Olha a Explosão",
+      "preview_url": "https://p.scdn.co/mp3-preview/74d324dffc4b50695b7ca2839715ac89d3dd8f18"
+    },
+    {
+      "id_spotify": "1sf6GrTFI2SrslgLhdndj0",
+      "ano": 1971,
+      "artista": "Victorino Silva Oficial",
+      "titulo": "Bela Mensagem",
+      "preview_url": "https://p.scdn.co/mp3-preview/1553dc78eb7b46a29e17b5298c010186462cfb11"
+    },
+    {
+      "id_spotify": "1iiXo590UBRz3S2GH5piM3",
+      "ano": 2010,
+      "artista": "Tulipa Ruiz",
+      "titulo": "Efêmera",
+      "preview_url": "https://p.scdn.co/mp3-preview/e1bf345d203116aa4505c2645e9699ac2aef22a7"
+    },
+    {
+      "id_spotify": "797EAPNn2oGJLfn8SXiKe0",
+      "ano": 2026,
+      "artista": "Gusttavo Lima",
+      "titulo": "Balada - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/79aea94ff322fba4c9dd0f6ca8b001e2b4517b4b"
+    },
+    {
+      "id_spotify": "3IAfUEeaXRX9s9UdKOJrFI",
+      "ano": 2021,
       "artista": "Anitta",
       "titulo": "Envolver",
-      "preview_url": "https://p.scdn.co/mp3-preview/d9f6a2348341b9ec99c4fd4ebeb1fe5484cff8c4"
+      "preview_url": "https://p.scdn.co/mp3-preview/ed370021154f72c41458f93c5cfa2c96b135adae"
     },
     {
-      "id_spotify": "2K9kZpwD2CzTa6iiSYYOoO",
-      "ano": 2022,
-      "artista": "Marília Mendonça",
+      "id_spotify": "2J1ypgIAzXp75ekOrTtYkC",
+      "ano": 2020,
+      "artista": "Xamã, Bagua Records, Neo Beats, Marília Mendonça",
       "titulo": "Leão",
-      "preview_url": "https://p.scdn.co/mp3-preview/1050ed8afb9d2ad234fcf93ba050ab0f6aecc74c"
+      "preview_url": "https://p.scdn.co/mp3-preview/95843d4211f192e1ce5fc3fb19463cd85fe60290"
     },
     {
-      "id_spotify": "2ip4hxYupn3CSsHjn4l2a8",
-      "ano": 2021,
+      "id_spotify": "0YqTL3nSL36OFdHwHoqCag",
+      "ano": 2020,
       "artista": "Luísa Sonza, Pabllo Vittar, Anitta",
       "titulo": "MODO TURBO",
       "preview_url": "https://p.scdn.co/mp3-preview/e50250f8adc025f0ed7bfeaa1df120a8af18be69"
@@ -428,11 +996,53 @@
       "preview_url": "https://p.scdn.co/mp3-preview/74ce676a7bdd257104020414e9a2e4b46b7c6b72"
     },
     {
-      "id_spotify": "2VFTgZwiAdrADSLrUNHWt9",
+      "id_spotify": "22UbqSCF5HeaEcxx0JhCVT",
       "ano": 2020,
       "artista": "Pabllo Vittar, POCAH, Mc Mayara",
       "titulo": "Bandida (feat. Mc Mayara)",
-      "preview_url": "https://p.scdn.co/mp3-preview/5f5d63135c0641b86030e27e59fa38ea69234618"
+      "preview_url": "https://p.scdn.co/mp3-preview/8880b1b4940f3cd7a0aac76ef63e0a766da70576"
+    },
+    {
+      "id_spotify": "35COLcFjvONwVv6jkG23gI",
+      "ano": 2022,
+      "artista": "Anitta",
+      "titulo": "Boys Don't Cry",
+      "preview_url": "https://p.scdn.co/mp3-preview/50d12c3f33c95d0b8201218fff257de139b0756e"
+    },
+    {
+      "id_spotify": "1bzRhnrWU1l1u4Bby9ZbfQ",
+      "ano": 2023,
+      "artista": "AgroPlay, Ana Castela",
+      "titulo": "Nosso Quadro",
+      "preview_url": "https://p.scdn.co/mp3-preview/43a33ba2d5f04815328d0fcaaa5369c5f89be0ff"
+    },
+    {
+      "id_spotify": "4E6RdcCWMiHTu7zy1VTNDo",
+      "ano": 2019,
+      "artista": "Marília Mendonça",
+      "titulo": "Todo Mundo Vai Sofrer - Ao Vivo",
+      "preview_url": "https://p.scdn.co/mp3-preview/77aaed14630efd473527100ea46017f3821eecb5"
+    },
+    {
+      "id_spotify": "1Tn0msQvQMbD6woO9VnEG3",
+      "ano": 2016,
+      "artista": "LUDMILLA",
+      "titulo": "Sou eu",
+      "preview_url": "https://p.scdn.co/mp3-preview/547654c3fa8ea7a125c61166b209ab3df74e9b14"
+    },
+    {
+      "id_spotify": "4P9LdSPrnQl7KQwml4DUtq",
+      "ano": 2021,
+      "artista": "Liniker",
+      "titulo": "Baby 95",
+      "preview_url": "https://p.scdn.co/mp3-preview/e5f2b58c2f79e697757e6b081bbe1a2971ed71bc"
+    },
+    {
+      "id_spotify": "6EDj1nbl9wo6ivGI1t59G4",
+      "ano": 2021,
+      "artista": "Jão",
+      "titulo": "Idiota",
+      "preview_url": "https://p.scdn.co/mp3-preview/350735f0c1aed67f311d0d4be67d0fc7fbe84ebd"
     }
   ]
 }

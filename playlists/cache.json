@@ -1,0 +1,2445 @@
+{
+  "Scott Joplin - Maple Leaf Rag": {
+    "id_spotify": "5QxflQwXKn7aajwG6Ilg4K",
+    "ano": 1975,
+    "artista": "Scott Joplin, Dick Hyman",
+    "titulo": "Maple Leaf Rag - 2023 Remastered Version",
+    "preview_url": "https://p.scdn.co/mp3-preview/78df7d70672ba29a95525584a01cfc726236e7c1"
+  },
+  "Bessie Smith - Downhearted Blues": {
+    "id_spotify": "5JUhjSyjxtO4uEguZfyf26",
+    "ano": 1989,
+    "artista": "Bessie Smith",
+    "titulo": "Downhearted Blues",
+    "preview_url": "https://p.scdn.co/mp3-preview/1125f8edd93ff40cb80fd8420214005fbaf6b9e4"
+  },
+  "Al Jolson - Swanee": {
+    "id_spotify": "43jl7qtjAhuCxKgSrqiE1U",
+    "ano": 1912,
+    "artista": "Al Jolson",
+    "titulo": "Swanee",
+    "preview_url": "https://p.scdn.co/mp3-preview/f86a77c37b8ff9fbcfe572fc503b957f80e70cd2"
+  },
+  "Louis Armstrong - West End Blues": {
+    "id_spotify": "4Q3kOpOlwa1KC052O2A9tg",
+    "ano": 1955,
+    "artista": "Louis Armstrong",
+    "titulo": "West End Blues - Live",
+    "preview_url": "https://p.scdn.co/mp3-preview/b08d13ad87cf7e69402f5bdd761798fc92ec1e93"
+  },
+  "Duke Ellington - Mood Indigo": {
+    "id_spotify": "06ZRWjFN3GQeMjCR8KCJ3a",
+    "ano": 1951,
+    "artista": "Duke Ellington",
+    "titulo": "Mood Indigo",
+    "preview_url": "https://p.scdn.co/mp3-preview/3f0d34fc0ec8c705abf035bd8aaa14519b811f84"
+  },
+  "Billie Holiday - Strange Fruit": {
+    "id_spotify": "33g0jjhelmlIkYXdUVdqQx",
+    "ano": 1954,
+    "artista": "Billie Holiday",
+    "titulo": "Strange Fruit - Live at Philharmonic Hall, Los Angeles, 1945",
+    "preview_url": "https://p.scdn.co/mp3-preview/22142ea44c1fdca4a835a53135f7d80c4efe4c53"
+  },
+  "Judy Garland - Over the Rainbow": {
+    "id_spotify": "1zzJOF5gOMXzqoUCbOg4JE",
+    "ano": 1939,
+    "artista": "Judy Garland",
+    "titulo": "Over the Rainbow",
+    "preview_url": "https://p.scdn.co/mp3-preview/86c820fbee57a7127b0192f0303f853ac28c2502"
+  },
+  "Glenn Miller - In the Mood": {
+    "id_spotify": "03OzNGg3JI4pwCdKnB230I",
+    "ano": 1954,
+    "artista": "Glenn Miller Orchestra",
+    "titulo": "In The Mood (Remastered 2022)",
+    "preview_url": "https://p.scdn.co/mp3-preview/d2b7860d2fe69a307df23fafc806ea6f365e276d"
+  },
+  "Ella Fitzgerald - A-Tisket A-Tasket": {
+    "id_spotify": "5935p4F2K5crvwdc6mBLPg",
+    "ano": 1959,
+    "artista": "Ella Fitzgerald",
+    "titulo": "A-Tisket, A-Tasket",
+    "preview_url": "https://p.scdn.co/mp3-preview/25a2adf2b4a2682b6972a03d72e94dc8f2c689b7"
+  },
+  "Duke Ellington - Take the A Train": {
+    "id_spotify": "2oANFmwGY7hxC3W1SqfcbE",
+    "ano": 1956,
+    "artista": "Duke Ellington",
+    "titulo": "Take the \"A\" Train - Live",
+    "preview_url": "https://p.scdn.co/mp3-preview/7347461b248cbdbb70e7f2220f414a63dc2573b2"
+  },
+  "The Andrews Sisters - Boogie Woogie Bugle Boy": {
+    "id_spotify": "3axPhcbhVDOA9MnhkUrFcE",
+    "ano": 1984,
+    "artista": "The Andrews Sisters",
+    "titulo": "Boogie Woogie Bugle Boy",
+    "preview_url": "https://p.scdn.co/mp3-preview/b3a42fdd8f2d132f5ffdae645ca668cb4eb82c4a"
+  },
+  "Frank Sinatra - I'll Be Seeing You": {
+    "id_spotify": "64NDRGK5e2bt8zafRVtgPw",
+    "ano": 1961,
+    "artista": "Frank Sinatra",
+    "titulo": "I'll Be Seeing You",
+    "preview_url": "https://p.scdn.co/mp3-preview/cbe1d453e3ad4f680febe4d8b1e24ab7529ebb57"
+  },
+  "Nat King Cole - The Christmas Song": {
+    "id_spotify": "5humEOJehpAwMJEJmb0JJ2",
+    "ano": 1961,
+    "artista": "Nat King Cole",
+    "titulo": "The Christmas Song (Merry Christmas To You)",
+    "preview_url": "https://p.scdn.co/mp3-preview/ec23a034cd6deb3997c37504bbf46f7b038007b7"
+  },
+  "Woody Guthrie - This Land Is Your Land": {
+    "id_spotify": "3zBhCSqV7UTMP0YDJm1riG",
+    "ano": 1951,
+    "artista": "Woody Guthrie",
+    "titulo": "This Land is Your Land",
+    "preview_url": "https://p.scdn.co/mp3-preview/f54f485d4b0067e53c7a105fc871e64bf1b18758"
+  },
+  "Bing Crosby - White Christmas": {
+    "id_spotify": "3XsaSIPWvM61RIFfeb0BBR",
+    "ano": 1945,
+    "artista": "Bing Crosby, Ken Darby Singers, John Scott Trotter & His Orchestra",
+    "titulo": "White Christmas - 1947 Version",
+    "preview_url": "https://p.scdn.co/mp3-preview/90b7f0b240eb1758c89154d030bd4575443d9bf1"
+  },
+  "Hank Williams - Your Cheatin' Heart": {
+    "id_spotify": "0WwmFdGXe7Yky4T2J1oqLk",
+    "ano": 1953,
+    "artista": "Hank Williams",
+    "titulo": "Your Cheatin' Heart",
+    "preview_url": "https://p.scdn.co/mp3-preview/da59f7a9801a590c3f77ed72faec32c197a7a89e"
+  },
+  "Bill Haley & His Comets - Rock Around the Clock": {
+    "id_spotify": "1uRKT2LRANv4baowBWHfDS",
+    "ano": 1955,
+    "artista": "Bill Haley & His Comets",
+    "titulo": "(We're Gonna) Rock Around The Clock",
+    "preview_url": "https://p.scdn.co/mp3-preview/e0c8c95f061db7f75c533dff8aaa3740d3293e38"
+  },
+  "Elvis Presley - Heartbreak Hotel": {
+    "id_spotify": "6xNwKNYZcvgV3XTIwsgNio",
+    "ano": 1958,
+    "artista": "Elvis Presley",
+    "titulo": "Heartbreak Hotel",
+    "preview_url": "https://p.scdn.co/mp3-preview/fd6b0332418fb5fab13d96080f93db0763d04797"
+  },
+  "Chuck Berry - Johnny B. Goode": {
+    "id_spotify": "2QfiRTz5Yc8DdShCxG1tB2",
+    "ano": 1959,
+    "artista": "Chuck Berry",
+    "titulo": "Johnny B. Goode",
+    "preview_url": "https://p.scdn.co/mp3-preview/214ca11106cbcdfe07ccd2d839c67c9b8949a5e2"
+  },
+  "Little Richard - Tutti Frutti": {
+    "id_spotify": "2iXcvnD3d1gfLBum0cE5Eg",
+    "ano": 1957,
+    "artista": "Little Richard",
+    "titulo": "Tutti Frutti",
+    "preview_url": "https://p.scdn.co/mp3-preview/0ab99dc9866e1f12b943b7848c78de38a37b3151"
+  },
+  "Buddy Holly - That'll Be the Day": {
+    "id_spotify": "4UcHTV3TjlThmMlZgOG4Kr",
+    "ano": 1957,
+    "artista": "Buddy Holly, The Crickets",
+    "titulo": "That'll Be The Day",
+    "preview_url": "https://p.scdn.co/mp3-preview/149a88edf67654448df5f8ebefc34ab6b77241bd"
+  },
+  "Ray Charles - What'd I Say": {
+    "id_spotify": "5yQ9iMZXGcr5rlO4hoLsP4",
+    "ano": 1959,
+    "artista": "Ray Charles",
+    "titulo": "What'd I Say, Pt. 1 & 2",
+    "preview_url": "https://p.scdn.co/mp3-preview/a30d7f638a0b38851eb1b3068bc8cfe4c7113b33"
+  },
+  "Fats Domino - Blueberry Hill": {
+    "id_spotify": "06PdA0DLgF4BfAeUNZAbFG",
+    "ano": 1959,
+    "artista": "Fats Domino",
+    "titulo": "Blueberry Hill",
+    "preview_url": "https://p.scdn.co/mp3-preview/90baa5b9710c8b07e034dc64d333e5f4bbd4225d"
+  },
+  "Jerry Lee Lewis - Great Balls of Fire": {
+    "id_spotify": "37xXztKytCrfNG1Tge0qdJ",
+    "ano": 1961,
+    "artista": "Jerry Lee Lewis",
+    "titulo": "Great Balls Of Fire",
+    "preview_url": "https://p.scdn.co/mp3-preview/1ab465bbcc92d4bb6db208c46d6edf11616cee78"
+  },
+  "The Platters - Only You": {
+    "id_spotify": "33Zjva1TnHJVKz1L0Cb6wa",
+    "ano": 1965,
+    "artista": "The Platters",
+    "titulo": "Only You",
+    "preview_url": "https://p.scdn.co/mp3-preview/5d968ecb8008c1abab9333e8276b72d6f3baeb57"
+  },
+  "Frank Sinatra - Fly Me to the Moon": {
+    "id_spotify": "5b7OgznPJJr1vHNYGyvxau",
+    "ano": 1962,
+    "artista": "Frank Sinatra, Count Basie",
+    "titulo": "Fly Me To The Moon (In Other Words)",
+    "preview_url": "https://p.scdn.co/mp3-preview/56a7677853d02c1dee1feb11d0e4d6df3183578e"
+  },
+  "Elvis Presley - Jailhouse Rock": {
+    "id_spotify": "4gphxUgq0JSFv2BCLhNDiE",
+    "ano": 1958,
+    "artista": "Elvis Presley",
+    "titulo": "Jailhouse Rock",
+    "preview_url": "https://p.scdn.co/mp3-preview/486852b4a04fc9287ee850344ee03ffeb190fb3c"
+  },
+  "The Everly Brothers - Wake Up Little Susie": {
+    "id_spotify": "4KCGIpsKHrLfQdBXxfFOax",
+    "ano": 1958,
+    "artista": "The Everly Brothers",
+    "titulo": "Wake Up Little Susie",
+    "preview_url": "https://p.scdn.co/mp3-preview/4dcddb8cba383b9a91d527796837197480c453c7"
+  },
+  "Sam Cooke - You Send Me": {
+    "id_spotify": "72QZo56247iuJe2OnEb6o3",
+    "ano": 1957,
+    "artista": "Sam Cooke",
+    "titulo": "You Send Me - Mono",
+    "preview_url": "https://p.scdn.co/mp3-preview/e0303db6ae27eddadc620268438621fbb89bf904"
+  },
+  "Louis Prima - That Old Black Magic": {
+    "id_spotify": "4vRMiBOtxLMHiajeCOryDR",
+    "ano": 1966,
+    "artista": "Louis Prima, Gia Maione, Sam Butera & The Witnesses",
+    "titulo": "That Old Black Magic (with Gia Maione)",
+    "preview_url": "https://p.scdn.co/mp3-preview/efd252a9d8bd33450f7d471bdb69af9ca51f88eb"
+  },
+  "The Beatles - She Loves You": {
+    "id_spotify": "0qsS2A3hwicJCLtcaR6JRQ",
+    "ano": 1973,
+    "artista": "The Beatles",
+    "titulo": "She Loves You - Mono Version / Remastered 2009",
+    "preview_url": "https://p.scdn.co/mp3-preview/9d577ab1c51794095d3343c30b51dc227eb29454"
+  },
+  "The Beatles - Hey Jude": {
+    "id_spotify": "3m7V717IKZqZLW5qUIOxdD",
+    "ano": 1973,
+    "artista": "The Beatles",
+    "titulo": "Hey Jude - Remastered 2009",
+    "preview_url": "https://p.scdn.co/mp3-preview/452dce4092627abc174c5c1a9a6a93ee10c039e2"
+  },
+  "Bob Dylan - Like a Rolling Stone": {
+    "id_spotify": "3AhXZa8sUQht0UEdBJgpGc",
+    "ano": 1965,
+    "artista": "Bob Dylan",
+    "titulo": "Like a Rolling Stone",
+    "preview_url": "https://p.scdn.co/mp3-preview/62c229b1cadd22b991df9aeaedd38e873ddaccbe"
+  },
+  "The Rolling Stones - (I Can't Get No) Satisfaction": {
+    "id_spotify": "2PzU4IB8Dr6mxV3lHuaG34",
+    "ano": 1965,
+    "artista": "The Rolling Stones",
+    "titulo": "(I Can't Get No) Satisfaction - Mono",
+    "preview_url": "https://p.scdn.co/mp3-preview/22782e4be2eb4daa12edd8882a894ffda3601b43"
+  },
+  "The Beach Boys - Good Vibrations": {
+    "id_spotify": "6ekY52h4HwNCHgCkiHTVaR",
+    "ano": 1967,
+    "artista": "The Beach Boys",
+    "titulo": "Good Vibrations (Stereo)",
+    "preview_url": "https://p.scdn.co/mp3-preview/b758138fa54d8e0ae03af7a43477cb5a1f1cecab"
+  },
+  "Aretha Franklin - Respect": {
+    "id_spotify": "7s25THrKz86DM225dOYwnr",
+    "ano": 1967,
+    "artista": "Aretha Franklin",
+    "titulo": "Respect",
+    "preview_url": "https://p.scdn.co/mp3-preview/7768dd513193e30ab1ad19deeff2dcc63d2c7555"
+  },
+  "The Kinks - You Really Got Me": {
+    "id_spotify": "6tZdL3Zp8JgrfDbsSeSV1S",
+    "ano": 1964,
+    "artista": "The Kinks",
+    "titulo": "You Really Got Me",
+    "preview_url": "https://p.scdn.co/mp3-preview/81e8ec05f9d94ce88d87a5192355e717d40afa5e"
+  },
+  "The Supremes - Baby Love": {
+    "id_spotify": "5uES1C2NgkdrNHiCwf9jRr",
+    "ano": 1964,
+    "artista": "The Supremes",
+    "titulo": "Baby Love",
+    "preview_url": "https://p.scdn.co/mp3-preview/2f5598c02adad78366b430c2481d761cd335bbec"
+  },
+  "Otis Redding - (Sittin' On) The Dock of the Bay": {
+    "id_spotify": "3zBhihYUHBmGd2bcQIobrF",
+    "ano": 1968,
+    "artista": "Otis Redding",
+    "titulo": "(Sittin' On) the Dock of the Bay - Mono",
+    "preview_url": "https://p.scdn.co/mp3-preview/6b33eae61b9232d7c5d0c1917befb306d2bf3a7c"
+  },
+  "Marvin Gaye - I Heard It Through the Grapevine": {
+    "id_spotify": "1tqT6DhmsrtQgyCKUwotiw",
+    "ano": 1968,
+    "artista": "Marvin Gaye",
+    "titulo": "I Heard It Through The Grapevine",
+    "preview_url": "https://p.scdn.co/mp3-preview/c0a09baf1364822c694b171b61db2f1480064bb6"
+  },
+  "The Animals - House of the Rising Sun": {
+    "id_spotify": "0ev91hkSfD8mR15VBiAHts",
+    "ano": 1990,
+    "artista": "The Animals",
+    "titulo": "House of the Rising Sun",
+    "preview_url": "https://p.scdn.co/mp3-preview/4d753f2d9dcaf048ba216a6bd10bea25473b47d5"
+  },
+  "The Who - My Generation": {
+    "id_spotify": "4u9f8hqstB7iITDJNzKhQx",
+    "ano": 1965,
+    "artista": "The Who",
+    "titulo": "My Generation - Stereo Version",
+    "preview_url": "https://p.scdn.co/mp3-preview/944ed5983dd0fd4d44db5cc6e1bf019bce2e1871"
+  },
+  "Simon & Garfunkel - The Sound of Silence": {
+    "id_spotify": "5y788ya4NvwhBznoDIcXwK",
+    "ano": 1964,
+    "artista": "Simon & Garfunkel",
+    "titulo": "The Sound of Silence - Acoustic Version",
+    "preview_url": "https://p.scdn.co/mp3-preview/8d9b74974ad656a3c84032b0b5c1f8ecda2a467e"
+  },
+  "Jimi Hendrix - Purple Haze": {
+    "id_spotify": "0wJoRiX5K5BxlqZTolB2LD",
+    "ano": 1967,
+    "artista": "Jimi Hendrix",
+    "titulo": "Purple Haze",
+    "preview_url": "https://p.scdn.co/mp3-preview/6e9c88e26bb556ad9329c456318b3d1e4eac4542"
+  },
+  "The Doors - Light My Fire": {
+    "id_spotify": "5uvosCdMlFdTXhoazkTI5R",
+    "ano": 1967,
+    "artista": "The Doors",
+    "titulo": "Light My Fire",
+    "preview_url": "https://p.scdn.co/mp3-preview/93ada68507ef1a45fd47f8575cbecc657afd8fff"
+  },
+  "Creedence Clearwater Revival - Proud Mary": {
+    "id_spotify": "2EZc13S7YRi6bTS3SKteRN",
+    "ano": 1969,
+    "artista": "Creedence Clearwater Revival",
+    "titulo": "Proud Mary",
+    "preview_url": "https://p.scdn.co/mp3-preview/347ec409be3db773ab601411238da14186dbc4d7"
+  },
+  "The Beatles - Let It Be": {
+    "id_spotify": "7iN1s7xHE4ifF5povM6A48",
+    "ano": 1970,
+    "artista": "The Beatles",
+    "titulo": "Let It Be - Remastered 2009",
+    "preview_url": "https://p.scdn.co/mp3-preview/31f65b6a613010f22316c7be335b62226cf2f263"
+  },
+  "The Temptations - My Girl": {
+    "id_spotify": "745H5CctFr12Mo7cqa1BMH",
+    "ano": 1965,
+    "artista": "The Temptations",
+    "titulo": "My Girl",
+    "preview_url": "https://p.scdn.co/mp3-preview/a38a2f0fc30ffe90ecae49b9789517338c5ea193"
+  },
+  "Diana Ross & The Supremes - Stop! In the Name of Love": {
+    "id_spotify": "5BuXQolzYY0QNd2GINjC3M",
+    "ano": 1968,
+    "artista": "Diana Ross & The Supremes, The Temptations",
+    "titulo": "Stop! In The Name Of Love",
+    "preview_url": "https://p.scdn.co/mp3-preview/9d6225db42619caa53bb09519849eddbcc57b8f6"
+  },
+  "The Byrds - Mr. Tambourine Man": {
+    "id_spotify": "2HCaIYjkvWSZzaSKUoOh3d",
+    "ano": 1965,
+    "artista": "The Byrds",
+    "titulo": "Mr. Tambourine Man",
+    "preview_url": "https://p.scdn.co/mp3-preview/889919bd8b2121d9fe4382d8cfda8ddbfc7f6570"
+  },
+  "Sam & Dave - Soul Man": {
+    "id_spotify": "4eGHlplaq1ME8oetnTuFFf",
+    "ano": 1967,
+    "artista": "Sam & Dave",
+    "titulo": "Soul Man",
+    "preview_url": "https://p.scdn.co/mp3-preview/fef830eb36aaca6f22ac750953deca2d21f62408"
+  },
+  "Van Morrison - Brown Eyed Girl": {
+    "id_spotify": "4CNL4GBNTdVIU5Nk6hB4LC",
+    "ano": 1967,
+    "artista": "Van Morrison",
+    "titulo": "Brown Eyed Girl",
+    "preview_url": "https://p.scdn.co/mp3-preview/23db5d37f456f0a07f7d638d88edc8abc21c357d"
+  },
+  "The Zombies - Time of the Season": {
+    "id_spotify": "6lx1n63qJmhzPpirxxksbI",
+    "ano": 1968,
+    "artista": "The Zombies",
+    "titulo": "Time of the Season - Mono Remastered",
+    "preview_url": "https://p.scdn.co/mp3-preview/1f515f9a7a16536a50abd41988351ab9f32eaef7"
+  },
+  "Steppenwolf - Born to Be Wild": {
+    "id_spotify": "3lN8PP6R2IxbLP05QpYXng",
+    "ano": 1968,
+    "artista": "Steppenwolf",
+    "titulo": "Born To Be Wild - Single Version",
+    "preview_url": "https://p.scdn.co/mp3-preview/a90c27b3a834bcf80cc1a9cee79527e0b1056c1f"
+  },
+  "Sly and the Family Stone - Dance to the Music": {
+    "id_spotify": "1MQWtVcs0PKsY4PA6ZvLiy",
+    "ano": 1968,
+    "artista": "Sly & The Family Stone",
+    "titulo": "Dance to the Music",
+    "preview_url": "https://p.scdn.co/mp3-preview/dfe24ea42446836ec2314112e635202af42c150d"
+  },
+  "Queen - Bohemian Rhapsody": {
+    "id_spotify": "1NQyQJba7HI5UrZNeHVKTc",
+    "ano": 2002,
+    "artista": "Galileo, Scaramouche, Killer Queen, Khashoggi, The Cast Of 'We Will Rock You'",
+    "titulo": "Bohemian Rhapsody",
+    "preview_url": "https://p.scdn.co/mp3-preview/69a151548736190823d544da7baa3ee28a9d45b3"
+  },
+  "Led Zeppelin - Stairway to Heaven": {
+    "id_spotify": "5CQ30WqJwcep0pYcV4AMNc",
+    "ano": 1971,
+    "artista": "Led Zeppelin",
+    "titulo": "Stairway to Heaven - Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/337c8d45ac66899bc2db9ef3ed9438fe1d035ab1"
+  },
+  "Eagles - Hotel California": {
+    "id_spotify": "40riOy7x9W7GXjyGp4pjAv",
+    "ano": 1976,
+    "artista": "Eagles",
+    "titulo": "Hotel California - 2013 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/6fedc11d0f55bef176cc1c5725ac1c57f9a2534a"
+  },
+  "Marvin Gaye - What's Going On": {
+    "id_spotify": "3Um9toULmYFGCpvaIPFw7l",
+    "ano": 1971,
+    "artista": "Marvin Gaye",
+    "titulo": "What's Going On",
+    "preview_url": "https://p.scdn.co/mp3-preview/2cfd1682c3ced4c2bfc7ef3ca415f8b63f69b9b5"
+  },
+  "Stevie Wonder - Superstition": {
+    "id_spotify": "4N0TP4Rmj6QQezWV88ARNJ",
+    "ano": 1972,
+    "artista": "Stevie Wonder",
+    "titulo": "Superstition",
+    "preview_url": "https://p.scdn.co/mp3-preview/f17e922990935fce41fdd85c704606650cb8508a"
+  },
+  "Elton John - Rocket Man": {
+    "id_spotify": "3gdewACMIVMEWVbyb8O9sY",
+    "ano": 1972,
+    "artista": "Elton John",
+    "titulo": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+    "preview_url": "https://p.scdn.co/mp3-preview/c7316d016815fab0bb5ecb309da33e57d4da69c5"
+  },
+  "David Bowie - Space Oddity": {
+    "id_spotify": "5Onbl6xDntoo88qMqVx377",
+    "ano": 1969,
+    "artista": "David Bowie",
+    "titulo": "Space Oddity - 2019 Mix",
+    "preview_url": "https://p.scdn.co/mp3-preview/0d750d29728f6f600f69762d8c7b80b695a02048"
+  },
+  "Fleetwood Mac - Dreams": {
+    "id_spotify": "5TDZyWDfbQFQJabbPwImVY",
+    "ano": 1977,
+    "artista": "Fleetwood Mac",
+    "titulo": "Dreams - 2004 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/25d6540a65dcec7df58aba9a093796e5ea798ca4"
+  },
+  "ABBA - Dancing Queen": {
+    "id_spotify": "0GjEhVFGZW8afUYGChu3Rr",
+    "ano": 1976,
+    "artista": "ABBA",
+    "titulo": "Dancing Queen",
+    "preview_url": "https://p.scdn.co/mp3-preview/1116076e3d1538852d6605ada1fd7130c8fc75a5"
+  },
+  "Bee Gees - Stayin' Alive": {
+    "id_spotify": "4UDmDIqJIbrW0hMBQMFOsM",
+    "ano": 1977,
+    "artista": "Bee Gees",
+    "titulo": "Stayin' Alive",
+    "preview_url": "https://p.scdn.co/mp3-preview/cc2aa4f3e5d3c4f363d7934e468097aaa8fc0f98"
+  },
+  "Michael Jackson - Don't Stop 'Til You Get Enough": {
+    "id_spotify": "46eu3SBuFCXWsPT39Yg3tJ",
+    "ano": 1979,
+    "artista": "Michael Jackson",
+    "titulo": "Don't Stop 'Til You Get Enough",
+    "preview_url": "https://p.scdn.co/mp3-preview/4cfc5831a30fb9f86107637914818fcf844ddbf5"
+  },
+  "Donna Summer - I Feel Love": {
+    "id_spotify": "1vCBk33l9HaWp5FOnhSGxk",
+    "ano": 1977,
+    "artista": "Donna Summer",
+    "titulo": "I Feel Love",
+    "preview_url": "https://p.scdn.co/mp3-preview/c51861e40651d6139329e2d9fb92896a9462764e"
+  },
+  "Bruce Springsteen - Born to Run": {
+    "id_spotify": "6hTcuIQa0sxrrByu9wTD7s",
+    "ano": 1975,
+    "artista": "Bruce Springsteen",
+    "titulo": "Born to Run",
+    "preview_url": "https://p.scdn.co/mp3-preview/573e36ff742fa9bbefc3c46eda55af58e4575d21"
+  },
+  "The Rolling Stones - Angie": {
+    "id_spotify": "1GcVa4jFySlun4jLSuMhiq",
+    "ano": 1973,
+    "artista": "The Rolling Stones",
+    "titulo": "Angie - Remastered 2009",
+    "preview_url": "https://p.scdn.co/mp3-preview/35d0dd03e0138e0f53eef8690943594aaa7689a5"
+  },
+  "Pink Floyd - Money": {
+    "id_spotify": "0vFOzaXqZHahrZp6enQwQb",
+    "ano": 1973,
+    "artista": "Pink Floyd",
+    "titulo": "Money",
+    "preview_url": "https://p.scdn.co/mp3-preview/5d64add0d9b394623c45b42e91952893e93eefbe"
+  },
+  "Bob Marley & The Wailers - No Woman No Cry": {
+    "id_spotify": "3PQLYVskjUeRmRIfECsL0X",
+    "ano": 1974,
+    "artista": "Bob Marley & The Wailers",
+    "titulo": "No Woman No Cry",
+    "preview_url": "https://p.scdn.co/mp3-preview/0cb785f6f18060e343c72fa22eddcc9b2bfd38ee"
+  },
+  "Earth, Wind & Fire - September": {
+    "id_spotify": "2grjqo0Frpf2okIBiifQKs",
+    "ano": 1978,
+    "artista": "Earth, Wind & Fire",
+    "titulo": "September",
+    "preview_url": "https://p.scdn.co/mp3-preview/5c241e847beb7556341f97d6bbea4ab9e41a99cc"
+  },
+  "Chic - Le Freak": {
+    "id_spotify": "7Kszjzps0xbQXyo1pO4KfE",
+    "ano": 1978,
+    "artista": "CHIC",
+    "titulo": "Le Freak - 2018 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/866259f80fdc5ad407ea3fb300aa74bde9635e62"
+  },
+  "Sex Pistols - God Save the Queen": {
+    "id_spotify": "2mHchPRtQWet3iIS3jANr1",
+    "ano": 1977,
+    "artista": "Sex Pistols",
+    "titulo": "God Save The Queen",
+    "preview_url": "https://p.scdn.co/mp3-preview/b2ff3a52cdde6920e055d2423776e299ad1d8e3d"
+  },
+  "The Clash - London Calling": {
+    "id_spotify": "0y8zZOu4u6NmoW7u1jEQzo",
+    "ano": 1977,
+    "artista": "The Clash",
+    "titulo": "London's Burning - Remastered",
+    "preview_url": "https://p.scdn.co/mp3-preview/862057e9a3dcf06b5037d69a47fa2064d4232e4a"
+  },
+  "Rod Stewart - Maggie May": {
+    "id_spotify": "6rovOdp3HgK1DeAMYDzoA7",
+    "ano": 1971,
+    "artista": "Rod Stewart",
+    "titulo": "Maggie May",
+    "preview_url": "https://p.scdn.co/mp3-preview/0fc64bacd8ebd5b672274d055b374d6318e93881"
+  },
+  "Carole King - It's Too Late": {
+    "id_spotify": "12q3V8ShACq2PSWINMc2rC",
+    "ano": 1971,
+    "artista": "Carole King",
+    "titulo": "It's Too Late",
+    "preview_url": "https://p.scdn.co/mp3-preview/081c023c0f4369f72b6e21fa17fea0bce1be204b"
+  },
+  "Al Green - Let's Stay Together": {
+    "id_spotify": "63xdwScd1Ai1GigAwQxE8y",
+    "ano": 1972,
+    "artista": "Al Green",
+    "titulo": "Let's Stay Together",
+    "preview_url": "https://p.scdn.co/mp3-preview/027817c11eaff28a45d96046a1c5da43d8a1e155"
+  },
+  "Gloria Gaynor - I Will Survive": {
+    "id_spotify": "7rIovIsXE6kMn629b7kDig",
+    "ano": 1978,
+    "artista": "Gloria Gaynor",
+    "titulo": "I Will Survive",
+    "preview_url": "https://p.scdn.co/mp3-preview/a7e45bda989f63279898973fac464e39b64a1134"
+  },
+  "Village People - Y.M.C.A.": {
+    "id_spotify": "2MtwLMtwLU17payh5C4fYG",
+    "ano": 1983,
+    "artista": "Village People",
+    "titulo": "Y.M.C.A",
+    "preview_url": "https://p.scdn.co/mp3-preview/b2ef8ec0dfa1982cbb56600e7ef7ed02e857be39"
+  },
+  "Michael Jackson - Billie Jean": {
+    "id_spotify": "7J1uxwnxfQLu4APicE5Rnj",
+    "ano": 1982,
+    "artista": "Michael Jackson",
+    "titulo": "Billie Jean",
+    "preview_url": "https://p.scdn.co/mp3-preview/84c7d8302cebe916b8a02392ece9b2c72ce95d34"
+  },
+  "Michael Jackson - Thriller": {
+    "id_spotify": "2LlQb7Uoj1kKyGhlkBf9aC",
+    "ano": 1982,
+    "artista": "Michael Jackson",
+    "titulo": "Thriller",
+    "preview_url": "https://p.scdn.co/mp3-preview/8b324c9265b3d58a815b9e405fd93238a740152d"
+  },
+  "Prince - When Doves Cry": {
+    "id_spotify": "6sby78fghipoXHQLeeZFFH",
+    "ano": 1984,
+    "artista": "Prince",
+    "titulo": "When Doves Cry",
+    "preview_url": "https://p.scdn.co/mp3-preview/f7110b93ffc4b3746092e331c2e7188cfc283800"
+  },
+  "Whitney Houston - I Wanna Dance with Somebody": {
+    "id_spotify": "2tUBqZG2AbRi7Q0BIrVrEj",
+    "ano": 1987,
+    "artista": "Whitney Houston",
+    "titulo": "I Wanna Dance with Somebody (Who Loves Me)",
+    "preview_url": "https://p.scdn.co/mp3-preview/6d13b049b24af1bef77aa4d366c088c316ca1b65"
+  },
+  "Madonna - Like a Virgin": {
+    "id_spotify": "1ZPlNanZsJSPK5h9YZZFbZ",
+    "ano": 1984,
+    "artista": "Madonna",
+    "titulo": "Like a Virgin",
+    "preview_url": "https://p.scdn.co/mp3-preview/432313c4732bd242c04b5eafee08bdc93f616251"
+  },
+  "a-ha - Take On Me": {
+    "id_spotify": "2WfaOiMkCvy7F5fcp2zZ8L",
+    "ano": 1985,
+    "artista": "a-ha",
+    "titulo": "Take on Me",
+    "preview_url": "https://p.scdn.co/mp3-preview/d1427dd0a300eeccfc53b99a2ebf3c664a67414a"
+  },
+  "Guns N' Roses - Sweet Child O' Mine": {
+    "id_spotify": "7snQQk1zcKl8gZ92AnueZW",
+    "ano": 1987,
+    "artista": "Guns N' Roses",
+    "titulo": "Sweet Child O' Mine",
+    "preview_url": "https://p.scdn.co/mp3-preview/a941cdd2c0c74206aaa6d7e459e4fdf1d738deaa"
+  },
+  "Journey - Don't Stop Believin'": {
+    "id_spotify": "5RKQ5NdjSh2QzD4MaunT91",
+    "ano": 1981,
+    "artista": "Journey",
+    "titulo": "Don't Stop Believin' (2022 Remaster)",
+    "preview_url": "https://p.scdn.co/mp3-preview/a67d5e362ce395391e0a9dadb0dd26b2cc56baec"
+  },
+  "Cyndi Lauper - Girls Just Want to Have Fun": {
+    "id_spotify": "4y1LsJpmMti1PfRQV9AWWe",
+    "ano": 1983,
+    "artista": "Cyndi Lauper",
+    "titulo": "Girls Just Want to Have Fun",
+    "preview_url": "https://p.scdn.co/mp3-preview/7f0a39e2981e2dcbf75783cef812e7d84726f650"
+  },
+  "Tears for Fears - Everybody Wants to Rule the World": {
+    "id_spotify": "2YiCMmONQcoMPX2bV1LxE0",
+    "ano": 1985,
+    "artista": "Tears For Fears",
+    "titulo": "Everybody Wants To Rule The World",
+    "preview_url": "https://p.scdn.co/mp3-preview/a382ff8a38e7fb58f0419374b6efa0fc8809fffa"
+  },
+  "U2 - With or Without You": {
+    "id_spotify": "5JGEAz15LkPoOtFHttDtVs",
+    "ano": 1987,
+    "artista": "U2",
+    "titulo": "With Or Without You - Remastered 2007",
+    "preview_url": "https://p.scdn.co/mp3-preview/9985838e7b86eba6cf5ffe3c72b1b4dd3ada5eee"
+  },
+  "Bon Jovi - Livin' on a Prayer": {
+    "id_spotify": "37ZJ0p5Jm13JPevGcx4SkF",
+    "ano": 1986,
+    "artista": "Bon Jovi",
+    "titulo": "Livin' On A Prayer",
+    "preview_url": "https://p.scdn.co/mp3-preview/2a84c209d6bfe17da820bbc28d1e610a5d304a53"
+  },
+  "Eurythmics - Sweet Dreams (Are Made of This)": {
+    "id_spotify": "1TfqLAPs4K3s2rJMoCokcS",
+    "ano": 1983,
+    "artista": "Eurythmics, Annie Lennox, Dave Stewart",
+    "titulo": "Sweet Dreams (Are Made of This) - 2005 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/d69101dbd66295473706112d3edf978b70fc4550"
+  },
+  "The Police - Every Breath You Take": {
+    "id_spotify": "1JSTJqkT5qHq8MDJnJbRE1",
+    "ano": 1983,
+    "artista": "The Police",
+    "titulo": "Every Breath You Take",
+    "preview_url": "https://p.scdn.co/mp3-preview/92d7997134bb18b99eb5fdc65926e4ef613f9781"
+  },
+  "Culture Club - Karma Chameleon": {
+    "id_spotify": "3XDeeP9wBZzGhIPZmLfEEx",
+    "ano": 1983,
+    "artista": "Culture Club",
+    "titulo": "Karma Chameleon",
+    "preview_url": "https://p.scdn.co/mp3-preview/ad9522961ff07b30dd8329745fc3bfda2f28357f"
+  },
+  "Dire Straits - Money for Nothing": {
+    "id_spotify": "4nFNJmjfgBF7jwv2oBC45b",
+    "ano": 1985,
+    "artista": "Dire Straits",
+    "titulo": "Money For Nothing - Remastered 1996",
+    "preview_url": "https://p.scdn.co/mp3-preview/57278216c5db405e471225c1c31335a7cf0ba807"
+  },
+  "INXS - Never Tear Us Apart": {
+    "id_spotify": "0P9M370uqlIjYcEiOGppAV",
+    "ano": 1987,
+    "artista": "INXS",
+    "titulo": "Never Tear Us Apart",
+    "preview_url": "https://p.scdn.co/mp3-preview/28d07299a9e5fa18000cf497265bc87ecec7ecbf"
+  },
+  "Def Leppard - Pour Some Sugar on Me": {
+    "id_spotify": "1aZLIbKEdsyqxyD6iNcrbA",
+    "ano": 1987,
+    "artista": "Def Leppard",
+    "titulo": "Pour Some Sugar On Me",
+    "preview_url": "https://p.scdn.co/mp3-preview/fbfd2a85f3f8ade6af5c7a90ec8d817abd59a399"
+  },
+  "New Order - Blue Monday": {
+    "id_spotify": "0O9OPv8X9O3zXLmckWcUtO",
+    "ano": 1983,
+    "artista": "New Order",
+    "titulo": "Blue Monday - 2020 Digital Master",
+    "preview_url": "https://p.scdn.co/mp3-preview/93aeb675460676f71993e8cdb061bfc32595595f"
+  },
+  "Duran Duran - Hungry Like the Wolf": {
+    "id_spotify": "39lSeqnyjZJejRuaREfyLL",
+    "ano": 1982,
+    "artista": "Duran Duran",
+    "titulo": "Hungry Like the Wolf - 2009 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/2a75c1b7c9d5aa716edc8162b19da4d627e0be43"
+  },
+  "Talking Heads - Once in a Lifetime": {
+    "id_spotify": "1Tr4K5MU5XYE44umXGDndd",
+    "ano": 1980,
+    "artista": "Talking Heads",
+    "titulo": "Once in a Lifetime",
+    "preview_url": "https://p.scdn.co/mp3-preview/abfbaabda7e1d91cacac427ca70b96912f591ce7"
+  },
+  "Prince - Purple Rain": {
+    "id_spotify": "1uvyZBs4IZYRebHIB1747m",
+    "ano": 1984,
+    "artista": "Prince",
+    "titulo": "Purple Rain",
+    "preview_url": "https://p.scdn.co/mp3-preview/81bd92ac70dc7b6dd32aabfb186fe67857147834"
+  },
+  "Phil Collins - In the Air Tonight": {
+    "id_spotify": "18AXbzPzBS8Y3AkgSxzJPb",
+    "ano": 1981,
+    "artista": "Phil Collins",
+    "titulo": "In the Air Tonight - 2015 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/f473d24b69befb3d54b6ea2c313eade337313f4e"
+  },
+  "George Michael - Faith": {
+    "id_spotify": "0HEmnAUT8PHznIAAmVXqFJ",
+    "ano": 1987,
+    "artista": "George Michael",
+    "titulo": "Faith - Remastered",
+    "preview_url": "https://p.scdn.co/mp3-preview/0e9890115e11c6816ad2124d1f9b2384219253cf"
+  },
+  "Toto - Africa": {
+    "id_spotify": "2374M0fQpWi3dLnB54qaLX",
+    "ano": 1982,
+    "artista": "TOTO",
+    "titulo": "Africa",
+    "preview_url": "https://p.scdn.co/mp3-preview/e7321b4ea1af32a9c622bc8ec3adcd0a0bb06b1e"
+  },
+  "Nirvana - Smells Like Teen Spirit": {
+    "id_spotify": "4CeeEOM32jQcH3eN9Q2dGj",
+    "ano": 1991,
+    "artista": "Nirvana",
+    "titulo": "Smells Like Teen Spirit",
+    "preview_url": "https://p.scdn.co/mp3-preview/91219ebc0d0505a1001c4b854f8b2451fcec95b8"
+  },
+  "Whitney Houston - I Will Always Love You": {
+    "id_spotify": "4eHbdreAnSOrDDsFfc4Fpm",
+    "ano": 1992,
+    "artista": "Whitney Houston",
+    "titulo": "I Will Always Love You",
+    "preview_url": "https://p.scdn.co/mp3-preview/5896e539e24ae2394d2bec6ea2cf42e4608b68f5"
+  },
+  "Mariah Carey - Vision of Love": {
+    "id_spotify": "0gLQ6jhJsyYfl7PrD1RZ7X",
+    "ano": 1990,
+    "artista": "Mariah Carey",
+    "titulo": "Vision of Love",
+    "preview_url": "https://p.scdn.co/mp3-preview/58a7cace0332b1bf1a82cd2847ea47e7aae6e083"
+  },
+  "R.E.M. - Losing My Religion": {
+    "id_spotify": "6bCPryuQjsts5cEybA3Nb5",
+    "ano": 1991,
+    "artista": "R.E.M.",
+    "titulo": "Losing My Religion",
+    "preview_url": "https://p.scdn.co/mp3-preview/184d86f6c2b531830190011f00c5780fa7a2e1f2"
+  },
+  "U2 - One": {
+    "id_spotify": "3G69vJMWsX6ZohTykad2AU",
+    "ano": 1991,
+    "artista": "U2",
+    "titulo": "One",
+    "preview_url": "https://p.scdn.co/mp3-preview/e53bba655120cb3e8bc77f2afa387b595ef38a59"
+  },
+  "Oasis - Wonderwall": {
+    "id_spotify": "35EfXlRKogBr1RvrkFBMHr",
+    "ano": 1995,
+    "artista": "Oasis",
+    "titulo": "Wonderwall",
+    "preview_url": "https://p.scdn.co/mp3-preview/ec4c28df6e897eb916f5805575e123bd829e9915"
+  },
+  "Radiohead - Creep": {
+    "id_spotify": "58W2Mc7w77OwEYow1CGca8",
+    "ano": 1992,
+    "artista": "Radiohead",
+    "titulo": "Creep",
+    "preview_url": "https://p.scdn.co/mp3-preview/713b601d02641a850f2a3e6097aacaff52328d57"
+  },
+  "Alanis Morissette - You Oughta Know": {
+    "id_spotify": "3jS7bB0oXVOwGFZn3aE5NV",
+    "ano": 1995,
+    "artista": "Alanis Morissette",
+    "titulo": "You Oughta Know - 2015 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/4a21163f1a57a63106d1cfaa3802cfeda8c85cc4"
+  },
+  "TLC - No Scrubs": {
+    "id_spotify": "1KGi9sZVMeszgZOWivFpxs",
+    "ano": 1999,
+    "artista": "TLC",
+    "titulo": "No Scrubs",
+    "preview_url": "https://p.scdn.co/mp3-preview/87c4c3435b531616e2d642009a18eb711f87be4e"
+  },
+  "Britney Spears - ...Baby One More Time": {
+    "id_spotify": "3MjUtNVVq3C8Fn0MP3zhXa",
+    "ano": 1999,
+    "artista": "Britney Spears",
+    "titulo": "...Baby One More Time",
+    "preview_url": "https://p.scdn.co/mp3-preview/c0aae2bf0864654b82c019dec09aa2622ebdb618"
+  },
+  "Backstreet Boys - I Want It That Way": {
+    "id_spotify": "47BBI51FKFwOMlIiX6m8ya",
+    "ano": 1999,
+    "artista": "Backstreet Boys",
+    "titulo": "I Want It That Way",
+    "preview_url": "https://p.scdn.co/mp3-preview/4eec31d974fd622ac7858affd9759f2017dd87e4"
+  },
+  "Spice Girls - Wannabe": {
+    "id_spotify": "1Je1IMUlBXcx1Fz0WE7oPT",
+    "ano": 1996,
+    "artista": "Spice Girls",
+    "titulo": "Wannabe",
+    "preview_url": "https://p.scdn.co/mp3-preview/4f557870cbdb569a7c99a62df97f71358d3b8da3"
+  },
+  "Celine Dion - My Heart Will Go On": {
+    "id_spotify": "33LC84JgLvK2KuW43MfaNq",
+    "ano": 1997,
+    "artista": "Céline Dion",
+    "titulo": "My Heart Will Go On - Love Theme from \"Titanic\"",
+    "preview_url": "https://p.scdn.co/mp3-preview/68c13229ec9b1b4a5ea580e801061fd7791857c4"
+  },
+  "The Notorious B.I.G. - Juicy": {
+    "id_spotify": "14zpTN39s1y9Mb0RrXiSFC",
+    "ano": 1994,
+    "artista": "The Notorious B.I.G.",
+    "titulo": "Juicy - Radio Edit; 2014 Remaster",
+    "preview_url": "https://p.scdn.co/mp3-preview/3c58b6d5e3a35b70b7382af5ea825a385f7eb38d"
+  },
+  "2Pac - California Love": {
+    "id_spotify": "4DLVB91nzswc4wD7EchmXs",
+    "ano": 1996,
+    "artista": "2Pac, Dr. Dre, Roger",
+    "titulo": "California Love (remix) (ft. Dr. Dre, Roger Troutman) - Remix",
+    "preview_url": "https://p.scdn.co/mp3-preview/786539f12509296ff64bd049aa531f1d4f328f60"
+  },
+  "Dr. Dre - Nuthin' but a G Thang": {
+    "id_spotify": "5Tbpp3OLLClPJF8t1DmrFD",
+    "ano": 1992,
+    "artista": "Dr. Dre, Snoop Dogg",
+    "titulo": "Nuthin' But A \"G\" Thang",
+    "preview_url": "https://p.scdn.co/mp3-preview/4ded62147af100f965125a6abdc8a2541f5e1bde"
+  },
+  "Ace of Base - The Sign": {
+    "id_spotify": "0hrBpAOgrt8RXigk83LLNE",
+    "ano": 1993,
+    "artista": "Ace of Base",
+    "titulo": "The Sign",
+    "preview_url": "https://p.scdn.co/mp3-preview/80fb2519938df63631258cfb4908e6a906c15e32"
+  },
+  "Green Day - Basket Case": {
+    "id_spotify": "6L89mwZXSOwYl76YXfX13s",
+    "ano": 1994,
+    "artista": "Green Day",
+    "titulo": "Basket Case",
+    "preview_url": "https://p.scdn.co/mp3-preview/f055a866d726bac8593f15953d772c631505df7e"
+  },
+  "Pearl Jam - Alive": {
+    "id_spotify": "1L94M3KIu7QluZe63g64rv",
+    "ano": 1991,
+    "artista": "Pearl Jam",
+    "titulo": "Alive",
+    "preview_url": "https://p.scdn.co/mp3-preview/0eb273fcbf4b6e5c66b88aadd050deb8336a0bff"
+  },
+  "Robyn - Show Me Love": {
+    "id_spotify": "4t0UsYzmmmZRMTWn77jiGF",
+    "ano": 1993,
+    "artista": "Robin S",
+    "titulo": "Show Me Love",
+    "preview_url": "https://p.scdn.co/mp3-preview/cd193fd380af0cc58cfba77c25ff533ac1d6c6b4"
+  },
+  "Shania Twain - Man! I Feel Like a Woman": {
+    "id_spotify": "6sxptembJVty4sNtcPMAVz",
+    "ano": 1997,
+    "artista": "Shania Twain",
+    "titulo": "Man! I Feel Like A Woman!",
+    "preview_url": "https://p.scdn.co/mp3-preview/7741ab88338abbf62b0ab19f58230044fd52cda5"
+  },
+  "Savage Garden - Truly Madly Deeply": {
+    "id_spotify": "013AWvizllIUEC2FOBzOnh",
+    "ano": 1997,
+    "artista": "Savage Garden",
+    "titulo": "Truly Madly Deeply",
+    "preview_url": "https://p.scdn.co/mp3-preview/304927122d9ce05a4ac0e2399ba4109a77f605fb"
+  },
+  "Boyz II Men - End of the Road": {
+    "id_spotify": "3l3xTXsUXeWlkPqzMs7mPD",
+    "ano": 1991,
+    "artista": "Boyz II Men",
+    "titulo": "End Of The Road",
+    "preview_url": "https://p.scdn.co/mp3-preview/1a5089879c5a24a8c53d85e61d058c4f97a73b43"
+  },
+  "Sinead O'Connor - Nothing Compares 2 U": {
+    "id_spotify": "5GHY1DFWKz3Prg2V0Iodqo",
+    "ano": 1990,
+    "artista": "Sinéad O'Connor",
+    "titulo": "Nothing Compares 2 U",
+    "preview_url": "https://p.scdn.co/mp3-preview/fa35b1b15254a5fc47426e720d7a1b9e8c0bf6d7"
+  },
+  "Eminem - My Name Is": {
+    "id_spotify": "75IN3CtuZwTHTnZvYM4qnJ",
+    "ano": 1999,
+    "artista": "Eminem",
+    "titulo": "My Name Is",
+    "preview_url": "https://p.scdn.co/mp3-preview/f0c37f64c44c619f3c9325a20defb30eb89009ae"
+  },
+  "Outkast - Hey Ya!": {
+    "id_spotify": "2PpruBYCo4H7WOBJ7Q2EwM",
+    "ano": 2003,
+    "artista": "Outkast",
+    "titulo": "Hey Ya!",
+    "preview_url": "https://p.scdn.co/mp3-preview/d24b3c4135ced9157b0ea3015a6bcc048e0c2e3a"
+  },
+  "Eminem - Lose Yourself": {
+    "id_spotify": "6GkTKjv1XbFVdI2D8vvDPu",
+    "ano": 2002,
+    "artista": "Eminem",
+    "titulo": "Lose Yourself",
+    "preview_url": "https://p.scdn.co/mp3-preview/92c784a01570c2ed1304d91fba02a0f98e8ed03c"
+  },
+  "Beyoncé - Crazy in Love": {
+    "id_spotify": "5IVuqXILoxVWvWEPm82Jxr",
+    "ano": 2003,
+    "artista": "Beyoncé, JAŸ-Z",
+    "titulo": "Crazy In Love (feat. JAY-Z)",
+    "preview_url": "https://p.scdn.co/mp3-preview/023ccc9c406cafc5a3e3b4dd524b9092b45dacbf"
+  },
+  "Rihanna - Umbrella": {
+    "id_spotify": "113v1MA9MTShy98uCz37nO",
+    "ano": 2007,
+    "artista": "Rihanna, JAŸ-Z",
+    "titulo": "Umbrella - Radio Edit",
+    "preview_url": "https://p.scdn.co/mp3-preview/83a5aa6c8e8954d378ccb2a635acb55e35674c5f"
+  },
+  "Daft Punk - Harder Better Faster Stronger": {
+    "id_spotify": "5W3cjX2J3tjhG8zb6u0qHn",
+    "ano": 2001,
+    "artista": "Daft Punk",
+    "titulo": "Harder, Better, Faster, Stronger",
+    "preview_url": "https://p.scdn.co/mp3-preview/72297a3ed4ffd5cda242124480db258877f2abb6"
+  },
+  "The White Stripes - Seven Nation Army": {
+    "id_spotify": "3dPQuX8Gs42Y7b454ybpMR",
+    "ano": 2003,
+    "artista": "The White Stripes",
+    "titulo": "Seven Nation Army",
+    "preview_url": "https://p.scdn.co/mp3-preview/0f93c89eb8e96e2aacccee68dd7c966cd3b4b6d6"
+  },
+  "Coldplay - Clocks": {
+    "id_spotify": "0BCPKOYdS2jbQ8iyB56Zns",
+    "ano": 2002,
+    "artista": "Coldplay",
+    "titulo": "Clocks",
+    "preview_url": "https://p.scdn.co/mp3-preview/f7af250125a083c8212e4b7dd508a12c12aeac37"
+  },
+  "Britney Spears - Toxic": {
+    "id_spotify": "6I9VzXrHxO9rA9A5euc8Ak",
+    "ano": 2003,
+    "artista": "Britney Spears",
+    "titulo": "Toxic",
+    "preview_url": "https://p.scdn.co/mp3-preview/6de2791f84c1d637a0e24734b6df3997cc742da4"
+  },
+  "Gnarls Barkley - Crazy": {
+    "id_spotify": "6FlAGda9qkDhTU7ctFM4uG",
+    "ano": 2006,
+    "artista": "Gnarls Barkley, CeeLo Green, Danger Mouse",
+    "titulo": "Crazy - Single Version",
+    "preview_url": "https://p.scdn.co/mp3-preview/e9e7ce15dee4cce9e899cd691cdfbdaa5cd3c734"
+  },
+  "Amy Winehouse - Rehab": {
+    "id_spotify": "1L5tZi0izXsi5Kk5OJf4W0",
+    "ano": 2006,
+    "artista": "Amy Winehouse",
+    "titulo": "Rehab",
+    "preview_url": "https://p.scdn.co/mp3-preview/a63833f43e8ed838a7c8af126c230d428d5868bb"
+  },
+  "Kanye West - Stronger": {
+    "id_spotify": "0j2T0R9dR9qdJYsB7ciXhf",
+    "ano": 2007,
+    "artista": "Kanye West",
+    "titulo": "Stronger",
+    "preview_url": "https://p.scdn.co/mp3-preview/998124b19664ac7c039651111eda40e8ed4d4292"
+  },
+  "Kelly Clarkson - Since U Been Gone": {
+    "id_spotify": "6JY1IdkZGeIcPegKxjSKeb",
+    "ano": 2004,
+    "artista": "Kelly Clarkson",
+    "titulo": "Since U Been Gone",
+    "preview_url": "https://p.scdn.co/mp3-preview/3010d17f854dad67cb0133a5687d871366d67882"
+  },
+  "Usher - Yeah!": {
+    "id_spotify": "5rb9QrpfcKFHM1EUbSIurX",
+    "ano": 2004,
+    "artista": "USHER, Lil Jon, Ludacris",
+    "titulo": "Yeah! (feat. Lil Jon & Ludacris)",
+    "preview_url": "https://p.scdn.co/mp3-preview/1eca1cb525c2b0df2ecba52f1105f139323e09a2"
+  },
+  "Black Eyed Peas - Where Is the Love?": {
+    "id_spotify": "0xmjwnQ3FNE6HuWCt2nHdZ",
+    "ano": 2003,
+    "artista": "Black Eyed Peas",
+    "titulo": "Where Is The Love?",
+    "preview_url": "https://p.scdn.co/mp3-preview/a8e15b9256e129c55789674b78041ede8bf91531"
+  },
+  "Alicia Keys - Fallin'": {
+    "id_spotify": "0KQx6HOpJueiSkztcS0r7D",
+    "ano": 2001,
+    "artista": "Alicia Keys",
+    "titulo": "Fallin'",
+    "preview_url": "https://p.scdn.co/mp3-preview/79526addc56f4ca7b29c73df65d063b7a026a46b"
+  },
+  "Linkin Park - In the End": {
+    "id_spotify": "7q115ia4fQn9zonjpexWsY",
+    "ano": 2000,
+    "artista": "Linkin Park",
+    "titulo": "In the End",
+    "preview_url": "https://p.scdn.co/mp3-preview/b5ee275ca337899f762b1c1883c11e24a04075b0"
+  },
+  "Katy Perry - I Kissed a Girl": {
+    "id_spotify": "1pXrR5Y9OgcIV2JEAl2lCB",
+    "ano": 2008,
+    "artista": "Katy Perry",
+    "titulo": "I Kissed A Girl",
+    "preview_url": "https://p.scdn.co/mp3-preview/56bdae448715b177ad46f9ac3e1e74627f359c83"
+  },
+  "Lady Gaga - Just Dance": {
+    "id_spotify": "1dzQoRqT5ucxXVaAhTcT0J",
+    "ano": 2008,
+    "artista": "Lady Gaga, Colby O'Donis",
+    "titulo": "Just Dance",
+    "preview_url": "https://p.scdn.co/mp3-preview/95cc6f61db841d49e062c94e68a62a89da0c46c4"
+  },
+  "Adele - Chasing Pavements": {
+    "id_spotify": "56pHllZT7QOacB0bP56ofx",
+    "ano": 2008,
+    "artista": "Adele",
+    "titulo": "Chasing Pavements",
+    "preview_url": "https://p.scdn.co/mp3-preview/765b00eaf83d8445b46bb6d2af7e1eb8b5faa932"
+  },
+  "Fergie - Big Girls Don't Cry": {
+    "id_spotify": "6dgWWAs5yhWPOtvE1zuoQ1",
+    "ano": 2006,
+    "artista": "Fergie",
+    "titulo": "Big Girls Don't Cry (Personal)",
+    "preview_url": "https://p.scdn.co/mp3-preview/4bd9956e609b48b23ce45985318171d0d4ddef57"
+  },
+  "Panic! at the Disco - I Write Sins Not Tragedies": {
+    "id_spotify": "5cY8y2XgOfkAh4kSWLFKkz",
+    "ano": 2005,
+    "artista": "Panic! At The Disco",
+    "titulo": "I Write Sins Not Tragedies",
+    "preview_url": "https://p.scdn.co/mp3-preview/6c56a9bd72eeab840a88d78edc78a56de6320fe8"
+  },
+  "My Chemical Romance - Welcome to the Black Parade": {
+    "id_spotify": "5wQnmLuC1W7ATsArWACrgW",
+    "ano": 2006,
+    "artista": "My Chemical Romance",
+    "titulo": "Welcome to the Black Parade",
+    "preview_url": "https://p.scdn.co/mp3-preview/6bc020ddaa9c15fbad2f1b1285ee441eae503cee"
+  },
+  "Justin Timberlake - Cry Me a River": {
+    "id_spotify": "7Lf7oSEVdzZqTA0kEDSlS5",
+    "ano": 2002,
+    "artista": "Justin Timberlake",
+    "titulo": "Cry Me a River",
+    "preview_url": "https://p.scdn.co/mp3-preview/143896ba6eee1270f4116cec384bb3bcce09d6eb"
+  },
+  "50 Cent - In da Club": {
+    "id_spotify": "7iL6o9tox1zgHpKUfh9vuC",
+    "ano": 2003,
+    "artista": "50 Cent",
+    "titulo": "In Da Club",
+    "preview_url": "https://p.scdn.co/mp3-preview/c0199e9be373d6a82ae89071ae34dd38ec72b99c"
+  },
+  "Missy Elliott - Get Ur Freak On": {
+    "id_spotify": "6zsk6uF3MxfIeHPlubKBvR",
+    "ano": 2001,
+    "artista": "Missy Elliott",
+    "titulo": "Get Ur Freak On",
+    "preview_url": "https://p.scdn.co/mp3-preview/f19dd549102d98201b80c44fac4c185f9327fbdc"
+  },
+  "Adele - Rolling in the Deep": {
+    "id_spotify": "1c8gk2PeTE04A1pIDH9YMk",
+    "ano": 2011,
+    "artista": "Adele",
+    "titulo": "Rolling in the Deep",
+    "preview_url": "https://p.scdn.co/mp3-preview/d3964ab8ba7782f5b910ba82c7a6f1ac27464664"
+  },
+  "Gotye - Somebody That I Used to Know": {
+    "id_spotify": "1qDrWA6lyx8cLECdZE7TV7",
+    "ano": 2011,
+    "artista": "Gotye, Kimbra",
+    "titulo": "Somebody That I Used To Know",
+    "preview_url": "https://p.scdn.co/mp3-preview/36e1e9984c1a58cb9699d80ad72dea8d3b824f95"
+  },
+  "Daft Punk - Get Lucky": {
+    "id_spotify": "69kOkLUCkxIZYexIgSG8rq",
+    "ano": 2013,
+    "artista": "Daft Punk, Pharrell Williams, Nile Rodgers",
+    "titulo": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+    "preview_url": "https://p.scdn.co/mp3-preview/6de52dda0d37a0646987856c3b9f7da075d965b4"
+  },
+  "Mark Ronson - Uptown Funk": {
+    "id_spotify": "32OlwWuMpZ6b0aN2RZOeMS",
+    "ano": 2015,
+    "artista": "Mark Ronson, Bruno Mars",
+    "titulo": "Uptown Funk (feat. Bruno Mars)",
+    "preview_url": "https://p.scdn.co/mp3-preview/67ea20051d23a47d74becbe982285c5320dbe577"
+  },
+  "Ed Sheeran - Shape of You": {
+    "id_spotify": "5ULRlgiSPSKTaJN1vU9yso",
+    "ano": 2017,
+    "artista": "Ed Sheeran",
+    "titulo": "Shape of You - Acoustic",
+    "preview_url": "https://p.scdn.co/mp3-preview/0aaecf95b326e49ad0bd4ac626b016ff81f0d10a"
+  },
+  "Lady Gaga - Bad Romance": {
+    "id_spotify": "0kv8hQMkkfBlJxHTBIUvhP",
+    "ano": 2009,
+    "artista": "Lady Gaga",
+    "titulo": "Bad Romance",
+    "preview_url": "https://p.scdn.co/mp3-preview/dc1cd9b99ad457c341cd851161246af0c954bb17"
+  },
+  "Robyn - Dancing On My Own": {
+    "id_spotify": "6aqNCrRA7vs7v6QvRpI50t",
+    "ano": 2010,
+    "artista": "Robyn",
+    "titulo": "Dancing On My Own",
+    "preview_url": "https://p.scdn.co/mp3-preview/294e615b0dcfd6b0cbc9a727e405a997aaac0701"
+  },
+  "Lorde - Royals": {
+    "id_spotify": "4SDWMFvYJKtK1QPhIOeZhd",
+    "ano": 2013,
+    "artista": "Lorde",
+    "titulo": "Royals",
+    "preview_url": "https://p.scdn.co/mp3-preview/a55bfd8c565813d4ca388bac8c9fcf7779e49f6a"
+  },
+  "Pharrell Williams - Happy": {
+    "id_spotify": "60nZcImufyMA1MKQY3dcCH",
+    "ano": 2014,
+    "artista": "Pharrell Williams",
+    "titulo": "Happy - From \"Despicable Me 2\"",
+    "preview_url": "https://p.scdn.co/mp3-preview/5faf8a082e1cb3f18c10cc6aa85eeca1c7014263"
+  },
+  "Taylor Swift - Shake It Off": {
+    "id_spotify": "1kKlhuQE0HXp1IwBRpaH2P",
+    "ano": 2014,
+    "artista": "Taylor Swift",
+    "titulo": "Shake It Off",
+    "preview_url": "https://p.scdn.co/mp3-preview/f2ccde071f625baad64a0eba0cefff1888da9666"
+  },
+  "The Weeknd - Blinding Lights": {
+    "id_spotify": "0VjIjW4GlUZAMYd2vXMi3b",
+    "ano": 2020,
+    "artista": "The Weeknd",
+    "titulo": "Blinding Lights",
+    "preview_url": "https://p.scdn.co/mp3-preview/51c08d92815cce4ac2de94a7335a430b81234624"
+  },
+  "Billie Eilish - Bad Guy": {
+    "id_spotify": "2Fxmhks0bxGSBdJ92vM42m",
+    "ano": 2019,
+    "artista": "Billie Eilish",
+    "titulo": "bad guy",
+    "preview_url": "https://p.scdn.co/mp3-preview/3d1ec5e181c3427ead96e3be34d606e3fc522a71"
+  },
+  "Drake - Hotline Bling": {
+    "id_spotify": "0wwPcA6wtMf6HUMpIRdeP7",
+    "ano": 2016,
+    "artista": "Drake",
+    "titulo": "Hotline Bling",
+    "preview_url": "https://p.scdn.co/mp3-preview/2541ea8f31c87a3bda268b2b7a25bde73530e07d"
+  },
+  "Kendrick Lamar - Alright": {
+    "id_spotify": "3iVcZ5G6tvkXZkZKlMpIUs",
+    "ano": 2015,
+    "artista": "Kendrick Lamar",
+    "titulo": "Alright",
+    "preview_url": "https://p.scdn.co/mp3-preview/4b5c9d0de5c6c7643ca1d7a488e8b1d8afec1b4e"
+  },
+  "Sia - Chandelier": {
+    "id_spotify": "4VrWlk8IQxevMvERoX08iC",
+    "ano": 2014,
+    "artista": "Sia",
+    "titulo": "Chandelier",
+    "preview_url": null
+  },
+  "Sam Smith - Stay With Me": {
+    "id_spotify": "5Nm9ERjJZ5oyfXZTECKmRt",
+    "ano": 2014,
+    "artista": "Sam Smith",
+    "titulo": "Stay With Me",
+    "preview_url": "https://p.scdn.co/mp3-preview/a6673e86dccaf0232ab041314ec716e03e2f34fc"
+  },
+  "Bruno Mars - 24K Magic": {
+    "id_spotify": "6b8Be6ljOzmkOmFslEb23P",
+    "ano": 2016,
+    "artista": "Bruno Mars",
+    "titulo": "24K Magic",
+    "preview_url": "https://p.scdn.co/mp3-preview/3a76820d510fa5f84abb413e9d13815bcc86da0f"
+  },
+  "Rihanna - We Found Love": {
+    "id_spotify": "6qn9YLKt13AGvpq9jfO8py",
+    "ano": 2011,
+    "artista": "Rihanna, Calvin Harris",
+    "titulo": "We Found Love",
+    "preview_url": "https://p.scdn.co/mp3-preview/3067667dfd88c43dbe49d977a03d7158cd02a06b"
+  },
+  "Imagine Dragons - Radioactive": {
+    "id_spotify": "62yJjFtgkhUrXktIoSjgP2",
+    "ano": 2012,
+    "artista": "Imagine Dragons",
+    "titulo": "Radioactive",
+    "preview_url": "https://p.scdn.co/mp3-preview/10a6946f6466990d6ffee5821d745999c1492932"
+  },
+  "Avicii - Wake Me Up": {
+    "id_spotify": "0nrRP2bk19rLc0orkWPQk2",
+    "ano": 2013,
+    "artista": "Avicii",
+    "titulo": "Wake Me Up",
+    "preview_url": "https://p.scdn.co/mp3-preview/231af03bbd2ec7f655575800e54a00633d7d9eac"
+  },
+  "Luis Fonsi - Despacito": {
+    "id_spotify": "36NOKjPLZVSqVJSC7iOHIm",
+    "ano": 2017,
+    "artista": "Luis Fonsi, Andrés Torres, Mauricio Rengifo",
+    "titulo": "Despacito",
+    "preview_url": "https://p.scdn.co/mp3-preview/f7fb9a856e9f88deddd180df19ce6cc78f104902"
+  },
+  "Dua Lipa - New Rules": {
+    "id_spotify": "5fVcK4ibJpRsjvG5aIYTb7",
+    "ano": 2015,
+    "artista": "Dua Lipa",
+    "titulo": "New Rules",
+    "preview_url": "https://p.scdn.co/mp3-preview/d612db4620fc05498ff3d49098a494a153c6d4bf"
+  },
+  "Camila Cabello - Havana": {
+    "id_spotify": "3whrwq4DtvucphBPUogRuJ",
+    "ano": 2017,
+    "artista": "Camila Cabello, Daddy Yankee",
+    "titulo": "Havana - Remix",
+    "preview_url": "https://p.scdn.co/mp3-preview/0c0396cb4f3ff8045de4d54cb619d886b4ab271f"
+  },
+  "Post Malone - Circles": {
+    "id_spotify": "21jGcNKet2qwijlDFuPiPb",
+    "ano": 2019,
+    "artista": "Post Malone",
+    "titulo": "Circles",
+    "preview_url": "https://p.scdn.co/mp3-preview/193a0924b0f73d211131bf2fb0bddb7202176202"
+  },
+  "Lil Nas X - Old Town Road": {
+    "id_spotify": "2YpeDb67231RjR0MgVLzsG",
+    "ano": 2019,
+    "artista": "Lil Nas X, Billy Ray Cyrus",
+    "titulo": "Old Town Road (feat. Billy Ray Cyrus) - Remix",
+    "preview_url": "https://p.scdn.co/mp3-preview/6d51966d496e703bd512b63793235fafcaf7173b"
+  },
+  "Harry Styles - As It Was": {
+    "id_spotify": "4Dvkj6JhhA12EX05fT7y2e",
+    "ano": 2022,
+    "artista": "Harry Styles",
+    "titulo": "As It Was",
+    "preview_url": "https://p.scdn.co/mp3-preview/42727cab3cfa9342609304336cd9655d0a730bad"
+  },
+  "Olivia Rodrigo - Drivers License": {
+    "id_spotify": "5wANPM4fQCJwkGd4rN57mH",
+    "ano": 2021,
+    "artista": "Olivia Rodrigo",
+    "titulo": "drivers license",
+    "preview_url": "https://p.scdn.co/mp3-preview/8265999e85ac5e27aad154a8fdbdd502059e1d00"
+  },
+  "Dua Lipa - Levitating": {
+    "id_spotify": "39LLxExYz6ewLAcYrzQQyP",
+    "ano": 2020,
+    "artista": "Dua Lipa",
+    "titulo": "Levitating",
+    "preview_url": "https://p.scdn.co/mp3-preview/a0e86dd9b06f44569f6dc159a889579dc5b279ba"
+  },
+  "The Weeknd - Save Your Tears": {
+    "id_spotify": "5QO79kh1waicV47BqGRL3g",
+    "ano": 2020,
+    "artista": "The Weeknd",
+    "titulo": "Save Your Tears",
+    "preview_url": "https://p.scdn.co/mp3-preview/4bb5ee4441a2342502372f80f78a92cf3fe22549"
+  },
+  "Billie Eilish - Happier Than Ever": {
+    "id_spotify": "4RVwu0g32PAqgUiJoXsdF8",
+    "ano": 2021,
+    "artista": "Billie Eilish",
+    "titulo": "Happier Than Ever",
+    "preview_url": "https://p.scdn.co/mp3-preview/667e62a782667b01e98006cd3ba42c9852b62bea"
+  },
+  "Doja Cat - Say So": {
+    "id_spotify": "3Dv1eDb0MEgF93GpLXlucZ",
+    "ano": 2019,
+    "artista": "Doja Cat",
+    "titulo": "Say So",
+    "preview_url": "https://p.scdn.co/mp3-preview/c7de2142828f5e613c33a9c40a514d4d5ccd1256"
+  },
+  "Bad Bunny - Tití Me Preguntó": {
+    "id_spotify": "1IHWl5LamUGEuP4ozKQSXZ",
+    "ano": 2022,
+    "artista": "Bad Bunny",
+    "titulo": "Tití Me Preguntó",
+    "preview_url": "https://p.scdn.co/mp3-preview/53a6217761f8fdfcff92189cafbbd1cc21fdb813"
+  },
+  "Taylor Swift - Anti-Hero": {
+    "id_spotify": "0V3wPSX9ygBnCm8psDIegu",
+    "ano": 2022,
+    "artista": "Taylor Swift",
+    "titulo": "Anti-Hero",
+    "preview_url": "https://p.scdn.co/mp3-preview/8587a38f3496e9b17e33d89c322c4b69ba899d69"
+  },
+  "SZA - Kill Bill": {
+    "id_spotify": "3OHfY25tqY28d16oZczHc8",
+    "ano": 2022,
+    "artista": "SZA",
+    "titulo": "Kill Bill",
+    "preview_url": "https://p.scdn.co/mp3-preview/9a6461e572b562f5c36a7cb188cfde85f9c03999"
+  },
+  "Miley Cyrus - Flowers": {
+    "id_spotify": "4L0rxWhjyX0VhNbK4U9oK6",
+    "ano": 2017,
+    "artista": "Miley Cyrus",
+    "titulo": "Wildflowers - Recorded at Spotify Studios NYC",
+    "preview_url": "https://p.scdn.co/mp3-preview/18d9fc4c50ce31327150f2361e909eee11c85283"
+  },
+  "Sam Smith - Unholy": {
+    "id_spotify": "3nqQXoyQOWXiESFLlDF1hG",
+    "ano": 2022,
+    "artista": "Sam Smith, Kim Petras",
+    "titulo": "Unholy (feat. Kim Petras)",
+    "preview_url": "https://p.scdn.co/mp3-preview/19eee1dea8b5b4bdecb56a3b27306c72b889f3c7"
+  },
+  "Beyoncé - Break My Soul": {
+    "id_spotify": "5pyoxDZ1PX0KxBxiRVxA4U",
+    "ano": 2022,
+    "artista": "Beyoncé",
+    "titulo": "BREAK MY SOUL",
+    "preview_url": "https://p.scdn.co/mp3-preview/3fed5523f15ab1700340d3d454b4b26508404ffc"
+  },
+  "Rema - Calm Down": {
+    "id_spotify": "2IwCg4vsBwWgbtSKnq38no",
+    "ano": 2021,
+    "artista": "Rema",
+    "titulo": "Calm Down",
+    "preview_url": "https://p.scdn.co/mp3-preview/e16a426684e48df07c9389cca975d4af5c55ce70"
+  },
+  "Ariana Grande - Positions": {
+    "id_spotify": "35mvY5S1H3J2QZyna3TFe0",
+    "ano": 2020,
+    "artista": "Ariana Grande",
+    "titulo": "positions",
+    "preview_url": "https://p.scdn.co/mp3-preview/1bb88e5873fb6d94cfecbd561074f2eaa84c490e"
+  },
+  "Glass Animals - Heat Waves": {
+    "id_spotify": "3USxtqRwSYz57Ewm6wWRMp",
+    "ano": 2020,
+    "artista": "Glass Animals",
+    "titulo": "Heat Waves",
+    "preview_url": "https://p.scdn.co/mp3-preview/3ad42c65bc41d0845369a662a21d0c1e25df67fa"
+  },
+  "Kendrick Lamar - Not Like Us": {
+    "id_spotify": "6AI3ezQ4o3HUoP6Dhudph3",
+    "ano": 2024,
+    "artista": "Kendrick Lamar",
+    "titulo": "Not Like Us",
+    "preview_url": "https://p.scdn.co/mp3-preview/821def30e24f965adb480145744e4ed2a0f37903"
+  },
+  "Chappell Roan - Good Luck, Babe!": {
+    "id_spotify": "0WbMK4wrZ1wFSty9F7FCgu",
+    "ano": 2024,
+    "artista": "Chappell Roan",
+    "titulo": "Good Luck, Babe!",
+    "preview_url": "https://p.scdn.co/mp3-preview/c32614ea42a2331dda84e439bd438be7f15b8c70"
+  },
+  "Sabrina Carpenter - Espresso": {
+    "id_spotify": "2qSkIjg1o9h3YT9RAgYN75",
+    "ano": 2024,
+    "artista": "Sabrina Carpenter",
+    "titulo": "Espresso",
+    "preview_url": "https://p.scdn.co/mp3-preview/c4f4406777deb17f09c0237b22044a8b18d986a4"
+  },
+  "Billie Eilish - Birds of a Feather": {
+    "id_spotify": "6dOtVTDdiauQNBQEDOtlAB",
+    "ano": 2024,
+    "artista": "Billie Eilish",
+    "titulo": "BIRDS OF A FEATHER",
+    "preview_url": "https://p.scdn.co/mp3-preview/2899f0275fc029d456d924a60ae6f747bda1ed80"
+  },
+  "Benson Boone - Beautiful Things": {
+    "id_spotify": "6tNQ70jh4OwmPGpYy6R2o9",
+    "ano": 2024,
+    "artista": "Benson Boone",
+    "titulo": "Beautiful Things",
+    "preview_url": "https://p.scdn.co/mp3-preview/898a63bfeb76cb043a69bfdac1cf24b753ef780d"
+  },
+  "João Gilberto - Chega de Saudade": {
+    "id_spotify": "0LOwMiPGdYKoelRlL8hVS5",
+    "ano": 1994,
+    "artista": "João Gilberto",
+    "titulo": "Chega De Saudade - Live Version",
+    "preview_url": "https://p.scdn.co/mp3-preview/9c2d381c656eb99aca64ea173eba8e460be4d0d9"
+  },
+  "Elizeth Cardoso - Canção do Amor Demais": {
+    "id_spotify": "2DNRJZVS7JNyPRdQ8hPQ7M",
+    "ano": 1950,
+    "artista": "Elizeth Cardoso",
+    "titulo": "Canção do Amor Demais",
+    "preview_url": "https://p.scdn.co/mp3-preview/426673f86821dfe68643d7e4e64af753e6f340b3"
+  },
+  "Dolores Duran - A Noite do Meu Bem": {
+    "id_spotify": "0m15rN6vnS7edaMYTv4jwQ",
+    "ano": 1979,
+    "artista": "Dolores Duran",
+    "titulo": "A Noite do Meu Bem",
+    "preview_url": "https://p.scdn.co/mp3-preview/28b34a3b78482b56ddb76b5eb807c81bced5074d"
+  },
+  "Tito Madi - Chove Lá Fora": {
+    "id_spotify": "1UnNFVOH7P4IFPZo3XVutW",
+    "ano": 1996,
+    "artista": "Tito Madi",
+    "titulo": "Chove Lá Fora",
+    "preview_url": "https://p.scdn.co/mp3-preview/da3dc46b389808fb99af54ca7f81832765fce3f0"
+  },
+  "Ângela Maria - Ave Maria no Morro": {
+    "id_spotify": "6UdgbvgWk7fzmnkZzqVN0M",
+    "ano": 1955,
+    "artista": "Angela Maria",
+    "titulo": "Ave Maria No Morro",
+    "preview_url": "https://p.scdn.co/mp3-preview/9a2dd8112fd7703ff33d5662fa004755a4235fd5"
+  },
+  "Nelson Gonçalves - A Volta do Boêmio": {
+    "id_spotify": "67LQpgGMjI0jnXo9lRj07C",
+    "ano": 1960,
+    "artista": "Nelson Gonçalves",
+    "titulo": "A Volta do Boêmio",
+    "preview_url": "https://p.scdn.co/mp3-preview/ab9b7c1df722942102f463aec898e283d79023ca"
+  },
+  "Cyro Monteiro - Deixa Isso Pra Lá": {
+    "id_spotify": "4RJM24UT9hvj5ZK7qlG6Fl",
+    "ano": 2010,
+    "artista": "Cyro Monteiro",
+    "titulo": "Deixa Isso Pra La",
+    "preview_url": "https://p.scdn.co/mp3-preview/ff2328ac3e0be0df2b4b865cc5d9bcf39a6de20c"
+  },
+  "Francisco Alves - Aquarela do Brasil": {
+    "id_spotify": "4XiY2Ey51UFqXXTUMHQmic",
+    "ano": 2009,
+    "artista": "Francisco Alves",
+    "titulo": "Aquarela do Brasil (samba) [1939]",
+    "preview_url": "https://p.scdn.co/mp3-preview/1816d04b7c80fd69b4b7bbee95c2c9563e33fa24"
+  },
+  "Elza Soares - Se Acaso Você Chegasse": {
+    "id_spotify": "3AU4TG1ZxxEK6O2uusEse8",
+    "ano": 1960,
+    "artista": "Elza Soares, Oswaldo Borba",
+    "titulo": "Se Acaso Você Chegasse",
+    "preview_url": "https://p.scdn.co/mp3-preview/75e9a2da24115327e52236c2db4bb50ecddeb4cb"
+  },
+  "Tom Jobim - Garota de Ipanema": {
+    "id_spotify": "3mFIak1OmaCOwJHEe7iWA2",
+    "ano": 1964,
+    "artista": "Antônio Carlos Jobim",
+    "titulo": "Garota De Ipanema",
+    "preview_url": "https://p.scdn.co/mp3-preview/c55e69d11bb366ecf8e30db6b8d2691e3b980fb9"
+  },
+  "Vinícius de Moraes - Samba da Bênção": {
+    "id_spotify": "5SruHZ8LlwtJyClZrMN9i0",
+    "ano": 1963,
+    "artista": "Odette Lara, Vinícius de Moraes",
+    "titulo": "Samba Da Bênção",
+    "preview_url": "https://p.scdn.co/mp3-preview/66a82afc2f953b437a177c900cb8aeb11e2d694b"
+  },
+  "Elis Regina - Arrastão": {
+    "id_spotify": "7d723v57gJrwOgO1hQYr2E",
+    "ano": 1965,
+    "artista": "Elis Regina, Jair Rodrigues, Jongo Trio",
+    "titulo": "Arrastão - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/5819468ec927f458465e7c40acf3346f404a65ca"
+  },
+  "Chico Buarque - A Banda": {
+    "id_spotify": "6wUp7y502iyWLuLuurlOyw",
+    "ano": 1966,
+    "artista": "Chico Buarque",
+    "titulo": "A Banda",
+    "preview_url": "https://p.scdn.co/mp3-preview/72926c39dfb967c0a3a712951ab4b6c6ec3e064c"
+  },
+  "Caetano Veloso - Alegria, Alegria": {
+    "id_spotify": "0aoQV1TuaTrcpJaMfJ3wgj",
+    "ano": 1967,
+    "artista": "Caetano Veloso",
+    "titulo": "Alegria, Alegria - Remastered 2006",
+    "preview_url": "https://p.scdn.co/mp3-preview/4595cab9d41a744933f4c9082d31e17d25e85014"
+  },
+  "Gilberto Gil - Domingo no Parque": {
+    "id_spotify": "0HMa3XCtloTdy3cL00lWNz",
+    "ano": 1968,
+    "artista": "Gilberto Gil",
+    "titulo": "Domingo no Parque",
+    "preview_url": "https://p.scdn.co/mp3-preview/cc44d501c8d4a2049ba8f4bee7f0a408f552dc16"
+  },
+  "Roberto Carlos - Quero Que Vá Tudo Pro Inferno": {
+    "id_spotify": "7HW1cyB3wIU7kaKKR04aqn",
+    "ano": 1965,
+    "artista": "Roberto Carlos",
+    "titulo": "Quero Que Vá Tudo Pro Inferno - Versão remasterizada",
+    "preview_url": "https://p.scdn.co/mp3-preview/3415071052f18501309143464e11c24f307fbac9"
+  },
+  "Os Mutantes - Panis et Circenses": {
+    "id_spotify": "0Dmnb3C3GaGdyjlyWaWLDr",
+    "ano": 1968,
+    "artista": "Os Mutantes",
+    "titulo": "Panis Et Circenses",
+    "preview_url": "https://p.scdn.co/mp3-preview/605d04c5799487b0ccc91ad26e0a468ae2fe2e03"
+  },
+  "Wilson Simonal - Tributo a Martin Luther King": {
+    "id_spotify": "3TdcLLUoQ0cNGa43sHfaOx",
+    "ano": 1967,
+    "artista": "Wilson Simonal, Som Tres",
+    "titulo": "Tributo A Martin Luther King - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/0d6cb7c7eacb9b42815183ca52a537fbe58df599"
+  },
+  "Jorge Ben - Mas, Que Nada!": {
+    "id_spotify": "6U03Orwr5Dxt8jahLnQpYV",
+    "ano": 1963,
+    "artista": "Jorge Ben Jor",
+    "titulo": "Mas, Que Nada!",
+    "preview_url": "https://p.scdn.co/mp3-preview/9b9db7956042e6140b9262b98f6fa6482906f228"
+  },
+  "Nara Leão - Opinião": {
+    "id_spotify": "25bRN2FIjCS3lqxAP4HrX7",
+    "ano": 1964,
+    "artista": "Nara Leão",
+    "titulo": "Opinião",
+    "preview_url": "https://p.scdn.co/mp3-preview/ff6982876c893ebe10e53ace7697b1b360498fd2"
+  },
+  "Erasmo Carlos - Sentado à Beira do Caminho": {
+    "id_spotify": "7Kh2JMvkiQQ3SsmOiXpT1q",
+    "ano": 1964,
+    "artista": "Erasmo Carlos",
+    "titulo": "Sentado À Beira do Caminho",
+    "preview_url": "https://p.scdn.co/mp3-preview/d17f166f43664c05c9be12776a14bad67db2f809"
+  },
+  "Maria Bethânia - Carcará": {
+    "id_spotify": "7JyD8fRAW2eqDwPj10K2sf",
+    "ano": 1965,
+    "artista": "Maria Bethânia",
+    "titulo": "Gloria in Excelsis (Missa Agrária) / Carcará",
+    "preview_url": "https://p.scdn.co/mp3-preview/6b96f458b2f6afece77bbd49f6c8ade8607c7b60"
+  },
+  "Nelson Cavaquinho - A Flor e o Espinho": {
+    "id_spotify": "6F3QzDrwZ1uqMrPzPXjnxI",
+    "ano": 1970,
+    "artista": "Nelson Cavaquinho",
+    "titulo": "A Flor e o Espinho",
+    "preview_url": "https://p.scdn.co/mp3-preview/515d113fa0c80dfbe4a3773cd430eeee62e5e3a0"
+  },
+  "Wilson Simonal - Nem Vem Que Não Tem": {
+    "id_spotify": "0oL8aqq5iRE5SnxdxJ6FbK",
+    "ano": 1967,
+    "artista": "Wilson Simonal",
+    "titulo": "Nem Vem Que Não Tem",
+    "preview_url": "https://p.scdn.co/mp3-preview/e070cbf87f8ec2e37cd3796589be983975b56c8a"
+  },
+  "Milton Nascimento - Canção do Sal": {
+    "id_spotify": "1qxxL8j0wBZoVM817ogQEm",
+    "ano": 1967,
+    "artista": "Milton Nascimento",
+    "titulo": "Canção do Sal",
+    "preview_url": "https://p.scdn.co/mp3-preview/f1d45776c88524b9dac98fe395e7d2eccaa83db6"
+  },
+  "Jair Rodrigues - Disparada": {
+    "id_spotify": "2eMKGBSGVaGBCzstepZwzC",
+    "ano": 1966,
+    "artista": "Jair Rodrigues",
+    "titulo": "Disparada - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/fb220594f048e60fae71fbc2f2d35a822570b710"
+  },
+  "Elza Soares - Mulata Assanhada": {
+    "id_spotify": "3RWuEVCHec2BDDOb4drFhC",
+    "ano": 1960,
+    "artista": "Elza Soares, Oswaldo Borba",
+    "titulo": "Mulata Assanhada",
+    "preview_url": "https://p.scdn.co/mp3-preview/9ae7c49fd68a6c23b336863dad9ebb13e89c5b49"
+  },
+  "Roberto Carlos - Como É Grande o Meu Amor Por Você": {
+    "id_spotify": "1hxeP8cYcIj6QU3AKDd5nt",
+    "ano": 1967,
+    "artista": "Roberto Carlos",
+    "titulo": "Como é Grande o Meu Amor por Você - Versão remasterizada",
+    "preview_url": "https://p.scdn.co/mp3-preview/0c53790de15e7767fcca520ca4031a1d7dd2aed3"
+  },
+  "Astrud Gilberto - The Girl From Ipanema": {
+    "id_spotify": "1mzKd4lul92VCIdehoP8rg",
+    "ano": 1964,
+    "artista": "Stan Getz, João Gilberto, Astrud Gilberto, Antônio Carlos Jobim",
+    "titulo": "The Girl From Ipanema",
+    "preview_url": "https://p.scdn.co/mp3-preview/59a3cc4ffb81bcd50496d1578286827d24fee709"
+  },
+  "Baden Powell - Berimbau": {
+    "id_spotify": "24ekryr3rspOk6bYGkaLha",
+    "ano": 1964,
+    "artista": "Baden Powell",
+    "titulo": "Berimbau",
+    "preview_url": "https://p.scdn.co/mp3-preview/0e8977e598728b698db97f5a90c8fa70d2f698fe"
+  },
+  "Toquinho - Onde Anda Você": {
+    "id_spotify": "5yogxVjCyM2HFP2bzGZ7Mj",
+    "ano": 1975,
+    "artista": "Toquinho, Vinícius de Moraes",
+    "titulo": "Onde Anda Você",
+    "preview_url": "https://p.scdn.co/mp3-preview/b3c0ee124ce3f51f3b44856a9deb08c91d567bde"
+  },
+  "Wanderléa - Ternura": {
+    "id_spotify": "6OV6jsagf4SHOAqDDigIb3",
+    "ano": 1965,
+    "artista": "Wanderléa",
+    "titulo": "Ternura (Somehow It Got To Be Tomorrow) (Today)",
+    "preview_url": "https://p.scdn.co/mp3-preview/5f290a373254e9d1b75bd507ba4aa7d49e35b8d4"
+  },
+  "Gal Costa - Sebastiana": {
+    "id_spotify": "574L9iq6vqO8EmTPUuQFKF",
+    "ano": 1969,
+    "artista": "Gilberto Gil, Gal Costa",
+    "titulo": "Sebastiana",
+    "preview_url": "https://p.scdn.co/mp3-preview/53a230b53cbfa6bc6431607c766880290f52ee8a"
+  },
+  "Jorge Ben - País Tropical": {
+    "id_spotify": "4877bJ149OUJZHTiU5Jg8P",
+    "ano": 1969,
+    "artista": "Jorge Ben Jor",
+    "titulo": "País Tropical",
+    "preview_url": "https://p.scdn.co/mp3-preview/72fc4d9b4c37743442b9fe794d000af7c930941a"
+  },
+  "Elis Regina - Águas de Março": {
+    "id_spotify": "33k6iSq1SIVBOaXE898Jv1",
+    "ano": 1972,
+    "artista": "Elis Regina",
+    "titulo": "Águas De Marco",
+    "preview_url": "https://p.scdn.co/mp3-preview/c820c9a5bf07885cfa05ef703d0b8bc3ab50c556"
+  },
+  "Gilberto Gil - Expresso 2222": {
+    "id_spotify": "390bdyiCqTDulyinWLFj3J",
+    "ano": 1971,
+    "artista": "Gilberto Gil, Gal Costa",
+    "titulo": "Expresso 2222 - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/fdf38ec7d046fe541d705121539c5dd669975071"
+  },
+  "Milton Nascimento - Cálice": {
+    "id_spotify": "0VUgbCK0k8QWGpLiEV8YYZ",
+    "ano": 1978,
+    "artista": "Chico Buarque, Milton Nascimento",
+    "titulo": "Cálice",
+    "preview_url": "https://p.scdn.co/mp3-preview/d1f3557fb47e0d0adea6cebc7f4e1b9e4bc53fae"
+  },
+  "Chico Buarque - Construção": {
+    "id_spotify": "3FIuBxOxuQ6kYy8JO0gq2a",
+    "ano": 1971,
+    "artista": "Chico Buarque",
+    "titulo": "Construção",
+    "preview_url": "https://p.scdn.co/mp3-preview/b188f845f8e9106471bf0d445a1f2c26b3f5ec15"
+  },
+  "Rita Lee - Ovelha Negra": {
+    "id_spotify": "5xpumjGGcdWvqWxYVrd7jI",
+    "ano": 1975,
+    "artista": "Rita Lee",
+    "titulo": "Ovelha Negra",
+    "preview_url": "https://p.scdn.co/mp3-preview/5b2973cfb158b948626ba569c0ee24b8b191d305"
+  },
+  "Secos & Molhados - Sangue Latino": {
+    "id_spotify": "2DREhftHdD8pRmNdSs6nyF",
+    "ano": 1973,
+    "artista": "Secos & Molhados",
+    "titulo": "Sangue latino",
+    "preview_url": "https://p.scdn.co/mp3-preview/0a29ab04cb0abb2fa5129bb4e271d8b85eab0d1a"
+  },
+  "Tim Maia - Não Vou Ficar": {
+    "id_spotify": "1hMZDDqL6ThRyJQ5rsLiB5",
+    "ano": 1971,
+    "artista": "Tim Maia",
+    "titulo": "Não Vou Ficar",
+    "preview_url": "https://p.scdn.co/mp3-preview/4259d2817500a2b307dc1c21b441c63ac3a98d23"
+  },
+  "Novos Baianos - Preta Pretinha": {
+    "id_spotify": "6o3xSFzkryoYpouiko8jNH",
+    "ano": 1972,
+    "artista": "Novos Baianos",
+    "titulo": "Preta Pretinha",
+    "preview_url": "https://p.scdn.co/mp3-preview/f1f7cc4acdef99ca865c8348ce72060e76f0195a"
+  },
+  "Raul Seixas - Ouro de Tolo": {
+    "id_spotify": "1j5i8qd1PkSQAGM5zyonJC",
+    "ano": 1973,
+    "artista": "Raul Seixas",
+    "titulo": "Ouro De Tolo",
+    "preview_url": "https://p.scdn.co/mp3-preview/30bb9db01323096d23eddc820d46e8b5a794ed05"
+  },
+  "Jorge Ben - Taj Mahal": {
+    "id_spotify": "0dtpc0QqJ3FIgvmIHHmn9I",
+    "ano": 1975,
+    "artista": "Gilberto Gil, Jorge Ben Jor",
+    "titulo": "Taj Mahal",
+    "preview_url": "https://p.scdn.co/mp3-preview/409c02ccd3e8be0bb7b51bacbfa32b520a561ff7"
+  },
+  "Gal Costa - Baby": {
+    "id_spotify": "3XLiFwo3E7GeX4ONxhGIgm",
+    "ano": 1968,
+    "artista": "Gal Costa, Caetano Veloso",
+    "titulo": "Baby - Remastered",
+    "preview_url": "https://p.scdn.co/mp3-preview/0e8e705cd998d19ae2bc1f48d956aa30be52cddb"
+  },
+  "Caetano Veloso - London London": {
+    "id_spotify": "2NOPA5V6El1uXxAU2yV50P",
+    "ano": 1971,
+    "artista": "Caetano Veloso",
+    "titulo": "London London",
+    "preview_url": "https://p.scdn.co/mp3-preview/a2d18b99e288746537a7397b3b4846d7f1310b93"
+  },
+  "Maria Bethânia - Explode Coração": {
+    "id_spotify": "0et0L2WZYBLskKo4AuI63a",
+    "ano": 1978,
+    "artista": "Maria Bethânia",
+    "titulo": "Não Dá Mais Pra Segurar (Explode Coração)",
+    "preview_url": "https://p.scdn.co/mp3-preview/f4f5460e4453b9ab1c74b36697b01bd95c9ca844"
+  },
+  "Fagner - Borbulhas de Amor": {
+    "id_spotify": "3pUQEJXwmnooceL5DqluNA",
+    "ano": 1991,
+    "artista": "Fagner",
+    "titulo": "Borbulhas de Amor (Tenho um Coração) [Borbujas de Amor]",
+    "preview_url": "https://p.scdn.co/mp3-preview/a24e65052f058d73547ad7e0ee8bc5724d69a0bd"
+  },
+  "Alceu Valença - Girassol": {
+    "id_spotify": "7AVrvknpnwSmsSWV2ZPy0O",
+    "ano": 1987,
+    "artista": "Alceu Valença",
+    "titulo": "Girassol",
+    "preview_url": "https://p.scdn.co/mp3-preview/44d5dd642c5ac668eae426347e7175bfefc3d5ae"
+  },
+  "Zé Ramalho - Frevo Mulher": {
+    "id_spotify": "1p0lwwLR4cdR4343yC6aBP",
+    "ano": 1979,
+    "artista": "Zé Ramalho",
+    "titulo": "Frevo Mulher",
+    "preview_url": "https://p.scdn.co/mp3-preview/8b6cf0f77cb497f0eaf58f91c650fc9339287c74"
+  },
+  "Belchior - Como Nossos Pais": {
+    "id_spotify": "0BoCuzEjDEcULyknBHf3Ii",
+    "ano": 1976,
+    "artista": "Belchior",
+    "titulo": "Como Nossos Pais",
+    "preview_url": "https://p.scdn.co/mp3-preview/b75e6eb6194d4cdec7367307fa6c4692d8f0e521"
+  },
+  "João Bosco - O Bêbado e a Equilibrista": {
+    "id_spotify": "3bgRCx8adxUZT7It3ryrWU",
+    "ano": 1979,
+    "artista": "João Bosco, Angela Maria",
+    "titulo": "O Bêbado e a Equilibrista",
+    "preview_url": "https://p.scdn.co/mp3-preview/0e700539b4dd53acab6f0a6e75c68b2967ee375d"
+  },
+  "Clara Nunes - Conto de Areia": {
+    "id_spotify": "3dEfGt5Ml97FQBeHngn4YA",
+    "ano": 1974,
+    "artista": "Clara Nunes",
+    "titulo": "Conto De Areia",
+    "preview_url": "https://p.scdn.co/mp3-preview/0fb5d3d38c250155a1df9a37fe75c650e687b4eb"
+  },
+  "Beth Carvalho - Vou Festejar": {
+    "id_spotify": "54JLlb23AnzXErLRSNVIUn",
+    "ano": 1978,
+    "artista": "Beth Carvalho",
+    "titulo": "Vou Festejar",
+    "preview_url": "https://p.scdn.co/mp3-preview/ef5f3dc217f30e6a6f0ab86e2d3d6404e0ca824f"
+  },
+  "Martinho da Vila - Casa de Bamba": {
+    "id_spotify": "4LGUpFyPi4cmiHjgVobuMd",
+    "ano": 1969,
+    "artista": "Martinho Da Vila",
+    "titulo": "Casa de Bamba",
+    "preview_url": "https://p.scdn.co/mp3-preview/5304d45bce95b457b253326899f27b059b252db2"
+  },
+  "Paulinho da Viola - Timoneiro": {
+    "id_spotify": "3C8ULtjiUmTtcpE7QJBZ7G",
+    "ano": 1996,
+    "artista": "Paulinho Da Viola",
+    "titulo": "Timoneiro",
+    "preview_url": "https://p.scdn.co/mp3-preview/a55d6be998876771476c9045d72fb81f9d48ed9b"
+  },
+  "Rita Lee - Esse Tal de Roque Enrow": {
+    "id_spotify": "2vHmF6Sh84IChZ8GvNnvW3",
+    "ano": 1975,
+    "artista": "Rita Lee",
+    "titulo": "Esse Tal De Roque Enrow",
+    "preview_url": "https://p.scdn.co/mp3-preview/a66f048426d76fac593d7952d2517f2d5a2ce64e"
+  },
+  "Roberto Carlos - Detalhes": {
+    "id_spotify": "4tAwP9QKeLEQJ2fgd1RWcY",
+    "ano": 1964,
+    "artista": "Roberto Carlos",
+    "titulo": "Detalles (Detalhes)",
+    "preview_url": "https://p.scdn.co/mp3-preview/2abde1057802387ad2ad00d177118da3eadd6bab"
+  },
+  "Legião Urbana - Tempo Perdido": {
+    "id_spotify": "7MnT7msJZg3XBAS0OTfGrB",
+    "ano": 1986,
+    "artista": "Legião Urbana",
+    "titulo": "Tempo Perdido",
+    "preview_url": "https://p.scdn.co/mp3-preview/f4da817032001471ba40cfd9f112b737e28d062c"
+  },
+  "Cazuza - Ideologia": {
+    "id_spotify": "4s6qyTWg5r4EyOi2QIwM9g",
+    "ano": 1988,
+    "artista": "Cazuza",
+    "titulo": "Ideologia",
+    "preview_url": "https://p.scdn.co/mp3-preview/bda21d4e0d0f6a97a76feee094aa5139d0ea09ef"
+  },
+  "Titãs - Epitáfio": {
+    "id_spotify": "35J9vakuC3f18QTolNAQ6E",
+    "ano": 2001,
+    "artista": "Titãs",
+    "titulo": "Epitáfio",
+    "preview_url": "https://p.scdn.co/mp3-preview/c6472b1bbe401ee8ceaa18e7f0487c0729107eb9"
+  },
+  "Rita Lee - Lança Perfume": {
+    "id_spotify": "3cijWAljXxxJDco4N2aLQl",
+    "ano": 1980,
+    "artista": "Rita Lee, Roberto De Carvalho",
+    "titulo": "Lança Perfume",
+    "preview_url": "https://p.scdn.co/mp3-preview/0589ba10930906cfeaf11fe45ccc23593afbc14e"
+  },
+  "Barão Vermelho - Bete Balanço": {
+    "id_spotify": "0SrDqCmn2ClzEzNkAZYc2Y",
+    "ano": 1984,
+    "artista": "Barão Vermelho",
+    "titulo": "Bete Balanço",
+    "preview_url": "https://p.scdn.co/mp3-preview/c3cbd39bfadfb4eb8b539bf97eb12976f8765a34"
+  },
+  "RPM - Rádio Pirata": {
+    "id_spotify": "695RtGxv4fD6mdBj234InS",
+    "ano": 1984,
+    "artista": "RPM",
+    "titulo": "Rádio Pirata - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/aeb5bad85d207c5f8330e48de2c7f1da5de24818"
+  },
+  "Blitz - Você Não Soube Me Amar": {
+    "id_spotify": "5vtJD5o3DV3eZsDOcmdyyw",
+    "ano": 1982,
+    "artista": "Blitz",
+    "titulo": "Você Não Soube Me Amar",
+    "preview_url": "https://p.scdn.co/mp3-preview/5ccac6f3515339a245e8e5843197ce544e43d013"
+  },
+  "Djavan - Flor de Lis": {
+    "id_spotify": "1TX4h6MrIZ0K3r4OOG11WO",
+    "ano": 1976,
+    "artista": "Djavan",
+    "titulo": "Flor de Lis",
+    "preview_url": "https://p.scdn.co/mp3-preview/0fc6a643702625eb24a6053cb8d8b1a992f4d9bf"
+  },
+  "Alceu Valença - Anunciação": {
+    "id_spotify": "1KMMFxK3yeFMgQxlfoJhFp",
+    "ano": 1983,
+    "artista": "Alceu Valença",
+    "titulo": "Anunciação",
+    "preview_url": "https://p.scdn.co/mp3-preview/d79870d8e7529a64961f53d60742bb4dbf673bb6"
+  },
+  "Kid Abelha - Fixação": {
+    "id_spotify": "63Ugh7fCzAtsn09ESEKQBh",
+    "ano": 1984,
+    "artista": "Kid Abelha",
+    "titulo": "Fixação",
+    "preview_url": "https://p.scdn.co/mp3-preview/539e15fa515adf8db0d3f959cc168ca390c98951"
+  },
+  "Paralamas do Sucesso - Meu Erro": {
+    "id_spotify": "7pn5QXr2LTeGsgHyCaJxDo",
+    "ano": 1984,
+    "artista": "Os Paralamas Do Sucesso",
+    "titulo": "Meu Erro",
+    "preview_url": "https://p.scdn.co/mp3-preview/c65c4812a655a940b2500023864548e389281e4b"
+  },
+  "Ultraje a Rigor - Inútil": {
+    "id_spotify": "0bk4vZzYmtZlKOltolZ7Zo",
+    "ano": 1985,
+    "artista": "Ultraje a Rigor",
+    "titulo": "Inútil - Ao vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/dfe0c62ae5eac6ff28ca187f61457e1d4066da95"
+  },
+  "Capital Inicial - Fátima": {
+    "id_spotify": "7e4lwINwaHLGaQRsLR9mWR",
+    "ano": 1986,
+    "artista": "Capital Inicial",
+    "titulo": "Fátima",
+    "preview_url": "https://p.scdn.co/mp3-preview/e6e8f79f644548d0fb0c8266f1213442cdb41a90"
+  },
+  "Marina Lima - Fullgás": {
+    "id_spotify": "2qcfKvkTopzpSOeLW9AvyM",
+    "ano": 1984,
+    "artista": "Marina Lima",
+    "titulo": "Fullgás",
+    "preview_url": "https://p.scdn.co/mp3-preview/a569420223046b5659db8510804fc7cdb4971567"
+  },
+  "Caetano Veloso - Você É Linda": {
+    "id_spotify": "0hQbovQO5Cui5Imze8Q3oo",
+    "ano": 1983,
+    "artista": "Caetano Veloso",
+    "titulo": "Voce E Linda - Remixed Original Album",
+    "preview_url": "https://p.scdn.co/mp3-preview/b4449cf2b2e92583eb2491f38a6b493bea36358e"
+  },
+  "Gal Costa - Festa do Interior": {
+    "id_spotify": "1T3fc0CRPnVBWWiW9BAiw3",
+    "ano": 1981,
+    "artista": "Gal Costa",
+    "titulo": "Festa Do Interior",
+    "preview_url": "https://p.scdn.co/mp3-preview/b083626b5a9772cf33336fbb06035d854247c720"
+  },
+  "Ivan Lins - Começar de Novo": {
+    "id_spotify": "1eM11mSb8RuTc4PhhI34QC",
+    "ano": 1979,
+    "artista": "Ivan Lins",
+    "titulo": "Começar De Novo",
+    "preview_url": "https://p.scdn.co/mp3-preview/2f3eaa5b1ed4d05f660c14771697daac750d848c"
+  },
+  "Simone - Pétala": {
+    "id_spotify": "6PGMJMiOmMnKqKcWh3ibDP",
+    "ano": 1987,
+    "artista": "Simone",
+    "titulo": "Pétala",
+    "preview_url": "https://p.scdn.co/mp3-preview/bb814f050ca6ef0302059b1a7328e9589ff687a2"
+  },
+  "Rita Lee - Mania de Você": {
+    "id_spotify": "6owwZC8gUvrBuygvOHaYXb",
+    "ano": 1979,
+    "artista": "Rita Lee, Roberto De Carvalho",
+    "titulo": "Mania De Você",
+    "preview_url": "https://p.scdn.co/mp3-preview/024edf4fb1ca538c2cf53a19239f08d03e015097"
+  },
+  "Zeca Pagodinho - Camarão que Dorme a Onda Leva": {
+    "id_spotify": "5a8O0CAraAuR4iLZXg0s46",
+    "ano": 1983,
+    "artista": "Beth Carvalho, Zeca Pagodinho",
+    "titulo": "Camarão Que Dorme a Onda Leva (feat. Zeca Pagodinho)",
+    "preview_url": "https://p.scdn.co/mp3-preview/6da8f720e73c4f472ef2d263eb5c50fcf553d9c7"
+  },
+  "Roupa Nova - Whisky a Go-Go": {
+    "id_spotify": "2BnJUYbPtL3yauZKmay0ko",
+    "ano": 1985,
+    "artista": "Roupa Nova",
+    "titulo": "Whisky a Go-Go",
+    "preview_url": "https://p.scdn.co/mp3-preview/71f1baccb382170a9b9cb065b399e1f52ffe1c69"
+  },
+  "Skank - É Uma Partida de Futebol": {
+    "id_spotify": "3MQcMZgLbTJHe6YdwrIYx9",
+    "ano": 1996,
+    "artista": "Skank",
+    "titulo": "É uma Partida de Futebol",
+    "preview_url": "https://p.scdn.co/mp3-preview/54eb82aacbbeba54616802e6e23947947821aab3"
+  },
+  "Chico Science & Nação Zumbi - A Cidade": {
+    "id_spotify": "2zSTvC7IA8EiD4cvo4VdVr",
+    "ano": 1994,
+    "artista": "Chico Science, Nação Zumbi",
+    "titulo": "A Cidade",
+    "preview_url": "https://p.scdn.co/mp3-preview/a252ea96ff446cc99f39207c033e2eff8b6c6836"
+  },
+  "Raimundos - Mulher de Fase": {
+    "id_spotify": "624ra5mDiibqvFYDK4yhmo",
+    "ano": 1999,
+    "artista": "Raimundos",
+    "titulo": "Mulher de fases",
+    "preview_url": "https://p.scdn.co/mp3-preview/53e730ac220dda962de7ac7e08bb9b83b8db3325"
+  },
+  "O Rappa - A Feira": {
+    "id_spotify": "1r1GzEVVA4fm9XVUfgc7TR",
+    "ano": 1996,
+    "artista": "O Rappa",
+    "titulo": "A feira",
+    "preview_url": "https://p.scdn.co/mp3-preview/637b0c0d9bacb7c79295f988694582aa904b47fc"
+  },
+  "Marisa Monte - Ainda Bem": {
+    "id_spotify": "43BCxznTSBLcXzu4lJ8KW5",
+    "ano": 2011,
+    "artista": "Marisa Monte",
+    "titulo": "Ainda Bem",
+    "preview_url": "https://p.scdn.co/mp3-preview/1a63324bc9f914c86b89c68619fc31bbacf178ac"
+  },
+  "Zeca Baleiro - Telegrama": {
+    "id_spotify": "7xpDGoUGbtaquk5xMvzwTh",
+    "ano": 2002,
+    "artista": "Zeca Baleiro",
+    "titulo": "Telegrama",
+    "preview_url": "https://p.scdn.co/mp3-preview/66793bfd3de941b026bd232c2d8d7d8d4002b9ec"
+  },
+  "Sepultura - Roots Bloody Roots": {
+    "id_spotify": "6ursmCnbc9oDRGa2yHKkoZ",
+    "ano": 1996,
+    "artista": "Sepultura",
+    "titulo": "Roots Bloody Roots",
+    "preview_url": "https://p.scdn.co/mp3-preview/6872c1cff7bdfa31df19ff6cad7c7f0e8e28b899"
+  },
+  "Charlie Brown Jr. - Só os Loucos Sabem": {
+    "id_spotify": "3nI0piSOxAik2RCpHGloB7",
+    "ano": 2009,
+    "artista": "Charlie Brown Jr.",
+    "titulo": "Só Os Loucos Sabem",
+    "preview_url": "https://p.scdn.co/mp3-preview/76af14d219fa736339ff530e3a90b0c810b10557"
+  },
+  "Zeca Pagodinho - Deixa a Vida Me Levar": {
+    "id_spotify": "7bdhM9AJqWAIHooF4sh3wW",
+    "ano": 2002,
+    "artista": "Zeca Pagodinho",
+    "titulo": "Deixa A Vida Me Levar",
+    "preview_url": "https://p.scdn.co/mp3-preview/c6d69f73a5d2b7af39f51b415bb1470c98865778"
+  },
+  "Racionais MC's - Diário de um Detento": {
+    "id_spotify": "7wglwZzZoWUr8sOECwpu6L",
+    "ano": 1997,
+    "artista": "Racionais MC's",
+    "titulo": "Diário de um Detento",
+    "preview_url": "https://p.scdn.co/mp3-preview/7599f0db1cd97b815411417fd729f95c98d0dad0"
+  },
+  "Titãs - Comida": {
+    "id_spotify": "66eoVm6hjjBcza4Psz6Qhh",
+    "ano": 1984,
+    "artista": "Titãs",
+    "titulo": "Comida",
+    "preview_url": "https://p.scdn.co/mp3-preview/1664dd4a42add6f0404c3b2ad6ee278846c3d9e0"
+  },
+  "Legião Urbana - Pais e Filhos": {
+    "id_spotify": "46s6p0tsgRBfzWriIg3w9o",
+    "ano": 1989,
+    "artista": "Legião Urbana",
+    "titulo": "Pais E Filhos",
+    "preview_url": "https://p.scdn.co/mp3-preview/37d8f747603ea3785e8c10452f91d10f4822ed1b"
+  },
+  "Cidade Negra - Girassol": {
+    "id_spotify": "0mscBkMFduxGFsFEhTv7du",
+    "ano": 2002,
+    "artista": "Cidade Negra",
+    "titulo": "Girassol (Acústico)",
+    "preview_url": "https://p.scdn.co/mp3-preview/59306c3138c91882e87a3df5aa0f7c2dd65cdb66"
+  },
+  "Gilberto Gil - Palco": {
+    "id_spotify": "2wL88cvKXUOfHuYVd62hji",
+    "ano": 1981,
+    "artista": "Gilberto Gil",
+    "titulo": "Palco",
+    "preview_url": "https://p.scdn.co/mp3-preview/5008301a42147c8b8b18b888930b515d3014257e"
+  },
+  "Daniela Mercury - O Canto da Cidade": {
+    "id_spotify": "55ZjdmU2X8iClV61wAdHX6",
+    "ano": 1992,
+    "artista": "Daniela Mercury",
+    "titulo": "O Canto da Cidade",
+    "preview_url": "https://p.scdn.co/mp3-preview/9135286e0feb712c12565e6ef81548cc22ccd094"
+  },
+  "Rita Lee - Amor e Sexo": {
+    "id_spotify": "0x2C3lTa6qfceRMAUuFHQU",
+    "ano": 2003,
+    "artista": "Rita Lee, Roberto De Carvalho",
+    "titulo": "Amor E Sexo",
+    "preview_url": "https://p.scdn.co/mp3-preview/90db4a0bac5d660316f6df9ba83aadc15d87a107"
+  },
+  "Kid Abelha - Como Eu Quero": {
+    "id_spotify": "2WTUUgW4avcg6yBtt0797B",
+    "ano": 1984,
+    "artista": "Kid Abelha e os Abóboras Selvagens",
+    "titulo": "Como eu quero",
+    "preview_url": "https://p.scdn.co/mp3-preview/a1c59eef1e5c265525b9f4594a3b368fe2059279"
+  },
+  "Paralamas do Sucesso - Trac Trac": {
+    "id_spotify": "1LphXGnd5o9F0hOE61Zf9T",
+    "ano": 1984,
+    "artista": "Os Paralamas Do Sucesso",
+    "titulo": "Óculos",
+    "preview_url": "https://p.scdn.co/mp3-preview/fadba804ecc8a72c0e93fd44d712c9edb16e5726"
+  },
+  "Chitãozinho & Xororó - Evidências": {
+    "id_spotify": "5mHzMlVi8OMJKnK5SmRK7a",
+    "ano": 1990,
+    "artista": "Chitãozinho & Xororó",
+    "titulo": "Evidências",
+    "preview_url": "https://p.scdn.co/mp3-preview/4ebc08f20aae9d80bf32dcea9f828fe8054e09f1"
+  },
+  "Zezé Di Camargo & Luciano - É o Amor": {
+    "id_spotify": "3oMk1VNl1N7dgibHwHw1j2",
+    "ano": 1991,
+    "artista": "Zezé Di Camargo & Luciano",
+    "titulo": "É o Amor",
+    "preview_url": "https://p.scdn.co/mp3-preview/e5a09faba5b97e0fba731e9c90445d111d9ba216"
+  },
+  "Skank - Garota Nacional": {
+    "id_spotify": "7DoBn08dqKS9MmtZiZChVD",
+    "ano": 1996,
+    "artista": "Skank",
+    "titulo": "Garota Nacional",
+    "preview_url": "https://p.scdn.co/mp3-preview/49471fbe5c9991d37cd4584f39b3fdb44c72f6fa"
+  },
+  "Jota Quest - Fácil": {
+    "id_spotify": "5rhijzoJmc7ZdnEgBS58Wh",
+    "ano": 1998,
+    "artista": "Jota Quest",
+    "titulo": "Fácil",
+    "preview_url": "https://p.scdn.co/mp3-preview/466b9e46e1c52716e995dcd096228f3862b96aed"
+  },
+  "Los Hermanos - Anna Julia": {
+    "id_spotify": "0aASUtDb1N96NJDwmWj5Gf",
+    "ano": 1999,
+    "artista": "Los Hermanos",
+    "titulo": "Anna Júlia",
+    "preview_url": "https://p.scdn.co/mp3-preview/18a91d4c80d4e539cc374d86940f5a314e181dfe"
+  },
+  "Marisa Monte - Infinito Particular": {
+    "id_spotify": "7ufO0ROFQ6BwSMPx5LuW4e",
+    "ano": 2006,
+    "artista": "Marisa Monte",
+    "titulo": "Infinito Particular",
+    "preview_url": "https://p.scdn.co/mp3-preview/51f8c81d36ae6fc6a226761c131aabc5500d2ab7"
+  },
+  "Seu Jorge - Carolina": {
+    "id_spotify": "5rrQVPDt0mapp7sSuQHN1s",
+    "ano": 2005,
+    "artista": "Seu Jorge",
+    "titulo": "Carolina - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/6e371d9aad2da0b7fa1883bbf3af356da6ed72a2"
+  },
+  "Ana Carolina - Garganta": {
+    "id_spotify": "7ggsCVhoqrOJOyDXDvWBlB",
+    "ano": 1999,
+    "artista": "Ana Carolina",
+    "titulo": "Garganta",
+    "preview_url": "https://p.scdn.co/mp3-preview/19d1681a0a31802091b96c7abb017ebb17990398"
+  },
+  "Ivete Sangalo - Sorte Grande": {
+    "id_spotify": "2IXiZtz7EVJpsyZwoxBy6K",
+    "ano": 2003,
+    "artista": "Ivete Sangalo",
+    "titulo": "Sorte Grande",
+    "preview_url": "https://p.scdn.co/mp3-preview/cbef5cd31eda5534c6a075f9db7f25048beff2f7"
+  },
+  "Jota Quest - Só Hoje": {
+    "id_spotify": "1sClAsuPNqEaza29NcaJKP",
+    "ano": 2002,
+    "artista": "Jota Quest",
+    "titulo": "Só Hoje",
+    "preview_url": "https://p.scdn.co/mp3-preview/816239336ed4b46d08e734d1f9092716f1081c17"
+  },
+  "NX Zero - Cedo ou Tarde": {
+    "id_spotify": "4RzFPIpnYo7vf0kQI8Gdg1",
+    "ano": 2008,
+    "artista": "NX Zero",
+    "titulo": "Cedo Ou Tarde",
+    "preview_url": "https://p.scdn.co/mp3-preview/9032ec28dce382663a62935202508f909ab86162"
+  },
+  "O Rappa - Minha Alma": {
+    "id_spotify": "0lPWEt7kSY37pSUIH68ME0",
+    "ano": 1999,
+    "artista": "O Rappa",
+    "titulo": "Minha alma (A paz que eu não quero)",
+    "preview_url": "https://p.scdn.co/mp3-preview/0479bde75f28f4ef1ad726aa4b73b3e2d4987f0a"
+  },
+  "Sandy & Junior - Areia": {
+    "id_spotify": "5ShgNlAGU5WtyKvpz8MEB1",
+    "ano": 2018,
+    "artista": "Sandy, Lucas Lima",
+    "titulo": "Areia",
+    "preview_url": "https://p.scdn.co/mp3-preview/a874dc78efe2b567ca14c32a5d06ae72cf32a893"
+  },
+  "Chitãozinho & Xororó - Fio de Cabelo": {
+    "id_spotify": "7IUeqiBZk9o5BX7yFr7GPT",
+    "ano": 2000,
+    "artista": "Chitãozinho & Xororó",
+    "titulo": "Fio De Cabelo",
+    "preview_url": "https://p.scdn.co/mp3-preview/e891c757ea94e31908a41b27bbf253f6c2c23d99"
+  },
+  "Zezé Di Camargo & Luciano - No Dia em Que Eu Saí de Casa": {
+    "id_spotify": "3TPVkq85S5r0EoXZHn5zxU",
+    "ano": 1995,
+    "artista": "Zezé Di Camargo & Luciano",
+    "titulo": "No Dia em Que Eu Saí de Casa",
+    "preview_url": "https://p.scdn.co/mp3-preview/a72820c55b706fb9150a7bc2caa3525a7d43119d"
+  },
+  "Pitty - Admirável Chip Novo": {
+    "id_spotify": "7o7MExeF7niW4VFiie5Zxh",
+    "ano": 2003,
+    "artista": "Pitty",
+    "titulo": "Admirável Chip Novo",
+    "preview_url": "https://p.scdn.co/mp3-preview/7bad0426d5070ae86d47ccd73fe45e2061be7640"
+  },
+  "Vanessa da Mata - Boa Sorte!": {
+    "id_spotify": "6A3Q8BVAAI2PW1s6MX4ZGF",
+    "ano": 2007,
+    "artista": "Vanessa Da Mata, Ben Harper",
+    "titulo": "Boa Sorte / Good Luck (feat. Ben Harper)",
+    "preview_url": "https://p.scdn.co/mp3-preview/18f37659b755bda67448948631d3cb5d97a41a32"
+  },
+  "Maria Rita - Encontros e Despedidas": {
+    "id_spotify": "19KDsFyj6Nyxa9xLb29lOL",
+    "ano": 2003,
+    "artista": "Maria Rita",
+    "titulo": "Encontros e despedidas",
+    "preview_url": "https://p.scdn.co/mp3-preview/f5367461a369b4cc337510ae37da2d409b566f06"
+  },
+  "Anitta - Show das Poderosas": {
+    "id_spotify": "28aUFtkMnJaqNQkLHR0weV",
+    "ano": 2013,
+    "artista": "Anitta",
+    "titulo": "Show das Poderosas",
+    "preview_url": "https://p.scdn.co/mp3-preview/baccb763cd6763e0220515dd1f45e161246dfd7d"
+  },
+  "Wesley Safadão - Camarote": {
+    "id_spotify": "5Kk43IykGmtOxZ5CDzOlEU",
+    "ano": 2015,
+    "artista": "Wesley Safadão",
+    "titulo": "Camarote",
+    "preview_url": "https://p.scdn.co/mp3-preview/3bce50ace4919bc9ae202f482f44fad5b6bac732"
+  },
+  "Marília Mendonça - Infiel": {
+    "id_spotify": "38MpAndIjGAyVdcC6npX95",
+    "ano": 2016,
+    "artista": "Marília Mendonça",
+    "titulo": "Infiel - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/0ad97c63c0cfeb47d253762b755fcdec09f2db77"
+  },
+  "Emicida - Boa Esperança": {
+    "id_spotify": "2v3FdNAsIe9rh62DOb4ZIz",
+    "ano": 2015,
+    "artista": "Emicida, J. Ghetto",
+    "titulo": "Boa Esperança",
+    "preview_url": "https://p.scdn.co/mp3-preview/33182cd36e70a9e1b614378b00419b58d827fc37"
+  },
+  "Criolo - Não Existe Amor em SP": {
+    "id_spotify": "0rnFlWFOfTRmVQVm28DK09",
+    "ano": 2011,
+    "artista": "Criolo",
+    "titulo": "Não Existe Amor em SP",
+    "preview_url": "https://p.scdn.co/mp3-preview/d911ba800d90344cfa44d679de7e08c4090b2aca"
+  },
+  "Ludmilla - Cheguei": {
+    "id_spotify": "6cbZb9mVAc5s8HtwklLoI0",
+    "ano": 2016,
+    "artista": "LUDMILLA",
+    "titulo": "Cheguei",
+    "preview_url": "https://p.scdn.co/mp3-preview/103cdebc25a14164d0c14dc671d4f93ed48aa4e3"
+  },
+  "Jorge & Mateus - Os Anjos Cantam": {
+    "id_spotify": "6ccKu0LwJzOhLAxBwP2PTk",
+    "ano": 2015,
+    "artista": "Jorge & Mateus",
+    "titulo": "Os Anjos Cantam",
+    "preview_url": "https://p.scdn.co/mp3-preview/d12a5e6001080a3be725f187eb99540998cf42ba"
+  },
+  "Karol Conká - Boa Noite": {
+    "id_spotify": "6KoXnfTIZX7lp7FzCBfVZD",
+    "ano": 2011,
+    "artista": "Karol Conká",
+    "titulo": "Boa Noite",
+    "preview_url": "https://p.scdn.co/mp3-preview/984539c9026330e56df875c9a976d78b545741dc"
+  },
+  "Luan Santana - Meteoro": {
+    "id_spotify": "5JFpJWJIkEl97NgLgpo4pF",
+    "ano": 2009,
+    "artista": "Luan Santana",
+    "titulo": "Meteoro - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/234de61a385ed45c0765e641c373c0143b89485c"
+  },
+  "Michel Teló - Ai Se Eu Te Pego": {
+    "id_spotify": "29vem0DsWK4224LQyxcmA5",
+    "ano": 2011,
+    "artista": "Michel Teló",
+    "titulo": "Ai Se Eu Te Pego - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/e542856f06d39fce6f604b8e589039b7cd0151ee"
+  },
+  "Anitta - Bang": {
+    "id_spotify": "1Cml3fnCNLZUC1EEtkcgVb",
+    "ano": 2015,
+    "artista": "Anitta",
+    "titulo": "Bang",
+    "preview_url": "https://p.scdn.co/mp3-preview/7b652ac99935f47b6d1661ce8e4c16af8e2eb78d"
+  },
+  "Simone & Simaria - Loka": {
+    "id_spotify": "3Srq9hHoklnOSzg1yxMzm9",
+    "ano": 2017,
+    "artista": "Simone & Simaria, Anitta",
+    "titulo": "Loka",
+    "preview_url": "https://p.scdn.co/mp3-preview/a5aea34fcf21ce67d54b0c8c900401c35d3f8fb3"
+  },
+  "Pabllo Vittar - K.O.": {
+    "id_spotify": "5zSiXA70xM4kuSt6qim6jl",
+    "ano": 2017,
+    "artista": "Pabllo Vittar",
+    "titulo": "K.O.",
+    "preview_url": "https://p.scdn.co/mp3-preview/f45df366fd06c500a2adeaac7dcad26c4f88fa72"
+  },
+  "IZA - Pesadão": {
+    "id_spotify": "1BkyiAw1L0BOHYckwpRX4V",
+    "ano": 2017,
+    "artista": "IZA, Marcelo Falcão",
+    "titulo": "Pesadão",
+    "preview_url": "https://p.scdn.co/mp3-preview/70d5b5dbe192dce57d7451b3d239a21654657317"
+  },
+  "Anavitória - Trevo (Tu)": {
+    "id_spotify": "01Z18LIRXx7QHzWp2QpDaE",
+    "ano": 2016,
+    "artista": "ANAVITÓRIA, TIAGO IORC",
+    "titulo": "Trevo (Tu)",
+    "preview_url": "https://p.scdn.co/mp3-preview/81c335a3929ff011158da34b5fe445d8cfebf9cf"
+  },
+  "Alok - Hear Me Now": {
+    "id_spotify": "39cmB3ZoTOLwOTq7tMNqKa",
+    "ano": 2016,
+    "artista": "Alok, Zeeba, Bruno Martini",
+    "titulo": "Hear Me Now",
+    "preview_url": "https://p.scdn.co/mp3-preview/f38328731683bef5fcc6b8dee13900883e810b9c"
+  },
+  "MC Kevinho - Olha a Explosão": {
+    "id_spotify": "52SZqPgS9L8uUNZeGSsU7o",
+    "ano": 2016,
+    "artista": "MC Kevinho",
+    "titulo": "Olha a Explosão",
+    "preview_url": "https://p.scdn.co/mp3-preview/74d324dffc4b50695b7ca2839715ac89d3dd8f18"
+  },
+  "Silva - Bela": {
+    "id_spotify": "1sf6GrTFI2SrslgLhdndj0",
+    "ano": 1971,
+    "artista": "Victorino Silva Oficial",
+    "titulo": "Bela Mensagem",
+    "preview_url": "https://p.scdn.co/mp3-preview/1553dc78eb7b46a29e17b5298c010186462cfb11"
+  },
+  "Tulipa Ruiz - Efêmera": {
+    "id_spotify": "1iiXo590UBRz3S2GH5piM3",
+    "ano": 2010,
+    "artista": "Tulipa Ruiz",
+    "titulo": "Efêmera",
+    "preview_url": "https://p.scdn.co/mp3-preview/e1bf345d203116aa4505c2645e9699ac2aef22a7"
+  },
+  "Gusttavo Lima - Balada Boa": {
+    "id_spotify": "797EAPNn2oGJLfn8SXiKe0",
+    "ano": 2026,
+    "artista": "Gusttavo Lima",
+    "titulo": "Balada - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/79aea94ff322fba4c9dd0f6ca8b001e2b4517b4b"
+  },
+  "Anitta - Envolver": {
+    "id_spotify": "3IAfUEeaXRX9s9UdKOJrFI",
+    "ano": 2021,
+    "artista": "Anitta",
+    "titulo": "Envolver",
+    "preview_url": "https://p.scdn.co/mp3-preview/ed370021154f72c41458f93c5cfa2c96b135adae"
+  },
+  "Marília Mendonça - Leão": {
+    "id_spotify": "2J1ypgIAzXp75ekOrTtYkC",
+    "ano": 2020,
+    "artista": "Xamã, Bagua Records, Neo Beats, Marília Mendonça",
+    "titulo": "Leão",
+    "preview_url": "https://p.scdn.co/mp3-preview/95843d4211f192e1ce5fc3fb19463cd85fe60290"
+  },
+  "Luísa Sonza - Modo Turbo": {
+    "id_spotify": "0YqTL3nSL36OFdHwHoqCag",
+    "ano": 2020,
+    "artista": "Luísa Sonza, Pabllo Vittar, Anitta",
+    "titulo": "MODO TURBO",
+    "preview_url": "https://p.scdn.co/mp3-preview/e50250f8adc025f0ed7bfeaa1df120a8af18be69"
+  },
+  "Ludmilla - Maldivas": {
+    "id_spotify": "1FGRA5pMtBqJLNAaSBia2x",
+    "ano": 2022,
+    "artista": "LUDMILLA",
+    "titulo": "Maldivas",
+    "preview_url": "https://p.scdn.co/mp3-preview/7301f881ec529154a17f8175a973b12be946e528"
+  },
+  "Gusttavo Lima - Bloqueado": {
+    "id_spotify": "6nkoWsFZeFt5dUdNmlIceh",
+    "ano": 2021,
+    "artista": "Gusttavo Lima",
+    "titulo": "Bloqueado - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/02fc1410368c8bf451ed9de176cb40795e07481e"
+  },
+  "Ana Castela - Pipoco": {
+    "id_spotify": "7AwVSKaQxpidrtYBerkHKk",
+    "ano": 2022,
+    "artista": "Ana Castela, Melody, Dj Chris No Beat",
+    "titulo": "Pipoco",
+    "preview_url": "https://p.scdn.co/mp3-preview/aa5b386306113fdf4425cfc9576bdf79afcf8358"
+  },
+  "Israel & Rodolffo - Batom de Cereja": {
+    "id_spotify": "2MZQAvsA7aZDssppBLRxYp",
+    "ano": 2021,
+    "artista": "Israel & Rodolffo",
+    "titulo": "Batom de Cereja - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/74ce676a7bdd257104020414e9a2e4b46b7c6b72"
+  },
+  "Pabllo Vittar - Bandida": {
+    "id_spotify": "22UbqSCF5HeaEcxx0JhCVT",
+    "ano": 2020,
+    "artista": "Pabllo Vittar, POCAH, Mc Mayara",
+    "titulo": "Bandida (feat. Mc Mayara)",
+    "preview_url": "https://p.scdn.co/mp3-preview/8880b1b4940f3cd7a0aac76ef63e0a766da70576"
+  },
+  "Anitta - Boys Don't Cry": {
+    "id_spotify": "35COLcFjvONwVv6jkG23gI",
+    "ano": 2022,
+    "artista": "Anitta",
+    "titulo": "Boys Don't Cry",
+    "preview_url": "https://p.scdn.co/mp3-preview/50d12c3f33c95d0b8201218fff257de139b0756e"
+  },
+  "Ana Castela - Nosso Quadro": {
+    "id_spotify": "1bzRhnrWU1l1u4Bby9ZbfQ",
+    "ano": 2023,
+    "artista": "AgroPlay, Ana Castela",
+    "titulo": "Nosso Quadro",
+    "preview_url": "https://p.scdn.co/mp3-preview/43a33ba2d5f04815328d0fcaaa5369c5f89be0ff"
+  },
+  "Marília Mendonça - Todo Mundo Vai Sofrer": {
+    "id_spotify": "4E6RdcCWMiHTu7zy1VTNDo",
+    "ano": 2019,
+    "artista": "Marília Mendonça",
+    "titulo": "Todo Mundo Vai Sofrer - Ao Vivo",
+    "preview_url": "https://p.scdn.co/mp3-preview/77aaed14630efd473527100ea46017f3821eecb5"
+  },
+  "Ludmilla - Sou Eu": {
+    "id_spotify": "1Tn0msQvQMbD6woO9VnEG3",
+    "ano": 2016,
+    "artista": "LUDMILLA",
+    "titulo": "Sou eu",
+    "preview_url": "https://p.scdn.co/mp3-preview/547654c3fa8ea7a125c61166b209ab3df74e9b14"
+  },
+  "Liniker - Baby 95": {
+    "id_spotify": "4P9LdSPrnQl7KQwml4DUtq",
+    "ano": 2021,
+    "artista": "Liniker",
+    "titulo": "Baby 95",
+    "preview_url": "https://p.scdn.co/mp3-preview/e5f2b58c2f79e697757e6b081bbe1a2971ed71bc"
+  },
+  "Jão - Idiota": {
+    "id_spotify": "6EDj1nbl9wo6ivGI1t59G4",
+    "ano": 2021,
+    "artista": "Jão",
+    "titulo": "Idiota",
+    "preview_url": "https://p.scdn.co/mp3-preview/350735f0c1aed67f311d0d4be67d0fc7fbe84ebd"
+  }
+}
